@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persona Cloner — WhatsApp to LLM Persona</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="app-wrapper">
+    <!-- Header -->
+    <header class="app-header">
+      <div>
+        <h1 class="brand-title">
+          <span>🧬</span> Persona Cloner
+        </h1>
+        <p class="brand-subtitle">
+          Transform raw WhatsApp chat exports into psychologically accurate LLM personas and SillyTavern character cards.
+        </p>
+      </div>
+    </header>
+
+    <!-- 3-Flow Tab Navigation -->
+    <nav class="tabs-nav">
+      <button class="tab-btn active" data-tab="tab-config">
+        <span class="tab-badge">1</span>
+        <span>Configuration</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-upload">
+        <span class="tab-badge">2</span>
+        <span>Upload & Target</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-output">
+        <span class="tab-badge">3</span>
+        <span>Output & Live Chat</span>
+      </button>
+    </nav>
+
+    <!-- Tab 1: Configuration -->
+    <section id="tab-config" class="tab-content active">
+      <div class="card">
+        <h2 class="card-title">LLM Provider & API Credentials</h2>
+        <p class="card-desc">
+          Configure the LLM model used for personality extraction and live test conversations. Keys are stored locally in your browser.
+        </p>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="provider-select">LLM Provider</label>
+            <select id="provider-select" class="form-select">
+              <option value="openrouter">OpenRouter (Recommended)</option>
+              <option value="openai">OpenAI</option>
+              <option value="fireworks">Fireworks AI</option>
+              <option value="custom">Custom (OpenAI-Compatible / Ollama / LocalAI)</option>
+            </select>
+            <div class="hint">OpenRouter supports DeepSeek, Claude 3.7, GPT-4o, and Gemini with one key.</div>
+          </div>
+
+          <div class="form-group" id="base-url-group" style="display: none;">
+            <label for="base-url-input">Custom Base URL</label>
+            <input type="text" id="base-url-input" class="form-input" placeholder="e.g. http://localhost:11434/v1">
+            <div class="hint">Base URL of your OpenAI-compatible endpoint.</div>
+          </div>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="api-key-input">API Key</label>
+            <input type="password" id="api-key-input" class="form-input" placeholder="sk-or-v1-..." autocomplete="off">
+            <div class="hint">Stored privately in your browser's localStorage. Never logged on server.</div>
+          </div>
+
+          <div class="form-group">
+            <label for="model-select">LLM Model</label>
+            <select id="model-select" class="form-select"></select>
+            <input type="text" id="custom-model-input" class="form-input" placeholder="Enter custom model ID (e.g. mistralai/mistral-large)" style="display: none; margin-top: 0.5rem;">
+          </div>
+        </div>
+
+        <div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 1rem;">
+          <button id="btn-test-connection" class="btn btn-outline">
+            Test Connection
+          </button>
+        </div>
+
+        <div id="connection-alert" class="alert" style="display: none; margin-top: 1rem;"></div>
+      </div>
+    </section>
+
+    <!-- Tab 2: WhatsApp Upload & Target Selection -->
+    <section id="tab-upload" class="tab-content">
+      <div class="card">
+        <h2 class="card-title">Upload WhatsApp Export</h2>
+        <p class="card-desc">
+          Upload your uncompressed WhatsApp chat history (.txt). Supports Android & iOS formats.
+        </p>
+
+        <div id="dropzone" class="dropzone">
+          <div class="dropzone-icon">💬</div>
+          <div class="dropzone-text">Click or drag & drop your WhatsApp chat .txt file here</div>
+          <div class="dropzone-hint">WhatsApp &rarr; Chat Options &rarr; Export Chat &rarr; Without Media</div>
+          <input type="file" id="file-input" accept=".txt" style="display: none;">
+        </div>
+
+        <div id="upload-alert" class="alert" style="display: none; margin-top: 1.25rem;"></div>
+
+        <!-- Participants Card (hidden until file parsed) -->
+        <div id="participants-card" style="display: none; margin-top: 1.5rem;">
+          <h3 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.35rem;">
+            Select Target Participant to Clone
+          </h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+            Choose the sender whose personality, slang, typing cadence, and response patterns you want to clone.
+          </p>
+
+          <div class="table-wrapper">
+            <table class="data-table" id="participants-table">
+              <thead>
+                <tr>
+                  <th style="width: 50px;">Target</th>
+                  <th>Participant</th>
+                  <th>Messages</th>
+                  <th>Media Sent</th>
+                  <th>Date Range</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+
+          <div class="form-grid" style="margin-top: 1.5rem;">
+            <div class="form-group">
+              <label for="char-name-input">Character Name (for Character Card)</label>
+              <input type="text" id="char-name-input" class="form-input" placeholder="e.g. Fossetta or Original Name">
+              <div class="hint">The name assigned to the clone in character cards & prompts.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="user-aliases-input">User / Partner Aliases (comma-separated)</label>
+              <input type="text" id="user-aliases-input" class="form-input" placeholder="e.g. Pais, Bro, Iz">
+              <div class="hint">Nicknames used by the target for the user (anonymized to &#123;&#123;user&#125;&#125;).</div>
+            </div>
+          </div>
+
+          <!-- Progress Card -->
+          <div id="progress-card" class="progress-card" style="display: none;">
+            <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-main);">Cloning Progress</h4>
+            <ul class="steps-list" id="progress-steps">
+              <li class="step-item pending" data-step="1">
+                <span class="step-icon">○</span>
+                <span>1. Parsing messages, scrubbing names & de-identifying chat</span>
+              </li>
+              <li class="step-item pending" data-step="2">
+                <span class="step-icon">○</span>
+                <span>2. Calculating stylometrics (emoji, laughter, slang, casing, latency)</span>
+              </li>
+              <li class="step-item pending" data-step="3">
+                <span class="step-icon">○</span>
+                <span>3. Extracting Big Five traits & psychological profile via LLM</span>
+              </li>
+              <li class="step-item pending" data-step="4">
+                <span class="step-icon">○</span>
+                <span>4. Assembling System Prompt & SillyTavern Character Card</span>
+              </li>
+            </ul>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <button id="btn-generate-persona" class="btn btn-primary" style="padding: 0.75rem 1.75rem;">
+              Start Persona Cloning
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 3: Generated Output & Live Chat -->
+    <section id="tab-output" class="tab-content">
+      <div id="output-placeholder" class="card" style="text-align: center; padding: 3rem 1.5rem;">
+        <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">🧬</div>
+        <h3 style="font-size: 1.15rem; font-weight: 700;">No Persona Generated Yet</h3>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.25rem;">
+          Go to Tab 1 to set your API key, then Tab 2 to upload your WhatsApp chat and click "Start Persona Cloning".
+        </p>
+      </div>
+
+      <div id="output-content" style="display: none;">
+        <!-- Persona Overview Header -->
+        <div class="card">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+            <div>
+              <span class="status-pill" style="margin-bottom: 0.5rem;">Generated Persona</span>
+              <h2 id="persona-header-title" class="card-title" style="font-size: 1.4rem;"></h2>
+              <p id="persona-summary-text" class="card-desc" style="margin-bottom: 0; max-width: 800px;"></p>
+            </div>
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <button id="btn-dl-prompt" class="btn btn-outline">
+                Download Prompt (.txt)
+              </button>
+              <button id="btn-dl-card" class="btn btn-outline">
+                Download SillyTavern Card (.json)
+              </button>
+              <button id="btn-dl-profile" class="btn btn-outline">
+                Download Profile (.json)
+              </button>
+            </div>
+          </div>
+
+          <h3 style="font-size: 0.95rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">
+            Big Five Personality Inferences
+          </h3>
+          <div id="traits-grid" class="traits-grid"></div>
+        </div>
+
+        <!-- Live WhatsApp-Style Test Chat & System Prompt Accordion/Side-by-Side -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 1.5rem;">
+          <!-- Live Chat Window -->
+          <div class="card" style="padding: 0; overflow: hidden;">
+            <div class="chat-container">
+              <div class="chat-header">
+                <div class="chat-persona-info">
+                  <div class="chat-avatar" id="chat-avatar">P</div>
+                  <div>
+                    <div style="font-weight: 700; font-size: 0.95rem;" id="chat-char-name">Persona</div>
+                    <div style="font-size: 0.75rem; color: #16a34a; font-weight: 500;">● Online (Cloned Persona)</div>
+                  </div>
+                </div>
+                <div>
+                  <button id="chat-clear-btn" class="btn btn-outline" style="padding: 0.3rem 0.6rem; font-size: 0.75rem;">
+                    Clear Chat
+                  </button>
+                </div>
+              </div>
+
+              <div class="chat-messages" id="chat-messages">
+                <div class="message-bubble char">
+                  halo!
+                </div>
+              </div>
+
+              <div class="chat-footer">
+                <input type="text" id="chat-input" class="chat-input" placeholder="Type a message to test the persona..." autocomplete="off">
+                <button id="chat-send-btn" class="btn btn-primary" style="padding: 0.55rem 1rem; border-radius: 20px;">
+                  Send
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- System Prompt Viewer -->
+          <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+              <h3 class="card-title" style="font-size: 1.05rem; margin-bottom: 0;">System Prompt</h3>
+              <button id="btn-copy-prompt" class="btn btn-outline" style="padding: 0.35rem 0.75rem; font-size: 0.8rem;">
+                Copy Prompt
+              </button>
+            </div>
+            <p class="card-desc" style="margin-bottom: 0.75rem;">
+              Ready-to-use system prompt containing the Big Five, stylometric cadence rules, response patterns, and few-shot examples.
+            </p>
+            <div class="code-viewer" id="system-prompt-viewer"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
