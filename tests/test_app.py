@@ -6,7 +6,7 @@ import json
 from app import create_app
 from services.parser import parse_whatsapp_text, anonymize_messages
 from services.stylometrics import compute_stats
-from services.assembler import build_system_prompt, build_character_card
+from services.assembler import build_system_prompt, build_character_card, parse_json_loose
 
 SAMPLE_IOS_CHAT = """[10/06/2026, 18:32:05] Mogu: Halo apa kabar?
 [10/06/2026, 18:32:45] Pais: Halo juga, baik kok!
@@ -83,6 +83,54 @@ class PersonaClonerServicesTestCase(unittest.TestCase):
         card = build_character_card("Fossetta", profile, stats, examples)
         self.assertEqual(card["data"]["name"], "Fossetta")
         self.assertEqual(card["spec"], "chara_card_v2")
+
+    def test_parse_json_loose_repairs_malformed_llm_output(self):
+        # 1. Missing comma across lines
+        missing_comma = """{
+  "big_five": {
+    "openness": {"skor": 70, "bukti": ["makan"]}
+    "conscientiousness": {"skor": 60, "bukti": []}
+  }
+  "tingkat_keyakinan": "sedang"
+  "catatan_keterbatasan": "cukup"
+}"""
+        parsed1 = parse_json_loose(missing_comma)
+        self.assertEqual(parsed1["big_five"]["openness"]["skor"], 70)
+        self.assertEqual(parsed1["catatan_keterbatasan"], "cukup")
+
+        # 2. Unescaped inner double quotes in Indonesian descriptions (including before comma and at end)
+        unescaped_quotes = """{
+  "cara_bicara": "Sering bilang "gasss" dan "wkwk" di chat, kadang "iyaaa", terus lanjut",
+  "ringkasan_kepribadian": "Suka jawab singkat seperti "oke""
+}"""
+        parsed2 = parse_json_loose(unescaped_quotes)
+        self.assertIn('"gasss"', parsed2["cara_bicara"])
+        self.assertIn('"wkwk"', parsed2["cara_bicara"])
+        self.assertIn('"oke"', parsed2["ringkasan_kepribadian"])
+
+        # 3. <think> block and preamble containing {{char}} / {{user}}
+        think_and_preamble = """<think>Analyzing {{char}} and {{user}} patterns...</think>
+Here is {{char}}'s JSON:
+{
+  "big_five": {"extraversion": {"skor": 80, "bukti": ["halo {{user}}"]}},
+  "tingkat_keyakinan": "tinggi"
+}
+Note for {{user}}."""
+        parsed3 = parse_json_loose(think_and_preamble)
+        self.assertEqual(parsed3["big_five"]["extraversion"]["skor"], 80)
+        self.assertEqual(parsed3["big_five"]["extraversion"]["bukti"], ["halo {{user}}"])
+
+        # 4. Trailing commas and literal newlines inside string values
+        trailing_and_newline = """```json
+{
+  "ringkasan_kepribadian": "Santai banget
+dan ramah.",
+  "topik_favorit": ["makan", "game",],
+}
+```"""
+        parsed4 = parse_json_loose(trailing_and_newline)
+        self.assertIn("Santai banget\ndan ramah.", parsed4["ringkasan_kepribadian"])
+        self.assertEqual(parsed4["topik_favorit"], ["makan", "game"])
 
 
 class PersonaClonerAppRoutesTestCase(unittest.TestCase):

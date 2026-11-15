@@ -332,30 +332,7 @@ document.addEventListener("DOMContentLoaded", () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
-
-      const reader = response.body.getReader();
-      const decoder = new TextDecoder("utf-8");
-      let buffer = "";
-
-      while (true) {
-        const { value, done } = await reader.read();
-        if (done) break;
-
-        buffer += decoder.decode(value, { stream: true });
-        const lines = buffer.split("\n\n");
-        buffer = lines.pop();
-
-        for (const line of lines) {
-          if (!line.startsWith("data: ")) continue;
-          const jsonStr = line.slice(6).trim();
-          try {
-            const event = JSON.parse(jsonStr);
-            handleProgressEvent(event);
-          } catch (e) {
-            console.error("JSON parse error:", e, jsonStr);
-          }
-        }
-      }
+      await readSseStream(response, handleProgressEvent);
     } catch (err) {
       alert("Generation failed: " + err.message);
     } finally {
@@ -363,6 +340,43 @@ document.addEventListener("DOMContentLoaded", () => {
       generateBtn.textContent = "Start Persona Cloning";
     }
   });
+
+  async function readSseStream(response, onEvent) {
+    if (!response.ok) {
+      let errMsg = `HTTP ${response.status}`;
+      try {
+        const errData = await response.json();
+        errMsg = errData.error || errMsg;
+      } catch (_) {}
+      throw new Error(errMsg);
+    }
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder("utf-8");
+    let buffer = "";
+
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n\n");
+      buffer = lines.pop();
+
+      for (const line of lines) {
+        if (!line.startsWith("data: ")) continue;
+        const jsonStr = line.slice(6).trim();
+        if (!jsonStr) continue;
+        let parsed;
+        try {
+          parsed = JSON.parse(jsonStr);
+        } catch (e) {
+          console.error("JSON parse error:", e, jsonStr);
+          continue;
+        }
+        onEvent(parsed);
+      }
+    }
+  }
 
   function handleProgressEvent(event) {
     if (event.status === "error") {
@@ -544,7 +558,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function escapeHtml(str) {
     if (!str) return "";
-    return str
+    return String(str)
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")

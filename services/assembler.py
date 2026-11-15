@@ -98,6 +98,7 @@ ATURAN:
 - Jika tidak ada bukti untuk suatu hal, isi null atau daftar kosong. Jangan menebak fakta pribadi.
 - 'fakta_personal_aman' tidak boleh berisi data sensitif (kesehatan, agama, politik, alamat, keuangan).
 - Isi 'tingkat_keyakinan' dan 'catatan_keterbatasan' dengan jujur.
+- Jangan gunakan tanda kutip ganda (") di dalam nilai teks JSON; gunakan tanda kutip tunggal (') jika mengutip kata.
 
 ANGKA STILOMETRIK TARGET (hasil hitung kode):
 {json.dumps(stats, ensure_ascii=False)}
@@ -110,14 +111,129 @@ CUPLIKAN CHAT:
     return [{"role": "system", "content": system}, {"role": "user", "content": user}]
 
 
-def parse_json_loose(text):
-    t = re.sub(r"^```(?:json)?\s*", "", text.strip(), flags=re.I)
-    t = re.sub(r"\s*```$", "", t, flags=re.I)
-    s, e = t.find("{"), t.rfind("}")
-    if s == -1 or e == -1:
+def _extract_json_candidate(text):
+    t = re.sub(r"<think>.*?</think>", "", str(text or ""), flags=re.S | re.I).strip()
+    fence = re.search(r"```(?:json)?\s*(.*?)```", t, flags=re.S | re.I)
+    if fence:
+        t = fence.group(1).strip()
+    else:
+        t = re.sub(r"^```(?:json)?\s*", "", t, flags=re.I)
+        t = re.sub(r"\s*```$", "", t, flags=re.I)
+
+    masked = t.replace("{{char}}", "__char__").replace("{{user}}", "__user__")
+    s = masked.find("{")
+    if s == -1:
         raise ValueError("No JSON object structure found in LLM response.")
-    json_str = t[s:e + 1]
+
+    e = masked.rfind("}")
+    if e >= s:
+        return t[s:e + 1]
+    if ":" in t[s:]:
+        return t[s:]
+    raise ValueError("No JSON object structure found in LLM response.")
+
+
+def _close_truncated_json(s):
+    stack = []
+    in_string = False
+    escape = False
+    for ch in s:
+        if in_string:
+            if escape:
+                escape = False
+            elif ch == "\\":
+                escape = True
+            elif ch == '"':
+                in_string = False
+        else:
+            if ch == '"':
+                in_string = True
+            elif ch == "{":
+                stack.append("}")
+            elif ch == "[":
+                stack.append("]")
+            elif ch in ("}", "]") and stack and stack[-1] == ch:
+                stack.pop()
+
+    out = s.rstrip()
+    if in_string:
+        if escape:
+            out = out[:-1]
+        out += '"'
+    out = re.sub(r",\s*$", "", out)
+    if re.search(r":\s*$", out):
+        out += " null"
+    return out + "".join(reversed(stack))
+
+
+def _repair_json_step(s, err):
+    pos = err.pos
+    msg = err.msg
+
+    if "Invalid control character" in msg and 0 <= pos < len(s):
+        ctrl_map = {"\n": "\\n", "\r": "\\r", "\t": "\\t"}
+        rep = ctrl_map.get(s[pos], " ")
+        return s[:pos] + rep + s[pos + 1:]
+
+    if "Unterminated string" in msg or pos >= len(s):
+        return _close_truncated_json(s)
+
+    if "Expecting ',' delimiter" in msg:
+        nl = re.search(r"(\r?\n[ \t]*)$", s[:pos])
+        if nl:
+            before_nl = s[:pos - len(nl.group(1))].rstrip()
+            if before_nl and before_nl[-1] not in ",{[:":
+                insert_at = pos - len(nl.group(1))
+                return s[:insert_at] + "," + s[insert_at:]
+
+        q_pos = pos - 1
+        while q_pos >= 0 and s[q_pos] in " \t":
+            q_pos -= 1
+        if q_pos >= 0 and s[q_pos] == '"':
+            cur_ch = s[pos] if pos < len(s) else ""
+            is_new_token = (
+                cur_ch in "{["
+                or (cur_ch == '"' and not re.match(r"^[ \t]*(?:[,}\]\r\n]|$)", s[pos + 1:]))
+            )
+            if is_new_token:
+                return s[:pos] + "," + s[pos:]
+            return s[:q_pos] + '\\"' + s[q_pos + 1:]
+
+        return s[:pos] + "," + s[pos:]
+
+    if "Expecting property name enclosed in double quotes" in msg:
+        if pos >= len(s) - 1:
+            return _close_truncated_json(s)
+        cur_ch = s[pos] if pos < len(s) else ""
+        if cur_ch not in ('"', "}"):
+            prev_comma = re.search(r'"\s*,\s*$', s[:pos])
+            if prev_comma:
+                q_pos = prev_comma.start()
+                return s[:q_pos] + '\\"' + s[q_pos + 1:]
+
+    if "Expecting value" in msg and pos >= len(s) - 2:
+        return _close_truncated_json(s)
+
+    return s
+
+
+def parse_json_loose(text):
+    json_str = _extract_json_candidate(text)
     json_str = re.sub(r",\s*([}\]])", r"\1", json_str)
+    json_str = re.sub(
+        r'(?:(["}\]\d])|\b(true|false|null))[ \t]*\r?\n(\s*["{\[])',
+        lambda m: f"{m.group(1) or m.group(2)},\n{m.group(3)}",
+        json_str,
+    )
+
+    for _ in range(100):
+        try:
+            return json.loads(json_str)
+        except json.JSONDecodeError as err:
+            repaired = _repair_json_step(json_str, err)
+            if repaired == json_str:
+                raise
+            json_str = repaired
     return json.loads(json_str)
 
 
@@ -146,18 +262,21 @@ def extract_profile(dialogue, stats, llm_config, tries=3):
             provider=llm_config.get("provider", "openrouter"),
             base_url=llm_config.get("base_url"),
             temperature=0.2,
-            max_tokens=4000,
+            max_tokens=6000,
         )
         try:
             return clean_profile(parse_json_loose(out))
-        except Exception:
+        except Exception as err:
             if i == tries - 1:
                 raise
             msgs += [
                 {"role": "assistant", "content": out},
                 {
                     "role": "user",
-                    "content": "Keluaranmu bukan JSON valid. Kirim ulang HANYA JSON valid sesuai format schema yang diminta, tanpa markdown, tanpa koma menggantung.",
+                    "content": (
+                        f"Keluaranmu bukan JSON valid ({err}). Kirim ulang HANYA JSON valid sesuai format schema "
+                        "yang diminta, tanpa markdown, tanpa koma menggantung, dan gunakan tanda kutip tunggal (') di dalam teks."
+                    ),
                 },
             ]
     raise RuntimeError("Failed to parse valid persona profile JSON from LLM.")
