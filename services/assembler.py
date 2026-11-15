@@ -353,51 +353,69 @@ def style_rules(st):
         lines.append("Sering menggunakan huruf kecil dalam percakapan santai.")
 
     if st["tanpa_tanda_baca_akhir_persen"] >= 70:
-        lines.append("Sering tidak menggunakan tanda baca di akhir pesan. Balasan terasa seperti chat spontan.")
+        lines.append("Sering tidak menggunakan tanda baca di akhir pesan. Balasan dapat terasa seperti chat spontan daripada tulisan formal.")
     elif st["tanpa_tanda_baca_akhir_persen"] >= 40:
         lines.append("Tidak selalu menggunakan tanda baca di akhir pesan, terutama dalam percakapan santai.")
 
     if st["pesan_huruf_diperpanjang_persen"] >= 3:
-        lines.append("Kadang memanjangkan huruf untuk mengekspresikan emosi atau penekanan, misalnya 'iyaaa', 'gakkk'.")
+        lines.append("Kadang memanjangkan huruf untuk mengekspresikan emosi atau penekanan, misalnya 'iyaaa', 'gakkk', atau bentuk serupa.")
 
     if st["emoji_per_pesan"] < 0.05:
         rare = [e for e, c in st["emoji_teratas"][:3] if c >= 5]
         if rare:
-            lines.append(f"Emoji jarang digunakan dan biasanya hanya muncul sesekali. Emoji yang pernah digunakan: {' '.join(rare)}.")
+            lines.append(f"Emoji jarang digunakan dan biasanya hanya muncul sesekali sebagai ekspresi. Emoji yang pernah digunakan antara lain: {' '.join(rare)}.")
         else:
             lines.append("Emoji sangat jarang digunakan dalam percakapan.")
     else:
         top = [e for e, _ in st["emoji_teratas"][:4]]
-        lines.append(f"Emoji dapat digunakan untuk memperkuat ekspresi suasana percakapan: {' '.join(top)}.")
+        lines.append(f"Emoji dapat digunakan untuk memperkuat ekspresi atau suasana percakapan, terutama: {' '.join(top)}.")
 
     if st["pesan_tawa_persen"] >= 3:
         tawa = [w for w, _ in st["tawa_teratas"][:5]]
         if tawa:
-            lines.append(f"Sering menggunakan tawa tertulis spontan seperti {', '.join(tawa)}.")
+            lines.append(f"Sering menggunakan tawa tertulis atau bentuk ketawa spontan seperti {', '.join(tawa)}. Bentuk tawa dapat ditulis secara tidak rapi atau berulang untuk menunjukkan reaksi yang lebih kuat.")
 
     if st["slang_teratas"]:
         slang = [w for w, _ in st["slang_teratas"][:10]]
         lines.append(f"Menggunakan slang dan singkatan dalam percakapan sehari-hari, termasuk: {', '.join(slang)}.")
+        lines.append("Gunakan slang secara natural sesuai konteks, bukan dengan memasukkan semua slang sekaligus dalam setiap pesan.")
 
     pp = st.get("kata_ganti_persen", {})
     mix = [k for k, v in pp.items() if v >= 25]
     if len(mix) >= 2:
-        lines.append(f"Bentuk kata ganti yang umum: {', '.join(mix)}.")
+        lines.append(f"Kata ganti dapat berganti sesuai suasana dan konteks percakapan. Bentuk yang umum digunakan: {', '.join(mix)}.")
+        lines.append("Pergantian kata ganti sebaiknya terasa spontan dan tidak perlu dipaksakan konsisten sepanjang percakapan.")
     elif mix:
         lines.append(f"Kata ganti yang paling umum digunakan adalah {mix[0]}.")
 
     if st.get("panggil_lawan_persen", 0) >= 5:
-        lines.append("Sesekali menyebut nama atau panggilan lawan bicara ({{user}}) untuk menarik perhatian.")
+        lines.append("Sesekali menyebut nama atau panggilan lawan bicara ({{user}}), terutama untuk menarik perhatian, memulai pesan, atau menekankan sesuatu.")
 
     if st.get("pesan_kata_diulang_persen", 0) >= 2:
         contoh = [w for w in st["kata_diulang_contoh"][:5]]
         if contoh:
-            lines.append(f"Suka mengulang kata tertentu untuk penekanan. Contoh: {', '.join(repr(w) for w in contoh)}.")
+            lines.append(f"Suka mengulang kata atau frasa tertentu untuk memberikan penekanan, menunjukkan antusiasme, kebingungan, atau meminta perhatian. Contoh pola: {', '.join(repr(w) for w in contoh)}.")
+        lines.append("Pengulangan dapat muncul dalam beberapa bubble berturut-turut, terutama ketika sedang antusias, panik, atau memanggil lawan bicara.")
 
     if st.get("kata_inggris_persen", 0) >= 3:
-        lines.append("Sering mencampur bahasa Indonesia dengan bahasa Inggris secara spontan.")
+        lines.append("Sering mencampur bahasa Indonesia dengan bahasa Inggris secara spontan, terutama untuk istilah teknis, ekspresi, atau kata yang terasa lebih natural dalam bahasa Inggris.")
 
-    lines.append("Prioritaskan kesan seperti percakapan WhatsApp spontan: ringkas, informal, dan responsif terhadap konteks.")
+    if st.get("pembuka_teratas"):
+        pembuka = [w for w, _ in st["pembuka_teratas"][:8]]
+        lines.append(f"Sering membuka pesan dengan kata-kata pendek dan spontan seperti: {', '.join(pembuka)}.")
+
+    if st.get("jeda_balas_median_menit") is not None:
+        j = st["jeda_balas_median_menit"]
+        if j < 1:
+            lines.append("Dalam konteks percakapan real-time, respons biasanya terasa cepat dan spontan.")
+        elif j <= 5:
+            lines.append("Biasanya membalas dalam waktu relatif singkat ketika sedang aktif dalam percakapan.")
+        else:
+            lines.append("Jeda balasan dapat terjadi dan tidak perlu dibuat seolah-olah selalu membalas secara instan.")
+        lines.append("Informasi mengenai waktu balasan hanya digunakan sebagai karakteristik ritme percakapan; jangan mensimulasikan atau menuliskan delay secara eksplisit.")
+
+    lines.append("Prioritaskan kesan seperti percakapan WhatsApp spontan: ringkas, informal, tidak terlalu terstruktur, dan responsif terhadap konteks.")
+    lines.append("Jika {{user}} menanyakan sesuatu yang membutuhkan penjelasan, terutama pertanyaan teknis, coding, cybersecurity, AI, atau topik akademis yang dipahami {{char}}, berikan penjelasan yang cukup lengkap namun tetap dengan gaya santai.")
     return "\n".join("- " + x for x in lines)
 
 

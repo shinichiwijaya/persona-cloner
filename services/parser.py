@@ -222,19 +222,35 @@ def anonymize_messages(df, target_name, char_name="Fossetta", user_aliases=None,
             target_sender = s
             break
     if not target_sender:
+        for s in df["sender"].unique():
+            if target_name.strip().lower() in s.strip().lower():
+                target_sender = s
+                break
+    if not target_sender:
         target_sender = target_name
 
     others = [s for s in df["sender"].unique() if s != target_sender]
     primary_user = others[0] if others else "User"
 
-    # Assign roles
-    df["sender"] = df["sender"].apply(lambda s: "TARGET" if s == target_sender else "LAWAN")
+    # Assign roles (LAWAN for 1-on-1, LAWAN_1/LAWAN_2 for multi-participant chats)
+    label = {target_sender: "TARGET"}
+    for i, s in enumerate(others, 1):
+        label[s] = "LAWAN" if len(others) == 1 else f"LAWAN_{i}"
+    df["sender"] = df["sender"].map(label).fillna("LAIN")
 
     # Name replacement regex rules
     re_url = re.compile(r"(?:https?://|www\.)\S+", re.I)
     re_email = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
     re_phone = re.compile(r"(?:\+?62|\b0)[\s-]?8\d{1,3}[\s-]?\d{3,4}[\s-]?\d{2,5}|\b\d{9,}\b")
     re_handle = re.compile(r"(?<![\w.])@[A-Za-z0-9._]{3,30}\b")
+    zero_width = dict.fromkeys(map(ord, "\u200b\u200c\u200d\u200e\u200f\ufeff"), None)
+
+    def name_variants(sender, aliases=()):
+        out = set(aliases)
+        if re.search(r"[A-Za-z]", sender):
+            out.add(sender)
+            out.update(w for w in re.split(r"\W+", sender) if len(w) >= 3 and not w.isdigit())
+        return out
 
     def name_regex(names):
         forms = set()
@@ -249,15 +265,15 @@ def anonymize_messages(df, target_name, char_name="Fossetta", user_aliases=None,
         forms = sorted(forms, key=len, reverse=True)
         return re.compile(r"(?<!\w)(?:" + "|".join(forms) + r")(?!\w)", re.I) if forms else None
 
-    char_names = {target_sender} | char_aliases
-    user_names = set(others) | user_aliases | {primary_user}
+    char_names = name_variants(target_sender, char_aliases)
+    user_names = set().union(*[name_variants(s) for s in others]) | user_aliases | name_variants(primary_user)
 
     char_rx = name_regex(char_names)
     user_rx = name_regex(user_names)
     third_rx = name_regex(third_party_names)
 
     def scrub(t):
-        t = str(t)
+        t = str(t).translate(zero_width)
         t = re_url.sub("<URL>", t)
         t = re_email.sub("<EMAIL>", t)
         t = re_phone.sub("<NOMOR>", t)

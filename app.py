@@ -140,7 +140,7 @@ def create_app(test_config=None):
                 # Step 3: LLM Extraction
                 model_name = llm_config.get("model", "")
                 yield f"data: {json.dumps({'step': 3, 'name': 'llm_extraction', 'status': 'running', 'message': f'Extracting psychological profile & Big Five traits with {model_name}...'})}\n\n"
-                dialogue, n_sess = sample_dialogue(df_anon, max_chars=50000)
+                dialogue, n_sess = sample_dialogue(df_anon, max_chars=60000)
                 profile = extract_profile(dialogue, stats, llm_config)
                 yield f"data: {json.dumps({'step': 3, 'name': 'llm_extraction', 'status': 'completed', 'message': f'Extracted Big Five scores and behavioral patterns across {n_sess} dialogue sessions.'})}\n\n"
 
@@ -204,8 +204,11 @@ def create_app(test_config=None):
                 model=model,
                 provider=provider,
                 base_url=base_url,
-                temperature=0.8,
-                max_tokens=600,
+                temperature=0.85,
+                top_p=0.90,
+                frequency_penalty=0.15,
+                presence_penalty=0.10,
+                max_tokens=700,
             )
             return jsonify({"success": True, "reply": reply})
         except Exception as e:
