@@ -1,0 +1,2001 @@
+[27/09/2004, 10:50:00] User: s'all about cable and bittorrent
+[27/09/2004, 10:50:00] User: mmm, bittorrent
+[27/09/2004, 10:51:00] Dr_Willis: over 400k/s
+[30/09/2004, 09:08:00] User: I don't know much about debian so this is probably a dumb question but what is the address of the apt repository
+[30/09/2004, 09:08:00] Dr_Willis: thers a lot of mirrors for it
+[30/09/2004, 09:08:00] Dr_Willis: the config is in /etc/apt/ to show what ones are used.
+[04/10/2004, 09:10:00] User: How do I edit my BIOS in Linux?
+[04/10/2004, 09:10:00] Dr_Willis: - Hmm... thats an interesting question.
+[04/10/2004, 09:11:00] Dr_Willis: why dont we ask WHAT you are trying to do. :P
+[11/10/2004, 07:59:00] Dr_Willis: i use 'juk' - part of kde
+[11/10/2004, 08:01:00] User: i liked juk, but now i use gnome ...
+[11/10/2004, 11:38:00] Dr_Willis: my wife manages to get all this annoying spyware.. not even sure HOW she does it.
+[02/03/2005, 11:04:00] User: Hey quick question... if I point Synaptic at regular Debian package lists, will it still work for updating stuff?
+[02/03/2005, 11:04:00] Dr_Willis: i broke some stuff doing that. :P so be carefull.
+[02/03/2005, 11:17:00] Dr_Willis: security.
+[31/03/2005, 08:44:00] User: where ca  i get nero for ubuntu ?
+[31/03/2005, 08:45:00] User: cab i install a .rpm version ?
+[31/03/2005, 08:46:00] Dr_Willis: the nero homepage has that nero-linux download  i belive.. and it does require a  legal/bought version of the windows nero.
+[03/04/2005, 10:34:00] Dr_Willis: heh - gee speaking of gnome.. is there a way to disable that Minimazeing/Maximazing window animation (boxx's zooming in/out) from the task bar?
+[03/04/2005, 10:35:00] User: great question --  I was wondering the same.  That animation gets annoying!
+[03/04/2005, 10:40:00] Dr_Willis: or if you missclick while switching apps.. ya go tto see the min animation.. then click again to bring it back..
+[05/04/2005, 08:19:00] User: Anybody know how to prevent firefox from popping to front when you open a new URL in it?
+[05/04/2005, 08:19:00] User: Or alternately how to poke it to back from the cmdline?  :-)
+[05/04/2005, 08:19:00] Dr_Willis: put it on a seperate desktop :P
+[05/04/2005, 10:50:00] User: does anyone know of a way to get inserted disks to show on hoary's desktop?
+[05/04/2005, 10:51:00] User: cds seem to work but my other hard drive partition doesn't... arr
+[05/04/2005, 10:51:00] Dr_Willis: thats a GNOME option I do belive
+[07/04/2005, 11:54:00] User: just a question
+[07/04/2005, 11:55:00] User: Is there any way to auto-update the gnome menu when I install a new application?
+[07/04/2005, 11:56:00] Dr_Willis: Oh?  ive had no issues.
+[10/04/2005, 11:43:00] User: Anybodu tied KUBUNTU here
+[10/04/2005, 11:43:00] User: am on KUBUNTU now
+[10/04/2005, 11:43:00] Dr_Willis: yea a little.. then i reinstalled ubunt and just apt-got the kde stuff :P
+[13/04/2005, 12:11:00] User: do i have to assign smbpasswd  to all shared directories or just the users?
+[13/04/2005, 12:12:00] Dr_Willis: http://www.oreilly.com/openbook/   has a samba book you can download.
+[13/04/2005, 12:14:00] Dr_Willis: i followed tha tsamba book for about 2 chapters and learned all i needed to know.. took 20 min. :P
+[17/04/2005, 08:45:00] Dr_Willis: Huh? :P
+[18/04/2005, 11:08:00] Dr_Willis: you testing out that peer guardian?
+[18/04/2005, 11:09:00] User: no...there is nothing i want to download...except perhaps gnome-office
+[18/04/2005, 09:56:00] User: Hallo - I have just installed Ubuntu (for the first time, erlier gentoo, debian, ...) - and I have one basic questions - What happend with the ROOT ? (no question during instalation) ...
+[18/04/2005, 09:57:00] Dr_Willis: its a security issue. use the 'sudo' command - root's login ability has been disabled.
+[18/04/2005, 09:58:00] User: well it is not, but hopefully sudo will work ...
+[18/04/2005, 10:03:00] User: hi all
+[18/04/2005, 10:04:00] User: i see on www.distrowatch.com ubuntu linux is the best now . Is true ?
+[18/04/2005, 10:04:00] Dr_Willis: its da sexiest. :P
+[18/04/2005, 11:28:00] Dr_Willis: without broadband... life is a  Biotch
+[18/04/2005, 11:28:00] Dr_Willis: :P
+[18/04/2005, 11:28:00] User: very true very true
+[18/04/2005, 12:28:00] Dr_Willis: Its a higher version # - so its better!
+[18/04/2005, 12:28:00] Dr_Willis: :P
+[18/04/2005, 12:29:00] User: and you are a doctor of....?
+[14/05/2005, 12:43:00] User: How do I add a SMB share with a space in the filename to /etc/fstab?
+[14/05/2005, 12:44:00] Dr_Willis: i tried to do that once.. and never did figure it out. :P i ended up changeing the share name on the silly windows box.
+[14/05/2005, 12:44:00] User: I may just do that, then.
+[21/05/2005, 12:08:00] User: cherryos is dead because it was a ripoff of pearpc
+[21/05/2005, 12:08:00] User: They killed it
+[21/05/2005, 12:08:00] Dr_Willis: lol - i saw CherryOS on some warez sites Lol. :P
+[24/05/2005, 10:13:00] User: does anyone know how to get up to date stuff. i ran the update and it says no updates but i still have firefox 1.0.2 and gaim 1.1 ?
+[24/05/2005, 10:14:00] User: i have way newer on my gentoo
+[24/05/2005, 10:14:00] Dr_Willis: could be the latest and greatest havent made it into the package systems yet.
+[31/05/2005, 12:55:00] User: aren't there other programs !?
+[31/05/2005, 12:55:00] User: (like partition magic...)
+[31/05/2005, 12:56:00] Dr_Willis: ive used qtparted or was it gparted
+[31/05/2005, 12:59:00] Dr_Willis: im not sure that norton and mcaffe does that good of a job really :P
+[31/05/2005, 13:00:00] Dr_Willis: Ive been useing 'AVG'  under windows latey.. demo with no lame limitations.
+[31/05/2005, 13:00:00] User: We use AVG (the for-pay version) on all the WinXP machines here.  I don't know much about it, but it seems to work well.
+[12/07/2005, 12:58:00] User: hey guys, i'm trying to install cinelerra on my ubuntu, but it didn't work. I'm using some tuto i found, could anyone gimme some source to install a deb pkg??
+[12/07/2005, 12:59:00] Dr_Willis: check the ubuntu wiki's and forums yet - see if others have installed it. and what problems they had?
+[12/07/2005, 13:00:00] User: some unsatisfied deps...
+[13/07/2005, 12:52:00] User: Hi
+[13/07/2005, 12:52:00] User: I was curious I never saw any information about setting up a root password during the install
+[13/07/2005, 12:52:00] Dr_Willis: the FAQ mentions this. :P the first USER password is the root users password.. an dyou can NOT login directly as root.
+[14/07/2005, 11:25:00] User: ok, i extracted all thse .r# files and theres an md5 should i run that or something?
+[14/07/2005, 11:27:00] User: how do i use a md5 file anyone?
+[14/07/2005, 11:28:00] Dr_Willis: it should just be a file that has the md5sum in it.. a large #. that you copmpare to the output from 'md5sum whateverfile'
+[14/07/2005, 12:54:00] User: every time i add a new directory to my ~/public_html directory, the permissions do not get proplerly set and the directory comes up forbidden. How do i fix this?
+[14/07/2005, 12:54:00] Dr_Willis: umask command - i do belive is your answer. :P
+[30/09/2005, 11:16:00] Dr_Willis: I got that working on my laptop. SUprisingly. :P with the  5.10 prerelesase.
+[27/07/2005, 12:33:00] User: Bit of a stupid question here... Has gnome ever been ported to windows? xD
+[27/07/2005, 12:34:00] Dr_Willis: with cygwin you can get X and gnome going.
+[27/07/2005, 12:34:00] Dr_Willis: i Think... :P
+[10/08/2005, 11:14:00] Dr_Willis: having sound issues?
+[10/08/2005, 11:15:00] User: aye.  ubuntu wants to use my onboard, but i want to use my SB Live!
+[10/08/2005, 11:15:00] Dr_Willis: cant disable it in the bios eh? I seem to see this kind of problem quite often mentioned.
+[12/08/2005, 11:11:00] User: where can i find out if ubuntu supports my digital camera?
+[12/08/2005, 11:12:00] User: Sony DSC T1
+[12/08/2005, 11:12:00] Dr_Willis: well most mondern camera work as usb-hard drives - could test the ubuntu live cd see if it sees the cam.
+[22/08/2005, 12:15:00] User: bah, sorry for noob question, but I need the command to delete the original ubuntu kernel in Hoary.  I have a custom one, but I cant seem to delete the old one :(
+[22/08/2005, 12:16:00] Dr_Willis: you mean remove the entry from the grub boot menu?
+[22/08/2005, 12:17:00] Dr_Willis: - why bother.  keep it as a backup/failsafe entry and kernel.
+[24/08/2005, 11:45:00] User: just quickly:  with reference to the Live CD, is there any really point in running xscreensaver if the ubuntu user has no valid password?
+[24/08/2005, 11:46:00] User: because this just screwed me out of my session.  thanks a bunch.
+[24/08/2005, 11:46:00] Dr_Willis: for the purty pictures :P
+[26/08/2005, 06:51:00] Dr_Willis: in some cases you may need to edit the X config file manually. I had to for my widescreen laptop
+[26/08/2005, 06:53:00] Dr_Willis: Hmm..  that souldent of affected sound Ride - however i DID have an  odd system ages ago. that IF i 'rebooted' from windows to linux. the sound card would not get configured right.. but if i powered down and booted straight to linux it would work.
+[26/08/2005, 06:54:00] User: hmm.. interesting. I thought it was odd my sound stopped working as well. I did a straight boot to linux though
+[29/08/2005, 09:45:00] User: hey does anyone know an application that might be able to read copy protected cds?
+[29/08/2005, 09:45:00] User: i.e. music cds
+[29/08/2005, 09:45:00] Dr_Willis: hmm -  what cd exactly? most of the music copy protections ive heard of are so trivial to get around - a fast google search should get ya some info.
+[29/08/2005, 10:38:00] User: why is ubuntu detecting that I have a radeon 9200 when I have a radeon 9250?
+[29/08/2005, 10:39:00] Dr_Willis: becaise from a chipset point of view the 2 are identical perhaps?
+[29/08/2005, 10:40:00] Dr_Willis: did you restart X totally?
+[29/08/2005, 11:10:00] User: does anyone know how can I make a slave hard drive just mounted at /mnt/slave into an icon in the gui in 'places'?
+[29/08/2005, 11:11:00] User: dr_willis, how about an icon in the desktop?
+[29/08/2005, 11:11:00] Dr_Willis: that should be fairly trivial.  just make a link from where its mounted perhaps.
+[31/08/2005, 07:59:00] User: nooby question :P, I just have linux installed on my comp and i want to format it (not with installation after) and I was sure you lovely people could tell me how :P
+[31/08/2005, 08:00:00] Dr_Willis: what are you going to do with it afterwards? want a totally new/clean hard drive?
+[31/08/2005, 08:02:00] Dr_Willis: use a live cd and the fdisk, or qt_parted or similer disk partining tools to delete all the partitions.
+[02/09/2005, 12:14:00] User: Switched from Debian to Ubuntu 2 days ago... all went ok but now after I login the Gnome Died on me i guess... after login it doesnt load the menu (Nautilus) or anythiong else... managed to get the failsafe terminal up and GAIM to run .... but i wish i could get some pointers?
+[02/09/2005, 12:16:00] Dr_Willis: could remove your .gnome* dirs. and force gnome back to the defaults..
+[02/09/2005, 12:16:00] User: I'll Try that
+[03/09/2005, 10:48:00] User: !grub
+[03/09/2005, 10:50:00] User: lol
+[03/09/2005, 10:51:00] Dr_Willis: you proberly just crashed the thing with it msging itself all day now.
+[07/09/2005, 11:18:00] User: hi, my dad just bought some leet digital camera (hp photosmart m417), how do i download the pictures from it? :]
+[07/09/2005, 11:18:00] Dr_Willis: plug it in - and it 'should' show up as a usb drive.
+[07/09/2005, 11:19:00] Dr_Willis: check the output of 'dmesg' as ya plug/unplug/plug it in.
+[08/09/2005, 12:27:00] User: Anyone running breezy that can tell me all their FontPath's from xorg.conf?
+[08/09/2005, 12:28:00] Dr_Willis: i was thinkign it defaulted to like 'localhost:7100' or somthing in this day and age of font-servers.
+[08/09/2005, 12:29:00] Dr_Willis: Hmm.. odd..  wonder why they would move them.
+[15/09/2005, 08:45:00] User: You know what? I was reinstalling ubuntu with the ethernet cable connected and right now it is getting the files from the www, it works!
+[15/09/2005, 08:47:00] User: Can I run a bluetooth USB stick on ubuntu?
+[15/09/2005, 08:48:00] Dr_Willis: my usb bluetooth adaptor worked fine.
+[15/09/2005, 11:05:00] User: helo, How do I disable/ (turn off ) the samba client, ..  Thanks.
+[15/09/2005, 11:05:00] Dr_Willis: you mean the samba SERVER/Service?
+[15/09/2005, 11:07:00] User: I think yes, I just dont want to be (see / be seen) in the ms network neighborhood
+[15/09/2005, 12:13:00] User: hello all. i am a newish user of linux and irc and i need some help gaining root privileges in kubuntu. i think that in irc you can talk individually - could someone start an individual session with me or shall i talk to the group?
+[15/09/2005, 12:15:00] User: apparently the kubuntu install disables the root account and gives the first created account sudo / su privalige
+[15/09/2005, 12:15:00] Dr_Willis: thats how ubuntu works.
+[16/09/2005, 12:56:00] User: is there really a lot of difference between debian and ubuntu othert han ubuntu uses newer packages say like xorg and stuff?
+[16/09/2005, 12:56:00] Dr_Willis: lots of little polished tweaks and nudges. :P
+[16/09/2005, 12:57:00] Dr_Willis: yes.
+[18/09/2005, 10:36:00] User: Is there an app i can use to rip to .mp3 and not ogg?
+[18/09/2005, 10:36:00] User: I want to use the files i download on my mp3 player.
+[18/09/2005, 10:36:00] Dr_Willis: grip can do either. dependong on the config you set up.
+[18/09/2005, 11:10:00] User: How to get @100Hz instead @85Hz, I added the horizontal and the vertical values in xorg.conf
+[18/09/2005, 11:11:00] Dr_Willis: are you using a lcd display?
+[18/09/2005, 11:14:00] Dr_Willis: if you can tell the diff from 85 to 100.. you got much younger eyes then  i do. -->    may want to check    http://xtiming.sourceforge.net/cgi-bin/xtiming.pl
+[25/09/2005, 10:49:00] User: how do i add sommething to the PATH
+[25/09/2005, 10:49:00] Dr_Willis: thats normally how. I think.
+[25/09/2005, 11:05:00] Dr_Willis: install the ubuntu-desktop then at the GDM login - select kde from the menus
+[27/09/2005, 09:52:00] Dr_Willis: doubtfull. You could disable the hd in the bios and boot the live cd to see..
+[27/06/2010, 09:44:00] Dr_Willis: firewalls in linux work in a radically different way then they do in windows. So somthing like zone alarm is really not needed.
+[27/06/2010, 09:45:00] User: Some are radically different, but they should clone zonealarm
+[30/09/2005, 10:28:00] User: Hello.
+[30/09/2005, 10:28:00] User: Can anyone tell me how to get my Ubuntu Hoary Universe Repositories to work without errors on Synaptic?
+[30/09/2005, 10:29:00] Dr_Willis: depends on the errors.
+[03/10/2005, 10:35:00] User: what's this error E: /var/cache/apt/archives/mozilla-firefox_1.0.7-0ubuntu0.1_i386.deb:  trying to overwrite `/var/lib/mozilla-firefox/extensions.d/00classic', which is also in package firefox
+[03/10/2005, 10:35:00] User: how do I fix
+[03/10/2005, 10:35:00] Dr_Willis: in the past ive uninstalled  the old package, then reinstalled the new
+[07/10/2005, 08:53:00] User: hi, i have 5.10 installed and updated, but can't get dvd's to play and libdvdcss2 isn't in my sources list...any suggestions?
+[07/10/2005, 08:53:00] Dr_Willis: check the wikis and forums. theres a few extra packages/repos you got to add and install.
+[07/10/2005, 08:54:00] Dr_Willis: actually last night - i dieent have to add any odd repos. Just had to install a few dozen packages :P
+[07/10/2005, 16:45:00] User: whats 'sysfs support enabled'
+[07/10/2005, 16:45:00] Dr_Willis: recompilin your own kernel?
+[07/10/2005, 16:46:00] User: no just tryiing to get powernow operable
+[11/10/2005, 09:45:00] User: how to change icon in kubuntu?
+[11/10/2005, 09:45:00] Dr_Willis: icon for what?
+[11/10/2005, 09:46:00] Dr_Willis: right click, select its properties and look in there
+[11/10/2005, 09:54:00] Dr_Willis: and slap them.
+[11/10/2005, 09:54:00] Dr_Willis: at least Dapper Drake dosent sound like a  'Bean Eating Badger' :P
+[11/10/2005, 09:55:00] User: Mark Shuttleworth names them, I gather, and he's the one with all the money...
+[11/10/2005, 15:20:00] User: hi. I can't seem to change the permissions of my fat32 parts. how can I?
+[11/10/2005, 15:20:00] User: <<breezy
+[11/10/2005, 15:21:00] Dr_Willis: when youmount them - youmust use the 'umask' option normally to set the permissions the whole mount point will have
+[13/10/2005, 06:36:00] User: i ran a programam. Its written 'root@ubuntu:home/ubuntu #' is that?
+[13/10/2005, 06:36:00] Dr_Willis: Huh?
+[13/10/2005, 06:40:00] Dr_Willis: depends on what you are trying to do.. :P  i forgot.
+[15/10/2005, 06:31:00] User: hey guys, is there a way to use the ubuntu live cd to install?
+[15/10/2005, 06:31:00] Dr_Willis: not that i have heard of.
+[15/10/2005, 06:31:00] Dr_Willis: heard it may be doable in the future
+[17/10/2005, 06:20:00] User: Dr_willis: is it?
+[17/10/2005, 06:20:00] Dr_Willis: not sure.. i think so..  or it calls apt.. ive never gotten the whole pictire.
+[14/12/2005, 11:50:00] Dr_Willis: Ewww.
+[17/10/2005, 07:05:00] User: Where do you recommend to go to download free applications and games?
+[17/10/2005, 07:06:00] User: any good websites???
+[17/10/2005, 07:06:00] Dr_Willis: google.com :P
+[18/10/2005, 05:17:00] User: GOD HELP ME PLEASE!!!!!!!!!!!
+[18/10/2005, 05:18:00] User: SOMEONE HELP ME PLEASE!!!!?
+[18/10/2005, 05:18:00] Dr_Willis: Yell some more. :P or ask a question and see which works better
+[19/10/2005, 10:05:00] User: how does one find out if a partition is ext2 or 3?
+[19/10/2005, 10:05:00] User: In fact, scratch that -- how do I make an ext3 partition?
+[19/10/2005, 10:06:00] Dr_Willis: fdisk -l    - should show it.
+[21/10/2005, 07:39:00] User: How do I turn DMA on for my cd/dvd devices ???
+[21/10/2005, 07:40:00] Dr_Willis: - check /etc/default/hdparm
+[21/10/2005, 07:41:00] Dr_Willis: the option will be '-d1'
+[24/10/2005, 09:51:00] User: i've got a disk i'm trying to mkfs vfat but the cmd keeps failing... any tips?
+[24/10/2005, 09:52:00] Dr_Willis: you did fdisk the drive and set the partition to be of the vfat type?
+[24/10/2005, 09:53:00] User: thanks i'll try that first
+[24/10/2005, 10:06:00] User: ok i downloaded xmms how do i install it ive never installed someting before on ubuntu.
+[24/10/2005, 10:07:00] Dr_Willis: you normally dont download it. :P just 'sudo apt-get install whatever'
+[24/10/2005, 10:08:00] Dr_Willis: time to read a few apt-get docs/howtos :P
+[24/10/2005, 10:40:00] User: anyone here use BX?  i havent used it for some time... back when i had command line slack...
+[24/10/2005, 10:42:00] User: is irssi command line?
+[24/10/2005, 10:42:00] Dr_Willis: yes
+[29/10/2005, 10:54:00] User: can anyone recommend any (apt-gettable) games ?
+[29/10/2005, 10:54:00] Dr_Willis: 'slune' is fun.
+[16/11/2005, 10:01:00] Dr_Willis: nothing.. untill you want to run somthign that dosent work on them.
+[30/10/2005, 13:23:00] User: is linux similar to mac(osx) ??
+[30/10/2005, 13:23:00] Dr_Willis: in a very Vague loose way. :P
+[30/10/2005, 13:25:00] Dr_Willis: personally - i dont like OS-X and the 'emulate this or that' is a moot point.. why not be BETTER.
+[30/10/2005, 13:27:00] User: hi, i just installed 3d desktop from synaptic...how do I use it?
+[30/10/2005, 13:28:00] Dr_Willis: i think the wikis have a page on it.
+[30/10/2005, 13:28:00] Dr_Willis: you mean the 'desktop changer' tool?
+[31/10/2005, 11:30:00] User: Open Source Cola: http://www.colawp.com/colas/400/cola467_recipe.html
+[31/10/2005, 11:30:00] Dr_Willis: from the # of people ive seen with 'upgrade' issues.. id have to say fresh install - if you can.
+[31/10/2005, 11:31:00] User: cool, I'm just finishing up the upgrade, so after restarting I figured if it gives me more than 10 minutes trouble, it's fresh install time
+[31/10/2005, 11:35:00] User: anyone have any showstopping problems installing breezy on an iBook?
+[31/10/2005, 11:36:00] Dr_Willis: it workd ok on my imac-dv :P \
+[31/10/2005, 11:36:00] User: hmm... that's a different animal... but that works for me!
+[31/10/2005, 12:53:00] User: guys, come on please, there gotta be an eth0 device somewhere
+[31/10/2005, 12:53:00] Dr_Willis: first id ever heard of a eth0 device actually.
+[31/10/2005, 12:53:00] Dr_Willis: try the 'find' command ?
+[04/11/2005, 09:55:00] Dr_Willis: THen theres an alternative to MythTV also.
+[04/11/2005, 09:55:00] Dr_Willis: i forget  its name.
+[04/11/2005, 09:55:00] User: Okey. Thanks anyway.
+[05/11/2005, 12:18:00] Dr_Willis: that will kill X off right then and there ghb
+[05/11/2005, 12:18:00] User: ...?
+[05/11/2005, 12:19:00] Dr_Willis: also 'alt-ctrl-backspace' should do it as well
+[05/11/2005, 12:34:00] User: I have a problem! How can I install Opera on my Ubuntu 5.10-system? (I am a newbie)
+[05/11/2005, 12:34:00] Dr_Willis: i installed the opera package from their page. and then used 'sudo dpkg -i  whateveritwas'
+[05/11/2005, 12:35:00] Dr_Willis: HOWEVER i think i needed to get their 'statically' compiled version.
+[08/11/2005, 08:52:00] User: anyone else...?  i know this should be a cinch for most of you guys!!!   print to pdf?  how can I have Acrobat or pdf as an installed printer option?  so that I can print to pdf from any app...
+[08/11/2005, 08:54:00] Dr_Willis: ive seen that done  befor. as samba printers.
+[08/11/2005, 08:54:00] Dr_Willis: never tried it however. i think it was fairly easy to setup.
+[10/11/2005, 09:26:00] User: how do add write permissions to multiple directories in one go??
+[10/11/2005, 09:27:00] Dr_Willis: you mean the current dir and all dirs below it?
+[24/11/2005, 10:01:00] Dr_Willis: run the 'mount' command and see if its still mounted.
+[16/11/2005, 09:08:00] User: it may be a stale 'lock' file in his profile too
+[16/11/2005, 09:08:00] Dr_Willis: yea - firefox seems to be annoying in that respect. :(
+[07/12/2005, 10:59:00] Dr_Willis: i was thinking that also.
+[16/11/2005, 09:13:00] User: Hey.. I apt-got gawk and gcc, what can I do now? http://paste.ubuntulinux.nl/4364
+[16/11/2005, 09:13:00] User: I see :) Thanks
+[16/11/2005, 09:13:00] Dr_Willis: depends on what you were trying to do int he first place. :P
+[20/11/2005, 08:01:00] User: lol Dr_Willis Lexmarks are good door stoppers nothing more
+[20/11/2005, 08:02:00] Dr_Willis: i wouldent even use them for that.
+[20/11/2005, 08:02:00] User: they might just splash ink everywhere...
+[20/11/2005, 10:11:00] User: hey,   i could either install Mandrake or Fedora ?  has anybody ever tried either of those ?
+[20/11/2005, 10:11:00] User: i've narrowed it down to those....
+[20/11/2005, 10:11:00] Dr_Willis: Yes you could.. and Yes  lots of people have used them..
+[21/11/2005, 09:36:00] User: is there a way to jump to a man page from the firefox browser ?
+[21/11/2005, 09:37:00] Dr_Willis: ive seen some manpage2html front ends/cgi scripts - but nothing  by default that lets you do that.
+[21/11/2005, 14:20:00] User: Is there someone who knows what is the difference between a '*' and '!' in /etc/shadow ?
+[22/11/2005, 09:44:00] User: As much as I hate to say this, this mouse thing is almost making me want Windows back.
+[22/11/2005, 09:44:00] Dr_Willis: mouse thang?
+[22/11/2005, 09:45:00] User: About every 20 seconds, my system locks up for 5-10 seconds, making it rather unusable. dmesg is saying psmouse.c lost sync.
+[22/11/2005, 11:26:00] User: !upgrade
+[22/11/2005, 11:28:00] User: wasn't there a bot here to answer FAQs at one point?  I'm trying to upgrade from 5.04 to 5.10
+[22/11/2005, 11:28:00] Dr_Willis: thats covered in the wiki in some detail.
+[23/11/2005, 11:17:00] User: ima newb and i like linux way better then windows only thing is i cant really play any games
+[23/11/2005, 11:17:00] User: but i can deal with that
+[23/11/2005, 11:17:00] Dr_Willis: check out the various Emulators and so forth. :P
+[26/11/2005, 12:02:00] User: how i format a mp3 usb?
+[26/11/2005, 12:02:00] Dr_Willis: that made no sence.
+[26/11/2005, 12:03:00] User: i dont speak english very well
+[26/11/2005, 12:09:00] User: 'User interaction required! A new version of the Linux kernel has just been installed. We strongly  recommend that your machine is restarted as soon as possible to complete the system update.' I thought that linux updates would be unlike windows. You know, that I wouldn't need to reboot in updates... Or is this because of this is first time I am on after the reinstallation?
+[26/11/2005, 12:10:00] Dr_Willis: its a Kernel.. :P is the reason
+[28/11/2005, 12:12:00] User: yeah, I counted that as the partitioning part
+[28/11/2005, 11:37:00] User: hi, can anyone help. I need to dual boot with a Windows installation, how can I do that? I have the Live & Install discs for 5.10, this is my first experience with Linux so please go easy on me :)
+[28/11/2005, 11:38:00] Dr_Willis: the normal install sets up the GRUB boot loader so you can dual boot.
+[28/11/2005, 11:39:00] Dr_Willis: you may want to defrag/scandisk your windows partition first. and JUST in case backup anything imporntant.
+[29/11/2005, 08:43:00] User: What are the special flags used for under the perimissions tab under file properties?
+[29/11/2005, 08:44:00] User: What are the special flags used for under the perimissions tab under file properties?
+[29/11/2005, 08:44:00] Dr_Willis: what special flags?
+[30/11/2005, 17:05:00] User: Well 'apt-get build-dep gnomebaker' didn't seem to do anything.  Nothing was installed.
+[30/11/2005, 17:06:00] Dr_Willis: check your current dir. I thought that installed stuff there. (the source)
+[30/11/2005, 17:07:00] User: Nope.  nothing there.  Reading package lists... Done...Building dependency tree... Done. and then I'm back at the prompt.
+[30/11/2005, 17:12:00] User: Unzip .ZIP files in Ubuntu?
+[30/11/2005, 17:12:00] Dr_Willis: the 'unzip' command can do that. :P amazing eh?
+[26/12/2009, 18:29:00] Dr_Willis: demand a refund.
+[03/12/2005, 07:00:00] User: eveing all.. anyone here running ubuntu of a mac??
+[03/12/2005, 07:01:00] Dr_Willis: i was a few mo. ago. Not any more.
+[03/12/2005, 07:03:00] Dr_Willis: the chooser? Ive never dual-booted on my mac. so it alwyas booted straight to linux.
+[03/12/2005, 12:00:00] User: what's the best utility to or way to ssh to server on the Internet?
+[03/12/2005, 12:01:00] Dr_Willis: you mean the 'ssh' client?
+[03/12/2005, 12:01:00] Dr_Willis: then for windows theres. 'puty' and 'winscp'
+[03/12/2005, 13:19:00] User: can anybody suggest a good download client, please?
+[03/12/2005, 13:20:00] Dr_Willis: for downloading what?
+[03/12/2005, 13:22:00] Dr_Willis: you rfering to  Peer2Peer network client? or a web-browser assistant type client?
+[04/12/2005, 07:43:00] User: why does everyone quit in globs?
+[04/12/2005, 07:43:00] Dr_Willis: net split perhaps.
+[04/12/2005, 07:43:00] User: hm
+[04/12/2005, 08:30:00] User: i have a question about backing up ubuntu...let's say i were to spend six months customizing Ubuntu the way i like it...if i were to reformat and re-install, what is the best way to get my customizations back? is there a 'clone' program for linux?
+[04/12/2005, 08:31:00] Dr_Willis: 'mondo/mindi
+[04/12/2005, 08:32:00] Dr_Willis: 'mondo/mindi' can backup a system to cdrom/dvd/network and restore it later
+[04/12/2005, 12:14:00] User: how do i configure firefox to select all text when clicking in the url box?  this is the default behavior in the windows version of firefox
+[04/12/2005, 12:15:00] Dr_Willis: :P not seen how.. and i HATE the way windows does it.
+[04/12/2005, 12:16:00] Dr_Willis: seen this mentioned in a few message board threads.. and it always ended up in a flamewar.
+[04/12/2005, 12:17:00] User: hope that works...
+[04/12/2005, 12:17:00] User: oh yeah and restart firefox
+[04/12/2005, 12:17:00] Dr_Willis: heh - i was about to mention that as well.
+[04/12/2005, 15:06:00] User: hi guys...
+[04/12/2005, 15:07:00] User: is there a way I can mount a drive and have it automatically mount on boot?
+[04/12/2005, 15:07:00] Dr_Willis: edit your /etc/fstab correctly adding the right entry for hte drive
+[05/12/2005, 08:50:00] User: Any1 knows if usb live booting is faster than livecd booting?
+[05/12/2005, 08:52:00] User: How much faster?
+[05/12/2005, 08:52:00] Dr_Willis: depends on how slow your cd is. :P and fast your usb thumb drive is.
+[06/12/2005, 08:05:00] User: is there a calender for ubuntu?
+[06/12/2005, 08:05:00] User: or comes with it?
+[06/12/2005, 08:05:00] Dr_Willis: ya can click on the little clock/date and get one.
+[06/12/2005, 09:02:00] User: question: i need an alarm clock program that can use the system speaker, as my main speakers are never connected or always failing
+[06/12/2005, 09:04:00] User: anyone know of an alarm clock that uses the system speaker?
+[06/12/2005, 09:04:00] Dr_Willis: i recall some 'system speaker' beeper program :P with that you could write one with a little bit of shell scripting
+[06/12/2005, 09:27:00] User: does anyone here think that i should replace my ati graphics card with an nvidia card that i have available?
+[06/12/2005, 09:28:00] Dr_Willis: depennds :P is it working ok?
+[06/12/2005, 09:28:00] Dr_Willis: sounds like you just answered your own question then. :P
+[06/12/2005, 10:34:00] User: Umm... silly question: can folks here see my messages?
+[06/12/2005, 10:34:00] User: heh
+[06/12/2005, 10:34:00] Dr_Willis: No. :P
+[06/12/2005, 10:36:00] User: do i must download clanlib~.gz or clanlib~.bz2? which is easier (or better) for ubuntu to install?
+[06/12/2005, 10:37:00] Dr_Willis: best to find it in the repos and use synaptic to install it.
+[06/12/2005, 10:39:00] User: it says: 'libclan2-mikmod:
+[06/12/2005, 11:39:00] Dr_Willis: vmware 'player' ? :P
+[06/12/2005, 11:39:00] User: yeah
+[06/12/2005, 11:40:00] Dr_Willis: 'vmware' is a comrecial emulator  'thing' - not a 'player' - so what are you really talking about?
+[07/12/2005, 08:33:00] User: im downloading ubuntu-5.10-install-i386.iso
+[07/12/2005, 08:33:00] User: is there only one install disc?
+[07/12/2005, 08:33:00] Dr_Willis: yep.
+[07/12/2005, 10:30:00] User: is gnomebaker installed by default on ubuntu 5.10 installs
+[07/12/2005, 10:30:00] User: ?
+[07/12/2005, 10:30:00] Dr_Willis: dont think so
+[07/12/2005, 11:05:00] User: hey is there an easy way to configure firewall in ubuntu?
+[07/12/2005, 11:05:00] Dr_Willis: 'Firestarter' is a neat tool.. proberly a dozen others.
+[07/12/2005, 11:06:00] User: k thanks
+[08/12/2005, 07:19:00] User: Does anyone know how to resolve a full X11 server lockup, I mean it's still running and all the programs are running the screen is just locked up, but I'd rather keep the programs running.
+[08/12/2005, 07:20:00] User: So anyone know any hotkeys or something, maybe to refresh X11 display?
+[08/12/2005, 07:21:00] Dr_Willis: i think you maybe out of luck.
+[08/12/2005, 08:53:00] User: Hi. Is it true that Ubuntu has no building tools, like say I wanted to compile my own binary?
+[08/12/2005, 08:54:00] Dr_Willis: totally false.
+[08/12/2005, 08:54:00] Dr_Willis: none are installed by DEFAULT however.. its a 2 min install  or so. 'sudo apt-get build-essential'
+[08/12/2005, 14:53:00] User: why does my browser close on me sometimes?
+[08/12/2005, 14:53:00] User: and how can i fix it
+[08/12/2005, 14:53:00] Dr_Willis: my guess.. its crashing
+[08/12/2005, 15:11:00] User: what file sharing programs work with ubuntu?
+[08/12/2005, 15:11:00] User: what file sharing programs work with ubuntu? but not bittorrent
+[08/12/2005, 15:12:00] Dr_Willis: theres a P2P wiki page on the ubuntu wikis ya may want to read.
+[08/12/2005, 15:11:00] User: What's the name of a program I can use to decord what I'm doing on my computer screen, like I can take in-game video footage or something?
+[08/12/2005, 15:13:00] User: Can anybody tell me the name of a linux screen capture program?
+[08/12/2005, 15:14:00] Dr_Willis: theres that feature in the gnome menus/printscreen key i thought.. or gimp can do it.. or a dozen other ways
+[09/12/2005, 16:29:00] User: hi, i have a question
+[09/12/2005, 16:29:00] User: how do i update Kde in ubuntu to 3.5
+[09/12/2005, 16:31:00] Dr_Willis: the Kubuntu homepage has some details on that, i saw last week or so.
+[10/12/2005, 06:05:00] User: Hello, I am trying to burn a VIDEO_TS to a dvd, however, nautilus tells me that there is not enough space. The file size = 4.1 gigs, which should fit in the DVD. The actual error message is 'file image creation failed'
+[10/12/2005, 06:05:00] User: any ideas?
+[10/12/2005, 06:06:00] Dr_Willis: try a sample/test with a smaller sized file.
+[10/12/2005, 09:09:00] User: Hello :)  I'm wondering how to retain 'list view' in Nautillus?  If I select 'list view', as soon as I browse to another directory, it reverts back to icon view...  I'm looking for the 'apply to all windows'ish button but can't find it.. anyone?
+[10/12/2005, 09:10:00] Dr_Willis: theres the 'spatial' and 'browser' modes of the Naitulus file manager. if you want everything to stay in 1 window and keep the settings use  the 'navigonational' mode.
+[10/12/2005, 09:11:00] Dr_Willis: 'Navigational' -> 'like a browser' --> like windows does.
+[10/12/2005, 10:04:00] User: Does somebody knows something about UBUNTU Preinstallation
+[10/12/2005, 10:04:00] User: Does somebody knows something about UBUNTU Preinstallation
+[10/12/2005, 10:04:00] Dr_Willis: care to clarify
+[10/12/2005, 12:43:00] User: Hi.
+[10/12/2005, 12:45:00] User: I got a question. I'm new to linux so don't kill me for my stupid questions. I just installed Ubuntu, and rebooted to login. I'm like in this console window, what's the command to start the GUI of Ubuntu? Also, under the installation I did not get promted to create a root password? So I can not login as root.
+[10/12/2005, 12:46:00] Dr_Willis: why do you allready want to login as root. :P  sounds like yoru X did not get configured right.
+[11/12/2005, 11:37:00] User: am nt able to access any of my hard disks.. i went to system and disks it says inaccessable and i tried to enable but nothing happens
+[11/12/2005, 11:37:00] Dr_Willis: you are refering to your WIndows drives?
+[11/12/2005, 11:40:00] Dr_Willis: its not mounting them automaticially aparently. You could mount them manually in 'read' only .
+[12/12/2005, 10:40:00] User: can we ask for help here, or is there another chan for that?
+[12/12/2005, 10:40:00] Dr_Willis: we try to help here.
+[12/12/2005, 10:40:00] Dr_Willis: some days we even  manage to help!
+[12/12/2005, 10:49:00] User: What are you guys using for backups on Ubuntu?
+[12/12/2005, 10:50:00] Dr_Willis: i tend to use Mondo/Mindi
+[12/12/2005, 10:51:00] User: thanks, I will check them out.
+[12/12/2005, 12:34:00] User: does anyone know how i can launch an app ive installed? when i dont know the terminal launching name thingy ^^
+[12/12/2005, 12:35:00] Dr_Willis: use synaptic and checkthe package and see what files it did install..
+[12/12/2005, 12:35:00] Dr_Willis: thus getting the name to use from there.
+[14/12/2005, 11:38:00] User: I created a desktop launcher on my desktop, how would I change the icon?
+[14/12/2005, 11:38:00] Dr_Willis: right click on it and seect the properties I think.. :p
+[10/01/2006, 12:25:00] Dr_Willis: update - resyncs/updates the apt database.. 'upgrade' then
+[16/12/2005, 09:01:00] User: i use ubuntu 5.10 , do u think it can replace Windows
+[16/12/2005, 09:01:00] Dr_Willis: for my work - it just about has.. depends on what you are going to do.
+[16/12/2005, 09:12:00] Dr_Willis: that's OK   - we are used to it.. Most of us have done WIndows Support in the past.
+[16/12/2005, 10:48:00] User: can i use net use ? on linux
+[16/12/2005, 10:49:00] Dr_Willis: care to rephrase that.
+[16/12/2005, 10:50:00] Dr_Willis: Huh? how about you tell us what you are trying to do.
+[18/12/2005, 06:36:00] User: sure is, well on my system heh
+[18/12/2005, 06:36:00] User: sudo passwd root -password- something like that
+[18/12/2005, 06:37:00] Dr_Willis: shame... :P
+[18/12/2005, 17:01:00] User: no root in ubuntu
+[18/12/2005, 17:01:00] User: having a root user is a liability ;)
+[18/12/2005, 17:01:00] Dr_Willis: heh - dont start up that old argument again. :P
+[22/12/2005, 15:53:00] User: hi there
+[22/12/2005, 15:54:00] User: i am a newbie, i need a little help, can i ask a quiestion ?
+[22/12/2005, 15:54:00] Dr_Willis: you just did. :P care to ask another?
+[23/12/2005, 07:27:00] User: Quick question... How can I make it so there isn't a post-login splash that shows everything loading?
+[23/12/2005, 07:27:00] Dr_Willis: you mean the gnome login splash after the GDM login?
+[23/12/2005, 07:27:00] User: yes, that.
+[24/12/2005, 08:10:00] User: is there a way to install unrar-nonfree in Ubuntu 5.10, sudo apt-get install unrar-nonfree is giving me an error
+[24/12/2005, 08:11:00] User: thanks Dr_Willis
+[24/12/2005, 08:11:00] Dr_Willis: proberly says to set up the other repos and apt-get it :P
+[28/12/2005, 11:24:00] User: what is the root pwd for root?
+[28/12/2005, 11:25:00] Dr_Willis: for 'sudo' you use your first users password
+[28/12/2005, 11:26:00] Dr_Willis: creat one where.
+[28/12/2005, 12:28:00] User: hiiiiiiiiiiiiii
+[28/12/2005, 12:28:00] User: some one tell me how to use linux i just got it today
+[28/12/2005, 12:28:00] Dr_Willis: google.com  - search for 'linux tutorials'
+[30/12/2005, 11:53:00] User: Is it possible to add another dist cd to apt sources, such as edubuntu or kubuntu????  If so, what would the line look like?
+[30/12/2005, 11:53:00] Dr_Willis: the Kubuntu web site details it -  apt-get install kubuntu-desktop will  get all the different kubuntu packages.
+[30/12/2005, 11:54:00] Dr_Willis: its kind of missleading to think of them as 'different' disrtos. they are more the same core disrto with different packages by default.
+[03/01/2006, 10:30:00] User: how do i make linux see hidden files on a cd?
+[03/01/2006, 10:30:00] Dr_Willis: Hmm what 'hidden' files?
+[03/01/2006, 10:32:00] User: i'm installing office2003 with crossover office and it says me cd rom isn't configured correctly
+[03/01/2006, 11:21:00] User: i cant open .rar files, can someone help me?
+[03/01/2006, 11:23:00] User: i cant open .rar files, can someone help me?
+[03/01/2006, 11:23:00] Dr_Willis: use the unrar commands from the shell. not the gui archiver tools - perhaps.
+[03/01/2006, 12:38:00] User: is there any xfce-desktop?
+[03/01/2006, 12:38:00] Dr_Willis: yes.. 'xubuntu-desktop'
+[03/01/2006, 12:39:00] Dr_Willis: the meta-package isntalls all related xfce tools as well
+[04/01/2006, 06:01:00] User: Anyone know how to create a .xsession file for fluxbox?  I have fluxbox installed, but when I vnc over I get nothing but a blank screen and an error about not having my xsession file.
+[04/01/2006, 06:02:00] Dr_Willis: edit the file with 1 line 'exec fluxbox'
+[04/01/2006, 17:54:00] User: how do I create default xsessions so that when I vnc into a machine it has fluxbox loaded?
+[04/01/2006, 06:14:00] User: anyone know what the default su password is
+[04/01/2006, 06:14:00] Dr_Willis: you just asked Faq #1 :P
+[04/01/2006, 06:14:00] Dr_Willis: use 'sudo' not 'su'
+[04/01/2006, 17:54:00] User: Has anyone had problems running DVD's?
+[04/01/2006, 17:55:00] Dr_Willis: you mean playing comercial dvd's ?
+[04/01/2006, 17:57:00] Dr_Willis: you proberly got to install a few 'extra' things to get them to work.. check the wiki under the 'restricted formats' section I think is the details.
+[08/01/2006, 10:46:00] User: there's only one thing I don't like about xubuntu
+[08/01/2006, 10:46:00] User: xffm never works quite right for me
+[08/01/2006, 10:47:00] Dr_Willis: yea. the file manager has issues.. theres a few alternatives however
+[08/01/2006, 12:50:00] User: anyone have an opinion on whether the supybot or blootbot would be a better start for beginner ?
+[08/01/2006, 12:51:00] Dr_Willis: one could ask - why do you really need a 'bot'
+[08/01/2006, 12:52:00] Dr_Willis: better off just making a web site :P  good luck.
+[09/01/2006, 10:50:00] User: could someone please tell me how to gain write rights on my HDA3?
+[09/01/2006, 10:51:00] Dr_Willis: is that a windows partion?
+[09/01/2006, 10:52:00] Dr_Willis: theres a wiki/page just for that 'issue'
+[09/01/2006, 10:50:00] User: anybody can suggest a good pci-express vga-card for Linux?
+[09/01/2006, 10:50:00] Dr_Willis: depends on your budget.. stick with Nvidia
+[09/01/2006, 10:59:00] User: PuMpErNiCkLe: Rubin: i cant install both distro. in fedora4... anaconda give me 'NVIDIA Unknown (Generic)' and when loading the graphical installer my screen is not good. (same in ubuntu)
+[09/01/2006, 11:25:00] User: II got the 32 cinema...recognie boiii!
+[09/01/2006, 11:26:00] Dr_Willis: each time you run vncserver it will launch a NEW vnc session
+[09/01/2006, 11:27:00] Dr_Willis: use 'vncserver --kill :1' or :2 or :3 or whatever to close out any running ones
+[09/01/2006, 11:46:00] User: is ubuntu really the easyest distro to use ?
+[09/01/2006, 11:46:00] Dr_Willis: I put it in the top 5 :P
+[09/01/2006, 11:46:00] Dr_Willis: the term 'easy'  can be vague  heh.
+[09/01/2006, 12:08:00] User: Im trying to unzip a zip file. im using gunzip. Shouldn't gunzip -d file.zip work?
+[09/01/2006, 12:09:00] User: ill try unzip then
+[09/01/2006, 12:09:00] Dr_Willis: use 'unzip' :P
+[09/01/2006, 12:11:00] User: Is there an easy way to clone a Ubuntu installation where the other computer may have a different size HDD?
+[09/01/2006, 12:11:00] Dr_Willis: 'mondo/mindi' can do that.. backups to dvd/nfs/samba - and can restore to different sized hds
+[09/01/2006, 12:11:00] Dr_Willis: may be some other tools that can do it also.
+[10/01/2006, 12:07:00] User: hey does anyone knows where can i download some nice documentation about ubuntu?
+[10/01/2006, 12:07:00] Dr_Willis: ubuntu homepage?
+[10/01/2006, 12:08:00] Dr_Willis: considering most of the docs are in a wiki format.. it changes daily
+[12/01/2006, 12:58:00] User: but now, how do i format a NTFS drive to a linux drive in linux?
+[12/01/2006, 12:58:00] Dr_Willis: you mean convert? or delete and remake..
+[16/08/2006, 09:00:00] Dr_Willis: sudo apt-get upgrade, sudo apt-get update
+[13/01/2006, 11:12:00] User: how do you take care of spaces within a command? e.g. scp user@host:file with spaces
+[13/01/2006, 11:12:00] Dr_Willis: try single quotes
+[13/01/2006, 11:12:00] User: where exactly? i've tried a lot.
+[13/01/2006, 11:15:00] User: good evening all. I have tried to install Breezy Badger, but after I run the installation, I keep getting 'cannot find /sbin/init' when attempting to boot into it after installation.
+[13/01/2006, 11:16:00] Dr_Willis: yopu are saying the isntall worked? or is the installer the thing giving the error?
+[27/01/2006, 11:12:00] User: vlc is flaky on my XP installation. It causes my box to spontaneously reobot
+[13/01/2006, 15:20:00] User: how do i turnon the numlock key by default, my bios says boot with numlock on, but when i boot into ubuntu , it turns it off :-/
+[13/01/2006, 15:21:00] Dr_Willis: I belive there is an answer to that in the ubuntu wiki's or forums - i forget the details. but i think gnome has a option to do that.
+[13/01/2006, 16:52:00] User: http://www.morrowyn.org/3d/tree-ubuntu-human.jpg  what do you think?
+[15/01/2006, 10:44:00] User: anyone knows why ubuntu uses /media instead of the normal /mnt ???
+[15/01/2006, 10:44:00] Dr_Willis: /mnt is getting not as common on many disrtos these days. :p
+[15/01/2006, 10:45:00] Dr_Willis: yea thats right :P
+[15/01/2006, 11:39:00] User: whats the default root pass in ubuntu ?
+[15/01/2006, 11:39:00] User: or cant i log in as root in the terminal ?
+[15/01/2006, 11:40:00] Dr_Willis: there is none. its  set to use 'sudo'
+[16/01/2006, 12:38:00] User: how to reset the printer sppol or delete a specific job ?
+[16/01/2006, 12:39:00] Dr_Willis: lpq, and lprm commands
+[16/01/2006, 12:41:00] User: thank you
+[18/01/2006, 12:34:00] User: whats with the dodgy version numbers in ubuntu
+[18/01/2006, 12:34:00] User: ahh
+[18/01/2006, 12:35:00] Dr_Willis: They are the date of the release
+[19/01/2006, 11:42:00] User: the sonata's a really nice case :)
+[19/01/2006, 11:42:00] Dr_Willis: i have several of them :P
+[19/01/2006, 12:47:00] Dr_Willis: an iIntel iInside
+[21/01/2006, 14:22:00] User: helllo - i need some basic help plz on ubuntu os
+[21/01/2006, 14:24:00] User: Question 1:  If I install the on-hd (not the CD-Live) version of Ubuntu on a separate partition, will it AUTOMATICALLY dual-boot with my Windows XP?
+[21/01/2006, 14:24:00] Dr_Willis: it should.
+[22/01/2006, 07:46:00] User: ive installed every lame package in the repos, and i still cant burn my mp3s to an audio cd
+[22/01/2006, 07:46:00] User: any idea why?
+[22/01/2006, 07:47:00] Dr_Willis: usibng k3b?
+[22/01/2006, 10:54:00] User: im bored! QUICK gimme somthing fun todo
+[22/01/2006, 10:55:00] Dr_Willis: go to www.imboard.com
+[26/01/2006, 10:43:00] Dr_Willis: you made a file in that dir with the name? or are you confuseing 2 different things.
+[23/01/2006, 10:47:00] Dr_Willis: !ntfs
+[23/01/2006, 10:47:00] Dr_Willis: check that URL ubotu gave aeroraver .
+[23/01/2006, 10:47:00] User: tes
+[26/01/2006, 11:52:00] Dr_Willis: if you are getting a new lcd. and video cards.. you want dvi :P
+[26/01/2006, 11:52:00] Dr_Willis: of course theres that NEW interface comming out I think in a year or so.
+[26/01/2006, 11:53:00] User: funny comment sir!
+[26/01/2006, 16:03:00] User: How i can see my intern IP address?
+[26/01/2006, 16:04:00] User: How i can see my intern IP address?
+[26/01/2006, 16:04:00] Dr_Willis: ifconfig command
+[27/01/2006, 11:56:00] User: is it possible to use a computer system?
+[27/01/2006, 11:57:00] Dr_Willis: care to rephase that
+[27/01/2006, 11:57:00] User: well i recently purchased a computer system.  i was just curious if anyone had any experience using them
+[27/01/2006, 17:04:00] User: help with lynksys please?
+[27/01/2006, 17:06:00] User: help with lynksys please?  you guys are gettin' a bit mean here
+[27/01/2006, 17:07:00] Dr_Willis: :P
+[28/01/2006, 11:25:00] User: that azunai kid is a bit think, *sigh*
+[28/01/2006, 11:25:00] User: thick even
+[28/01/2006, 11:25:00] Dr_Willis: :P
+[20/02/2006, 10:15:00] User: im going to be needing to create an iso cd, whats a name of a program that will create an iso that i can dl?
+[20/02/2006, 10:17:00] User: burning iso image, good program? anyone know?
+[20/02/2006, 10:18:00] Dr_Willis: under linux - k3b, under windows = 'burn at once' :P
+[22/02/2006, 12:27:00] User: I would like to start a debate.  Should people be allowed to charge home users for installing linux on their pc?
+[22/02/2006, 12:27:00] Dr_Willis: from a legal/gpl point of view - yes. :) its a service.
+[22/02/2006, 12:29:00] User: tritium, I don't think this is offtopic.  I think there are some linux people that don't like the idea that linux might go to 'ordianary people'.
+[23/02/2006, 12:47:00] User: can i write my own login model,and load some prefered apps auto ?
+[23/02/2006, 12:47:00] User: can i write my own login model,and load some prefered apps auto ?how to ?
+[23/02/2006, 12:47:00] Dr_Willis: perhaps clarify what you are trying to do.
+[24/02/2006, 09:14:00] User: how easy is it to get xgl running on ubuntu? has anybody tried it?
+[24/02/2006, 09:15:00] Dr_Willis: i tried it.. was fairly simple.. but DONT try it. :P it dident work worth a *$&#&#
+[24/02/2006, 09:16:00] Dr_Willis: lots of more eye candy.
+[24/02/2006, 11:08:00] User: is there a quick way to tile the windows on the desktop
+[24/02/2006, 11:08:00] Dr_Willis: not in KDE or gnome - that ive seen.. sadly.
+[24/02/2006, 11:08:00] Dr_Willis: some other window managers have that feature
+[24/02/2006, 14:09:00] User: when i download a file.deb in the desktop how the install???
+[24/02/2006, 14:09:00] User: Errors were encountered while processing:
+[24/02/2006, 14:09:00] Dr_Willis: what file.. anyway :P normally downlaioding them that way is not a good idea.
+[25/02/2006, 08:27:00] User: how come in the installation of ubuntu it does not give you the option to create a swap partition??
+[25/02/2006, 08:28:00] Dr_Willis: it does - ive seen it several times.
+[25/02/2006, 08:28:00] Dr_Willis: true howeger - the fdisking part of the installer could use work.
+[25/02/2006, 11:26:00] User: does any one know where i can get a copy of it for a p3?
+[25/02/2006, 11:28:00] User: does any one know where i can get a copy of ubuntu for a p3 running at 600mhz with 128mb ram and a 10gig hdd?
+[25/02/2006, 11:28:00] Dr_Willis: huh? download the cd.
+[26/02/2006, 10:25:00] User: How can I use DVDs on Ubuntu? I can't figure out what I need to download.
+[26/02/2006, 10:25:00] Dr_Willis: i use 'k3b'
+[26/02/2006, 10:25:00] Dr_Willis: to burn them :P
+[26/02/2006, 10:41:00] User: has anyone of you already installed dapper?? is it vers unstable???
+[26/02/2006, 10:41:00] User: very
+[26/02/2006, 10:42:00] Dr_Willis: i got it - it works.. theres all sorts of little -issues..  i say wait a few more mo.
+[27/02/2006, 12:30:00] User: Oh wow....Azureus just failed to update itslef, some error came up, now the software is TOTALLY borked beyond recognition....Can someone explain to me how to remove it completely from the system ???
+[27/02/2006, 12:31:00] Dr_Willis: shut it down and restart.. that fixed my messed up - after updates issue.
+[27/02/2006, 12:31:00] Dr_Willis: also you may want to install it as a user, just for that user. that way the update system can work for it.
+[01/03/2006, 11:28:00] User: oh, and another thing, how do I mount a partition so my non-root user can browse it?
+[01/03/2006, 11:29:00] Dr_Willis: you refering to a NTFS or windows VFAT partition?
+[01/03/2006, 11:29:00] User: NTFS
+[01/03/2006, 11:36:00] User: Guys...how is called the race resulting the mix of a White and a American Indian ?...
+[01/03/2006, 11:36:00] Dr_Willis: you wanting Derogtory slang?
+[01/03/2006, 11:37:00] User: , the etnic result....
+[02/03/2006, 11:03:00] User: how can install my dell printer on ubuntu ?
+[02/03/2006, 11:03:00] User: i dont see any linux drivers on dells website
+[02/03/2006, 11:03:00] Dr_Willis: see cups.org
+[02/03/2006, 12:03:00] User: what uses more power? a tv or a pc?
+[02/03/2006, 12:03:00] Dr_Willis: depends. :P
+[02/03/2006, 12:04:00] Dr_Willis: ive seen 1000W power supplies on a PC.
+[03/03/2006, 09:32:00] User: Just went through that very thing myself - where are you stuck at?
+[03/03/2006, 09:34:00] User: Quick question for the experts here - Just installed Ubuntu and my PC fan seems locked on full for no reason - any suggestions on a fix?
+[03/03/2006, 09:34:00] Dr_Willis: you mean the video card fan? or case fan?
+[03/03/2006, 10:54:00] User: hi there! I've got one simple question: which filesystem is the best for desktop computer: ext3, reiserFS or maybe reiser4? I've seen many benchmarks but they didn't give me the anwser for my question: which one is the best one now?
+[03/03/2006, 10:55:00] User: and which filesystem is the fastest? I mean the fastest at all, not only for small or big files
+[03/03/2006, 10:56:00] Dr_Willis: given what i 'hear' its best to just stick with ext3.
+[05/03/2006, 11:33:00] User: dear all is it possible upgrade PHP, Apache and MySQL from terminal ?
+[05/03/2006, 11:33:00] Dr_Willis: apt-get update :P
+[05/03/2006, 11:34:00] User: Thanks
+[05/03/2006, 12:35:00] User: how do I read the messages that my kernel leaves when i plug in my USB device?
+[05/03/2006, 12:35:00] Dr_Willis: 'dmesg'
+[05/03/2006, 12:35:00] User: nice one.  Thanks
+[05/03/2006, 12:42:00] Dr_Willis: Hmm *.* ? why not * :P
+[05/03/2006, 12:43:00] User: oops gave myself away as windows user
+[05/03/2006, 12:43:00] Dr_Willis: hah! caught ya!
+[08/03/2006, 10:40:00] User: i want install ubuntu on many pcs, should it done one by one or is there a better way ?
+[08/03/2006, 10:40:00] User: like norton ghost thing
+[08/03/2006, 10:41:00] Dr_Willis: could install to one, then use mondo/mindi to make a backup/restore cd set
+[09/03/2006, 10:12:00] User: can anyone help me? i have a third hard drive that i want to use. I m able to mount it but it does not let me write or create anything on it? any idea why?
+[09/03/2006, 10:13:00] Dr_Willis: format it, make a dir on it.. chown that dir to be owned by the user you want to access the drive
+[09/03/2006, 10:14:00] Dr_Willis: use chown command from the shell.
+[12/03/2006, 10:18:00] User: Hey all.
+[12/03/2006, 10:20:00] User: Can I resume downloading a torrent with the default setup of dapper.   I had to restart but when I start 'gnome-btdownloaded ' none of my downloads came up.
+[12/03/2006, 10:20:00] Dr_Willis: gnome-btdownload - is rather basic torrent client. may want to try out some of the alternatives
+[12/03/2006, 12:48:00] User: i want to have a 'enter filenames' in my shell script, how do i stor the filenames for move later?
+[12/03/2006, 12:49:00] Dr_Willis: read the 'advance bash scripting guide' for a start. it gives examples.
+[12/03/2006, 12:49:00] User: ok thanks
+[17/03/2006, 11:03:00] User: whats a good BT client?
+[17/03/2006, 11:04:00] User: ty
+[17/03/2006, 11:04:00] Dr_Willis: i tend to use Azuraus
+[18/03/2006, 10:28:00] User: how do i go about extending my desktop onto another monitor is it even possible with linux?
+[18/03/2006, 10:29:00] Dr_Willis: its possible.
+[18/03/2006, 10:29:00] Dr_Willis: what video card?
+[18/03/2006, 10:47:00] User: do 'ATi Mobility Radeon X600 PCI Express''s work well with ubuntu?
+[18/03/2006, 10:47:00] Dr_Willis: my X200Mobility works.
+[18/03/2006, 10:48:00] User: cool. thnx
+[22/03/2006, 11:35:00] Dr_Willis: if you are allreayd logged into gnome - you can start  shareiing the current desktop with vino (i think) or in the menus
+[22/03/2006, 11:36:00] User: you should be able to share it if you are already logged in.
+[22/03/2006, 11:36:00] Dr_Willis: i did - and it was much slower then a real 'vncserver' session i found.
+[23/03/2006, 10:34:00] User: im having problems with streaming video skipping, some video works but others do not
+[23/03/2006, 10:36:00] User: i have a FAT32 logical partition that i made during the ubuntu installation, where can I mount/see it? its not on my desktop
+[23/03/2006, 10:37:00] Dr_Willis: if you created it - you will need to format it perhaps. (unless the isntaller did) it should have a entry in /media/
+[25/03/2006, 09:00:00] User: Yeah, but the \ means it's still the one thing
+[25/03/2006, 09:02:00] User: Why can't you have spaces?
+[25/03/2006, 09:02:00] Dr_Willis: :P  im too scared to ask that. lol
+[30/03/2006, 11:01:00] Dr_Willis: shhh thats a secret.. if he knew how to do that.. then he would know  the secret handshake also! :p
+[30/03/2006, 11:02:00] User: lol, I think the secret handshake is a little more secret than the sudo passwd root dance
+[30/03/2006, 11:02:00] Dr_Willis: the people that shouled be allowed to set the root password.. should allready know how to do it. :P its like a Initation test.
+[30/03/2006, 11:04:00] User: Please send me one FireWire external HD
+[30/03/2006, 11:04:00] User: Free of charge
+[30/03/2006, 11:04:00] Dr_Willis: heh - i gave away a external firewire drive case the other day
+[30/03/2006, 11:48:00] User: has anyone had dapper start crashing at xwin startup
+[30/03/2006, 11:50:00] User: has anyone had dapper start crashing at xwin startup
+[30/03/2006, 11:50:00] Dr_Willis: not lately.
+[31/03/2006, 16:34:00] User: Could You Please help me...how do I have to start Cd-Live AFTER Booting?
+[31/03/2006, 16:35:00] User: I put it in It`s Booting but it start in DOS!
+[31/03/2006, 16:35:00] Dr_Willis: i think you need to clarify the issue.
+[01/04/2006, 07:56:00] User: what is the command to delete a file in the terminal? Thanks
+[01/04/2006, 07:57:00] User: cheers!
+[01/04/2006, 07:57:00] Dr_Willis: it will be worth the effort to find a few bash tutorials
+[01/04/2006, 09:26:00] User: how do i convert .rpm's into tar's??????
+[01/04/2006, 09:26:00] Dr_Willis: why would you need to?
+[01/04/2006, 09:27:00] Dr_Willis: the 'advance bash scripting  guide' has a example script that does that i recall.
+[01/04/2006, 09:45:00] User: anyone using the tv output on their nvidia card?
+[01/04/2006, 09:45:00] Dr_Willis: i have. :P
+[01/04/2006, 09:45:00] Dr_Willis: i isntalled the nvidia drivers. and the thing defaulted to the tv out.. i had to twiddle with twinview to get X back off the tv. :P
+[01/04/2006, 12:33:00] User: whats the 'lightest-weight' msn client for linux
+[01/04/2006, 12:33:00] Dr_Willis: proberly one of the console based ones :P
+[01/04/2006, 12:34:00] User: anything else?
+[01/04/2006, 13:50:00] User: can someone help me format a hard drive
+[01/04/2006, 13:50:00] User: first week with ubuntu
+[01/04/2006, 13:51:00] Dr_Willis: you fdisk/partition the drive as you like, then use mkfs.ext3 normally. Theres proberly a few howtos and wiki pages on this topic
+[02/04/2006, 12:46:00] User: hi all, how do i decompress RAR files?
+[02/04/2006, 12:46:00] User: i have ARK installed
+[02/04/2006, 12:46:00] Dr_Willis: install Rar or unrar
+[02/04/2006, 12:47:00] Dr_Willis: winrar doew work under wine.
+[02/04/2006, 12:49:00] User: actually, not compressed. It's the mac equivalent to uucode.
+[02/04/2006, 12:49:00] Dr_Willis: ok :P
+[06/04/2006, 10:09:00] User: my totem player wont play
+[06/04/2006, 10:09:00] User: can anybody help
+[06/04/2006, 10:09:00] Dr_Willis: go into a little more details.
+[06/04/2006, 11:39:00] User: omg, microsoft is buying canonical is this true?!!!!
+[06/04/2006, 11:40:00] User: did you guys see they shut down nUbuntu
+[06/04/2006, 11:40:00] Dr_Willis: i also hear  that a XXXubuntu is in the works with Porn themes.
+[10/04/2006, 10:42:00] User: is there any opensource software available to pump data to displays on multiple networked computers? Info like caller id?
+[10/04/2006, 10:43:00] Dr_Willis: proberly 100 ways to do that. :P
+[10/04/2006, 10:44:00] User: is there any software that makes it easy? Ideally, it'd be easy to use and support multiple data inputs  and multiple computers to pump data to.
+[11/04/2006, 09:11:00] User: how do I open the lilo.conf file with sudo so I can configure it... I don't remember what opens the editor.
+[11/04/2006, 09:12:00] Dr_Willis: ubuntu defaults to grub.. you sure you need lilo?
+[11/04/2006, 09:18:00] User: when I installed ubuntu I selected to have lilo installed instead because I was having what I thought to be problems with the grub one, later turned out to be a partitioning issue.
+[12/04/2006, 09:55:00] User: short question: what do i need to run x-dependent applications on a computer, over an SSH-tunnel? I want to use computer X to run x-programs at computers Y's screen through SSH.
+[12/04/2006, 09:55:00] User: :P
+[12/04/2006, 09:55:00] Dr_Willis: i tend to ssh -X to the box, then run the app. and it shows up locally.
+[12/04/2006, 10:16:00] Dr_Willis: :P
+[12/04/2006, 10:17:00] User: Well I tried that
+[12/04/2006, 10:17:00] User: Then I looked for it
+[13/04/2006, 09:02:00] User: i have a question regarding ubuntu.. im trying to install modem drivers, the instructions i have gotten from the ubuntu site tell me to make clean, when i type that in it tells me command not found
+[13/04/2006, 09:03:00] Dr_Willis: if compiling stuff you need to have some of the developer packages installed - and 'build-essential'
+[13/04/2006, 09:05:00] Dr_Willis: proberly - or apt-get them from the internet
+[14/04/2006, 09:12:00] User: is it possible to get gmail emails?
+[14/04/2006, 09:12:00] Dr_Willis: gmail uses a pop3 server i think. so its doable.
+[14/04/2006, 09:12:00] User: thx
+[15/04/2006, 07:56:00] User: hey there dudes , can some one hlp me with trying to find a free messenger that is usable with <Gnome, Ubuntu, Linux > that supports a web cam, I have family far away the kids should talk to but had a technician remove all windows applications.. hlp
+[15/04/2006, 07:57:00] Dr_Willis: i hear some of the newer versions of gaim have some web cam support.
+[15/04/2006, 08:03:00] Dr_Willis: i doubt if thats the latest one.
+[20/04/2006, 09:02:00] User: How can i run a irc server?
+[20/04/2006, 09:02:00] User: off of my linux system
+[20/04/2006, 09:02:00] Dr_Willis: installl one, start it up.. :P
+[22/04/2006, 10:18:00] Dr_Willis: heh - i tried Mepis.. for a very short time..
+[22/04/2006, 10:18:00] User: great distro for a newb
+[22/04/2006, 10:18:00] Dr_Willis: I would reccomend Ubuntu over Mepis for a newb. :P
+[23/04/2006, 08:51:00] User: so I've installed libdvdcss2, yet I still can't play DVD's -- Totem tells me a proper decoder isn't installed.  any ideas?  I'm running amd64
+[23/04/2006, 08:53:00] User: also, somehow I've broken the auto-mounting of my DVD drive -- I have to manually 'mount /media/cdrom0' and 'umount /dev/scd0'
+[23/04/2006, 08:54:00] Dr_Willis: run vlc from a terminal and see what messages its saying
+[25/04/2006, 09:22:00] User: any unix-compatible editor for ubuntu?
+[25/04/2006, 09:22:00] User: give one please.. one that i can easily install
+[25/04/2006, 09:23:00] Dr_Willis: like 'vi' ya mean?
+[30/04/2006, 11:27:00] User: hi all
+[30/04/2006, 11:28:00] User: much as i love ubuntu i would like to try another distro to expand my knowlege of linux. I aim in particular at learning more about the shell and just different ways of doing things (but not rpm...). Can anybody recommend a distro?
+[30/04/2006, 11:29:00] Dr_Willis: learn the shell by using the shell. :P the fundamentals are the same.
+[02/05/2006, 11:15:00] User: if i try sudo it says: emil is not in the sudoers file.  This incident will be reported.
+[02/05/2006, 11:15:00] User: what to do?
+[02/05/2006, 11:16:00] Dr_Willis: now ya did it.
+[03/05/2006, 11:31:00] User: so can anyone tell me which editor they prefer (Vim or Emacs) and why they prefer it. Vim looks sweet but im not sure
+[03/05/2006, 11:32:00] Dr_Willis: learn vi.. because ya never know when you will have to use some minilal rescue disk/cd and HAVE to use vi.
+[04/05/2006, 09:58:00] Dr_Willis: i did once.. by mistake.. :P
+[04/05/2006, 09:59:00] User: Does anyone know how I can find the name of my sound card?
+[04/05/2006, 09:59:00] User: I dont know how to navigate thru these menus and such..
+[04/05/2006, 10:00:00] Dr_Willis: 'sudo lspci | less'
+[04/05/2006, 11:27:00] Dr_Willis: now thats... just.. weird.
+[04/05/2006, 11:27:00] User: heh
+[04/05/2006, 16:41:00] User: that's it
+[05/05/2006, 09:01:00] User: Any Xubuntu/Dapper users out there?
+[05/05/2006, 09:01:00] User: mumbles - uname -a
+[05/05/2006, 09:01:00] Dr_Willis: twiddling with it now. :P
+[12/05/2006, 15:05:00] User: How do I change an environment variable for a program?  I'm trying to make it so SNES9x lets me load files from a different directory since it's not checking the proper one.
+[12/05/2006, 15:05:00] Dr_Willis: 'export whatever=whever'
+[30/05/2006, 07:58:00] Dr_Willis: good luck on that. YOu are refering to OS-X dmg files correct?
+[15/05/2006, 10:32:00] User: Oh, 1 more qustion. Is there a shortcut key to swictch between workspaces? If so what is it.
+[15/05/2006, 10:33:00] User: Oh, 1 more qustion. Is there a shortcut key to switch between workspaces? If so what is it?
+[15/05/2006, 10:34:00] Dr_Willis: i belive ya can mouse over the pager and scroll the wheel. :P or ya can look at the gnome key binding perferance program and see.
+[15/05/2006, 10:34:00] Dr_Willis: !prelink
+[15/05/2006, 10:35:00] Dr_Willis: I dont see what prelinking would affect the dvd drive  however. You mean dvd videos are not playing as well?
+[15/05/2006, 10:36:00] User: i don't see it, too, bit i want to make sure it isn't prelink
+[15/05/2006, 11:01:00] User: hello in kde it is possible to lets your windows remember there possition for the next time you start them up is this also possible whit gnome?
+[15/05/2006, 11:01:00] Dr_Willis: in gnome it can do it if you use their 'spatial'  file nagivational mode.. wich MOST people seem to hate.
+[15/05/2006, 11:01:00] Dr_Willis: not sure about in kde.
+[18/05/2006, 09:25:00] User: Hi, I'm a newb, wants to get started with ubuntu. Current setup is C: 10GB With XP and D: 70GB Stuff with 13GB available. Both are NTFS and the D drive have at least 7 GB of free unoccupied space at the very end of the drive. How do I go forward to install Ubuntu on a new partition?
+[18/05/2006, 09:25:00] Dr_Willis: you got 1 hard drive? or is D: its own hard drive?
+[18/05/2006, 09:27:00] Dr_Willis: it is wise to backup all imporntant stuff first.
+[18/05/2006, 10:52:00] User: hi
+[18/05/2006, 10:52:00] User: how to connect ubuntu to windows server?
+[18/05/2006, 10:52:00] Dr_Willis: you mean to share directories?
+[18/05/2006, 11:39:00] Dr_Willis: she? girls dont use computers! :p
+[18/05/2006, 11:39:00] User: That's hot. Very hot. >=)
+[18/05/2006, 11:40:00] Dr_Willis: its amazing the # of mice she breaks.
+[19/05/2006, 05:22:00] User: has anyone tried warcraft frozen throne on crossover and know if it works, the site says its not suported
+[19/05/2006, 05:23:00] User: anyone know any good windows emulators that warcraft works well on and are easy to set up
+[19/05/2006, 05:25:00] Dr_Willis: you mean World of Warcraft? or Warcraft 1/2/3/4?
+[19/05/2006, 07:04:00] User: I wish ATI had drivers as good as nvidia
+[19/05/2006, 07:05:00] User: Does anyone know if ubuntu installs proprietary drivers as an option now?
+[19/05/2006, 07:05:00] Dr_Willis: not that i have heard of..
+[19/05/2006, 09:46:00] User: I'm new with linux and need a little help, I need to install my usb ethernet adapter's drivers but there all windows drivers
+[19/05/2006, 09:46:00] Dr_Willis: you mean a usb-wireless doo-dad? :P
+[19/05/2006, 09:47:00] Dr_Willis: well.. all i can say is ... good luck. :P
+[20/05/2006, 10:42:00] User: hi, I've just installed windows, how do i setup grub in ubuntu (live cd) so that I can boot into ubuntu and not windows?
+[20/05/2006, 10:43:00] Dr_Willis: you mean windows over wrote the grub from your ubuntu install?
+[20/05/2006, 10:44:00] Dr_Willis: that put it on the mbr of hda1 -- you MAY of wanted to use  'hda'
+[20/05/2006, 16:16:00] User: any one have any idea how to fix this, I installed a new sound card 'Soundblaster X-Fi and now have NO sound !
+[20/05/2006, 16:17:00] Dr_Willis: Im not even sure if that card has any linux support yet.
+[20/05/2006, 16:18:00] Dr_Willis: that card has only been out a short while. Creative has great cards.. but linux support for them is often lacking.  (or slow in comming)
+[22/05/2006, 07:25:00] User: I'm having a problem with incompatibility between my Nvidia driver kernel modules and X modules on Kubuntu 5.10. I recently upgraded to an Nvidia GeForce6600 card. After much ado I was able to compile the newest Nvidia drivers for the card and get X up and running. After that I ran Automatix to get some useful utils and checked the 'Nvidia X module update' (Or something like that). Ever since X will not start. I get an error message sayin
+[22/05/2006, 07:26:00] Dr_Willis: you ever have the nvidia stuff working?
+[22/05/2006, 07:28:00] User: : Yeah. It was working fine till I ran Automatix
+[22/05/2006, 07:48:00] User: hello, is there a way to install ubuntu on a partition and to load it some way without changing the mbr?
+[22/05/2006, 07:50:00] User: no floppy. Can i use the ubuntu cd or a grub boot cd or something?
+[22/05/2006, 07:51:00] Dr_Willis: theres always a way.. but it may take some learning of how grub works.
+[22/05/2006, 10:46:00] Dr_Willis: IcemanV9,  depends on what you want to do.
+[22/05/2006, 10:47:00] Dr_Willis: xen is sort of designed with different tasks in mind then qemu and vmplayer
+[22/05/2006, 10:47:00] User: i am looking for speed to test a few OS
+[22/05/2006, 10:48:00] User: i instalated wine on my ubuntu .. but how i use this aplication ? where can i find it ?
+[22/05/2006, 10:49:00] Dr_Willis: you may want to read up about wine on the wine web sites.. you 'should' be avble to double click on a windows.exe installer and install a windows ap.. and it add a menu item
+[22/05/2006, 10:49:00] Dr_Willis: or from the shell -->   wine /path/to/windowsapp.exe
+[22/05/2006, 10:50:00] User: where sthe wireles network dialog on ubuntu
+[22/05/2006, 10:52:00] User: do you need a driver for Ralink rt2500
+[22/05/2006, 10:53:00] Dr_Willis: lib/modules/2.6.15-22-386/kernel/drivers/net/wireless/rt2500/rt2500.ko - so its installed on dapper.. not sure if you got it installed or not.
+[22/05/2006, 11:12:00] User: Another question, sorry if im asking for alot :P. But i downloaded a lm-sensor program, and extracted the .tar.gz into a folder. What do I do now ?
+[22/05/2006, 11:12:00] Dr_Willis: you can just apt-get install lm-sensors.
+[22/05/2006, 11:12:00] User: Thanks.
+[23/05/2006, 10:21:00] User: anyone know what kind of java compiler ubuntu comes standard with?
+[23/05/2006, 10:21:00] Dr_Willis: i would guess none 'standard'
+[23/05/2006, 10:22:00] Dr_Willis: you can install gcc, or the sun java tools , or some of the other java packages.
+[24/05/2006, 05:39:00] User: I just tried it and it worked
+[24/05/2006, 05:39:00] User: But it's slow
+[24/05/2006, 05:40:00] Dr_Willis: so its plays as good as it does under windows then. :P
+[24/05/2006, 05:57:00] User: did anyone else hear that skype was offering their skypeout service for free until december .. ?
+[24/05/2006, 05:57:00] Dr_Willis: it was on slashdot  i think.
+[24/05/2006, 05:58:00] User: yes, that must have been it then ...
+[24/05/2006, 11:51:00] User: hi, i have a noob question(soory): I downloaded emacs a .gz file, extracted it. Logged to root, to the source folder and typed ./configure and got the error: configure: error: no acceptable cc found in $PATH
+[24/05/2006, 11:51:00] Dr_Willis: why are you bothering with the source at all?
+[24/05/2006, 11:52:00] Dr_Willis: you may want to spend a few hrs reading a few getting started guides then.
+[25/05/2006, 10:56:00] User: Okay.. so how do I change the label of a vfat usb stick please?
+[25/05/2006, 10:56:00] Dr_Willis: if ya had a windows machine handy.. plug it in and rename it.   not sure of the best way to do it under linux.
+[25/05/2006, 10:56:00] Dr_Willis: there used to be some 'dostools' that could do it. but havent seen those mentioned in ages.
+[26/05/2006, 08:52:00] User: anyone know how i can get the mozilla active x control plugin
+[26/05/2006, 08:53:00] Dr_Willis: that the one that comes with cedega?
+[26/05/2006, 08:54:00] Dr_Willis: what program says it needs activex?
+[26/05/2006, 09:45:00] User: I can't run executables. I double-click and nothing happens. I have checked nautilus options and they are supposed to run, not view. Any one know what's wrong?
+[26/05/2006, 09:46:00] Dr_Willis: run them from the shell and see what they say 'executables' is vague
+[26/05/2006, 09:47:00] Dr_Willis: run the 'terminal' program and you got a shell.  ./programnameofexe would run it. What are you truing to run Exactly?
+[26/05/2006, 11:15:00] User: hi, how can i install my graphic card's driver? how can i find a tuto for this?
+[26/05/2006, 11:16:00] Dr_Willis: type !nvidia or !ati
+[26/05/2006, 11:29:00] Dr_Willis: you just asked faq #1 :P
+[26/05/2006, 14:11:00] User: !cups
+[26/05/2006, 14:11:00] User: what's the deal with CUPS admin, do I have to enable root passwd?
+[26/05/2006, 14:12:00] Dr_Willis: theres a discussion of it - on the forums/wiki - as to what ya got to do to renable the full use of it.
+[27/05/2006, 07:27:00] User: say if you have the 32 bit version of ubuntu is there any way to swicht to the 64 bit kernal?
+[27/05/2006, 07:28:00] Dr_Willis: i say stick with 32bit for the forseeable future
+[27/05/2006, 16:13:00] User: where is finbar1 ?
+[27/05/2006, 07:31:00] User: how to set vi mode for bash?
+[27/05/2006, 07:32:00] Dr_Willis: you may want to read that 'advance bash guide' (google for it) (the package may be abs to be installed)
+[27/05/2006, 13:26:00] User: Best theme for Ubuntu? Answer fastly
+[27/05/2006, 08:26:00] User: 0,0 is hda1
+[27/05/2006, 08:26:00] User: yup lukketto
+[27/05/2006, 08:27:00] Dr_Willis: hd(0,0) MAY be hda1
+[27/05/2006, 09:04:00] User: Hello, I have a great install of Xubuntu 6.06, and was playing around with stuff. Using SYnaptic to install a game, I couldn't locate the file. Anywhere.. Does anyone have any ideas, or is there just no way to play the little mediocre arcade games with Xfce?
+[27/05/2006, 09:05:00] Dr_Willis: theres always a way
+[27/05/2006, 14:38:00] User: This DapperDrake XUbuntu is awsome. Just.. Awesome.
+[27/05/2006, 10:00:00] User: Anyone willing to help me out with a samba woe?
+[27/05/2006, 10:01:00] User: I've installed it and SWAT, but when I log into swat it doesn't give me any configuration options. As though I'm a guest.
+[27/05/2006, 10:03:00] Dr_Willis: the ubuntu packagtes proberly have it 'locked down' for security reasons - check the wiki/forums for what needs to be done to reenable full use of it.
+[27/05/2006, 10:49:00] User: is ubuntu shipped with yum?
+[27/05/2006, 10:49:00] Dr_Willis: no.. thats not a debian tool.
+[27/05/2006, 14:26:00] User: Ubuntu: Whats xEN?
+[27/05/2006, 16:29:00] User: how do i make my newly installed ubuntu system to work...i keep getting an error message saying that the xserver cant start
+[27/05/2006, 16:30:00] User: i will appreciate a lot the help
+[27/05/2006, 16:30:00] Dr_Willis: sounds like you need to reconfigure your X server properly. perhaps install the nvidia or ati drivers. depending on your video card.
+[28/05/2006, 08:07:00] User: Is it possible to be connected remotely to your desktop and drag files over to the other computer your on? Im connected to my home desktop but I cant seem to drag files over..
+[28/05/2006, 08:08:00] Dr_Willis: how are you 'remotely' connecting?
+[28/05/2006, 08:10:00] Dr_Willis: then thats just a vnc variant. and no it cant do it that way
+[28/05/2006, 08:43:00] User: hey, if I paste in a few lines from my terminal, would that help anybody here in telling me why the source I downloaded wont comile?
+[28/05/2006, 08:44:00] User: hey, if I paste in a few lines from my terminal, would that help anybody here in telling me why the source I downloaded wont compile?
+[28/05/2006, 08:44:00] Dr_Willis: you could paste them to pastebin :P
+[29/05/2006, 05:23:00] User: Hey all..  I know VNC programs are a dime a dozen now, but ive never used it too often..  I need something very easy that someone could run on his Windows box and I could control it via my ubuntu
+[29/05/2006, 05:24:00] Dr_Willis: that would be most of them. :P for a vnc client/server on windows - i tend to use 'ultravnc'  it has some nice features. (windows only)
+[29/05/2006, 05:26:00] Dr_Willis: kde and gnome voth have their own vnc 'clients' i recall. (called somthing like remote desktop) -   Ultra vnc is rathe reasy to set up on windows..   about as easy as any of them
+[31/05/2006, 07:30:00] User: argh I'm not liking Ubuntu already
+[31/05/2006, 07:31:00] Dr_Willis: sorry to hear that - i find it great
+[31/05/2006, 07:37:00] User: That's the first issue I ever came across really
+[10/06/2006, 08:52:00] Dr_Willis: make and format the vfat partition under linux - XP likes to force you to use ntfs for anything over a specific size
+[10/06/2006, 08:53:00] Dr_Willis: or use one of those ext2/3 reader/writer drivers for xp and just use a spare ext2 partition.
+[10/06/2006, 08:53:00] User: winxp likes to screw up the ext parittion then though
+[12/06/2006, 09:12:00] User: I want to download Dapper Drake LiveCD, but i can't find it as 'LiveCD'
+[12/06/2006, 09:12:00] User: Is the Desktop CD that one?
+[12/06/2006, 09:12:00] Dr_Willis: the normal cd is the live cd.
+[12/06/2006, 10:30:00] User: hello, i've 100gb hd but when it's mounted only 50gb is seen, anyone knows why? thanks
+[12/06/2006, 10:32:00] User: hello, i've 100gb hd but when it's mounted only 50gb is seen, anyone knows why? thanks
+[12/06/2006, 10:32:00] Dr_Willis: use fdisk and look at how its partioned.
+[12/06/2006, 10:31:00] User: joe mama
+[12/06/2006, 10:33:00] User: anyone know of a keyboard that requires VERY LITTLE force to trigger a key press?
+[12/06/2006, 10:34:00] Dr_Willis: theres some very high quality keyboards out. (like that 'daskeyboard' or its original form with letters on the keys) that may be what you want
+[13/06/2006, 09:32:00] User: can every one help me using x-chat and totem??
+[13/06/2006, 09:33:00] User: xchat and totem ... i have problems with totem, but i cant understand some things about this xchat, because it is the first time i use it
+[13/06/2006, 09:34:00] Dr_Willis: notice the xchat help menu item? :P  heh
+[13/06/2006, 10:00:00] User: k got it working :)
+[13/06/2006, 10:00:00] User: how on earth does one enable a second grfx card and second monitor?
+[13/06/2006, 10:00:00] Dr_Willis: nvidia?
+[14/06/2006, 08:31:00] User: what is the point of xcfe?
+[14/06/2006, 08:31:00] Dr_Willis: whats the point of anything.
+[14/06/2006, 08:31:00] Dr_Willis: because you like how it works better.
+[14/06/2006, 08:41:00] User: when I move the windows, I only want it to draw the border and not the whole window. where do I set that?
+[14/06/2006, 08:41:00] Dr_Willis: check the window manager/perferances area its in there some where.
+[14/06/2006, 08:43:00] User: I can't find it
+[14/06/2006, 09:54:00] Dr_Willis: minidisks - aint those like 8-track tapes? :P
+[14/06/2006, 09:54:00] User: haha.  i'm pleased to see that someone else actually knows what minidisks are
+[14/06/2006, 09:55:00] Dr_Willis: ive seen them.. and kept wondering why they are still around.. they are like the child-sony-dont-want-to-claim. :P
+[14/06/2006, 10:32:00] User: Is the configuration file (.config?) for the kernel that ships with breezy available somewhere?
+[14/06/2006, 10:33:00] Dr_Willis: thers used to be a way to get it from /proc or /sys - if that feature was enqbled in the kernel compile.. but i cant rember the details.
+[14/06/2006, 10:34:00] User: hrm digging.
+[17/06/2006, 09:23:00] User: anyone care to help me venture a guess why on a fresh install the 2.6.12 kernel will launch into X but the 2.6.15 crashes the computer..
+[17/06/2006, 09:23:00] User: (under dapper)
+[17/06/2006, 09:23:00] Dr_Willis: furst guess - the nvidia or ati drivers are not loading right.
+[17/06/2006, 10:11:00] User: on another computer google earth suggests to install to /usr/local/google-earth , but on this computer it suggests /home/scorpmoon/google-earth
+[17/06/2006, 10:11:00] User: which is a better solution
+[17/06/2006, 10:12:00] Dr_Willis: i put in my home dir.. since im the only user
+[18/06/2006, 09:57:00] User: Is it safe to run a windows based bios update utility using wine? :p
+[18/06/2006, 09:57:00] Dr_Willis: thats scary in many ways
+[18/06/2006, 09:58:00] User: It is.. but I'm not going to reinstall windows just do it :P
+[18/06/2006, 13:35:00] User: Hey if i reinstall windows on another partition will that mess up my grub?
+[18/06/2006, 13:35:00] Dr_Willis: most likely yes.
+[18/06/2006, 13:37:00] Dr_Willis: it pays to learn all about gryub. :P ya could backit up to floppy i guess and then rerun the grub installer. is one way .. not sure how to force XP to not mess withit.
+[03/07/2006, 10:39:00] Dr_Willis: wowsers - i finially got wireless working. :P
+[03/07/2006, 10:39:00] User: yea
+[03/07/2006, 16:32:00] Dr_Willis: please join #automatix and backup your system first. :)
+[03/07/2006, 15:48:00] Dr_Willis: i dont even recall kordokuvas  asking somthing.. oh well his loss...
+[03/07/2006, 15:50:00] Dr_Willis: How about 'whats the url to the user guide' :)
+[03/07/2006, 15:50:00] User: he's made it clear he refuses to follow a howto
+[04/07/2006, 06:36:00] User: gDesklets
+[04/07/2006, 06:37:00] Dr_Willis: yea - i lperfer the panel applets myself.
+[04/07/2006, 06:37:00] User: ok,np
+[04/07/2006, 16:01:00] User: what's a 'high-end' dvd burner?
+[04/07/2006, 16:03:00] User: he's just trolling..
+[04/07/2006, 16:03:00] Dr_Willis: yep. i agree
+[16/07/2006, 07:35:00] User: why doesn't ~/.ssh/config do anything :(
+[16/07/2006, 07:36:00] Dr_Willis: what you expecting it to do?
+[16/07/2006, 07:36:00] User: let me connect to a machine named in it
+[16/07/2006, 08:20:00] User: hi
+[16/07/2006, 08:20:00] User: I'm running Windows 3.1 in VMWare Server, What settings do I need to use for the sound device?
+[16/07/2006, 08:21:00] Dr_Willis: thats scary..  :)
+[30/07/2006, 09:47:00] Dr_Willis: the faq fir that fs driver explains how ext3 is backeards compatiable with ext2./ :)
+[30/07/2006, 09:47:00] Dr_Willis: if it can read ext2. then it CAN read ext3
+[30/07/2006, 09:48:00] User: ok, thanks
+[01/08/2006, 07:33:00] User: hi, isa there any way to see the ubuntu terminal log so i can look back at commands?
+[01/08/2006, 07:33:00] Dr_Willis: 'history' command
+[01/08/2006, 07:34:00] Dr_Willis: may be worth the effort to rea d a few bash tutorials. :P
+[03/08/2006, 06:25:00] User: whats a good vnc program?
+[03/08/2006, 06:25:00] User: and command to install it?
+[03/08/2006, 06:26:00] Dr_Willis: good for what?
+[03/08/2006, 16:55:00] User: How can i disable this animation which is shown when minimizing windows?
+[03/08/2006, 16:56:00] Dr_Willis: ive heard theres some gconf setting you can mess with - but thats all i rember. :( heh.
+[03/08/2006, 16:56:00] User: hm.. okay, thx anyway
+[04/08/2006, 06:42:00] User: anyone here in ##Linux?
+[04/08/2006, 06:42:00] User: I need to boot my old nick, I timed out, and it's still connected
+[04/08/2006, 06:42:00] Dr_Willis: /msg nickserv help
+[05/08/2006, 05:13:00] Dr_Willis: concise and to the point. :P whats not to love
+[05/08/2006, 05:13:00] User: fill up gas at shell!
+[05/08/2006, 05:13:00] Dr_Willis: put a tiger in your tank!
+[05/08/2006, 08:22:00] User: mc_: try with ffmpeg
+[05/08/2006, 08:23:00] User: do you know if the HP 3940 is compatible with ubuntu (dapper)? I dont see it on  wiki
+[05/08/2006, 08:23:00] Dr_Willis: check www.cups.org
+[05/08/2006, 11:29:00] User: is there any paid for musicdownload software available for ubuntu? couldnt find anything on google or the wiki :(
+[05/08/2006, 11:29:00] Dr_Willis: you mean LEGAL or P2P ? :P
+[05/08/2006, 11:30:00] Dr_Willis: theres some legal music stores that dont require fancy programs ( Unline that silly itunes)
+[05/08/2006, 11:40:00] User: why doesn't firefox 1.5.0.1 automatically upgrades itself?
+[05/08/2006, 11:40:00] User: I've been told it should
+[05/08/2006, 11:40:00] Dr_Willis: i dont see how it can to be honest.. a user running firefox shouldent be able to replace the system wide firefox.
+[08/08/2006, 09:40:00] Dr_Willis: For alternative grub install - you need to use the Alternate installer.
+[08/08/2006, 09:41:00] Dr_Willis: Or so i rember reading on the cd download page.
+[08/08/2006, 09:41:00] User: i am using the alternative cd.
+[09/08/2006, 06:37:00] User: hello... i'm migrating from slackware to ubuntu and i want to install over my old partition (and keep my old files) there's no problem with that, right? witch cd should i download?
+[09/08/2006, 06:37:00] Dr_Willis: you got your  /home on its own partition?
+[09/08/2006, 06:38:00] Dr_Willis: backup your /home some how.
+[09/08/2006, 06:40:00] User: Is there an easy way to install all the stuff required for C development under 6.06? ie. gcc, headers, bin-utils in one fell swoop?
+[09/08/2006, 06:40:00] Dr_Willis: apt-get install build-essential
+[09/08/2006, 06:41:00] User: thanks
+[09/08/2006, 06:50:00] User: Startup problem... system insists on mounting firewire drive even if its not attached.
+[09/08/2006, 06:51:00] Dr_Willis: use the noauto option for thaut drive in the fstab, then you have to mount it manually.
+[09/08/2006, 06:53:00] User: its already set to noauto
+[13/08/2006, 06:47:00] User: do you guys really like ubuntu?
+[13/08/2006, 06:47:00] User: is it better than gentoo?
+[13/08/2006, 06:48:00] Dr_Willis: different design goals.
+[13/08/2006, 09:47:00] User: Hi! Is it hard to setup squid?
+[13/08/2006, 09:47:00] Dr_Willis: rather trivial last i messed with it.
+[13/08/2006, 09:47:00] User: okey, then I'll give it a try, thanks
+[13/08/2006, 10:50:00] User: every time I mention virus scanners and ubuntu in the same sentence, someone tries to wash my mouth out with soap... :)
+[13/08/2006, 10:50:00] Dr_Willis: all the linux 'virus scanner' programs are for scanning windows data files to protect windows systems. :P
+[15/09/2007, 05:37:00] User: as far as I can tell, libssh-2 and libssh2 are different applications
+[13/08/2006, 10:57:00] User: How do i boot ubuntu in text mode?
+[13/08/2006, 10:57:00] Dr_Willis: just kill the gdm/xdm service is one way.
+[13/08/2006, 10:59:00] Dr_Willis: when problems arive - often you are stuck in the console to fix it...
+[13/08/2006, 12:10:00] User: Preseed file option 'd-i base-installer/kernel/override-image string linux-server'. Where is that 'linux-server' kernel?
+[13/08/2006, 12:12:00] User: Can you guys point me to some Ubuntu remastering channel?
+[13/08/2006, 12:12:00] Dr_Willis: not sure thgat one exists.
+[13/08/2006, 16:39:00] User: Will Logmein work on Ubuntu>
+[13/08/2006, 16:39:00] User: or am i stuck with VNC?
+[13/08/2006, 16:39:00] Dr_Willis: never heard of it.
+[14/08/2006, 10:20:00] User: Hi, does anybody have installed xgl on his dapper box here ?
+[14/08/2006, 10:21:00] Dr_Willis: i see a lot of peopel that install it.. then it dont work.. and they have a hard time UNinstalling it.
+[14/08/2006, 10:22:00] User: the main probleme is that I added the compiz repositories to apt, but the last mesa version don't appear in synaptic...
+[14/08/2006, 10:25:00] User: can I see whats in a .tar.gz file without extracting it somewhere?
+[14/08/2006, 10:26:00] Dr_Willis: i use 'mc' to explore the contents of those kind of files
+[14/08/2006, 10:26:00] Dr_Willis: logic 101 - INSTALL IT then. :P
+[14/08/2006, 16:02:00] Dr_Willis: Rictoo_ run it frim the shell. sh whatever.sh
+[14/08/2006, 16:02:00] User: Of course I did
+[14/08/2006, 16:02:00] User: Of course I did
+[16/08/2006, 08:59:00] User: so um with xmms... installation ?? i guess i just can't doubleclick something and magically make things work can i ? :)
+[16/08/2006, 08:59:00] Dr_Willis: sudo apt-get install xmms
+[16/08/2006, 09:02:00] Dr_Willis: it pays to read up on the apt system. and learn how it works.
+[19/08/2006, 09:09:00] User: the problem is im too eager to install it now, i dont have any free cds and i dont want LAMP from server
+[19/08/2006, 09:10:00] User: i would be grateful if you tell me is there a way to turn off live mode
+[19/08/2006, 09:10:00] Dr_Willis: live mode?
+[19/08/2006, 09:51:00] User: how can increase my video performance in ubuntu's desktop? i have an sis m650
+[19/08/2006, 09:51:00] Dr_Willis: reduce the # of colors, use a very light window manager..  hmm..  dont run extra stuff ya dont need.
+[19/08/2006, 09:52:00] Dr_Willis: dont use that transparent -useless-eye candy. :P
+[19/08/2006, 11:19:00] User: lol, stopher, if hes 'da bomb' shouldn't we all bne running from him!
+[19/08/2006, 11:21:00] User: lol, who wnats to be a millionaire (german version) software malfunction, started blinking the right answer, before he said anything. sholda used linux ;)
+[19/08/2006, 11:21:00] Dr_Willis: seen that happen on the price is right tv show .
+[20/08/2006, 07:11:00] User: anyone have any ideas for a good text editor for programming?
+[20/08/2006, 07:11:00] Dr_Willis: vi and emacs are time tested classics. :)
+[20/08/2006, 07:12:00] Dr_Willis: gvim and 'cream'
+[22/08/2006, 09:02:00] User: is 10.4 guaranteed to work?
+[22/08/2006, 09:03:00] Dr_Willis: Guarentted or your $$ back!
+[02/09/2006, 09:33:00] Dr_Willis: now ya know why i went back to the old 2.4 xchat.
+[22/08/2006, 09:02:00] User: fluxbox or icewm?
+[22/08/2006, 09:04:00] User: what are the pro and cons of fluxbox and icewm?
+[22/08/2006, 09:04:00] Dr_Willis: use them,, if ya like them... good.. if not try somthing else. :P they both use less memory.resorureces then other bigger desktops
+[22/08/2006, 10:42:00] User: is there a way to get around the 2Gbyte file size limitation of smbfs mount points?
+[22/08/2006, 10:43:00] Dr_Willis: i though that limit got removed some time ago.
+[10/03/2010, 20:25:00] Dr_Willis: i see mention of a 'time format string'
+[25/08/2006, 10:25:00] User: ok noone taking me seriously
+[25/08/2006, 10:25:00] User: How do i change the default size of the icons on my desktop..? i think they're too big
+[25/08/2006, 10:25:00] Dr_Willis: we care... honest we do....
+[27/08/2006, 08:47:00] User: is it safe to use tools built into ubuntu to resize my secondary NTFS partition, and resize my main linux partition
+[27/08/2006, 08:47:00] User: is it safe to use tools built into ubuntu to resize my secondary NTFS partition, and resize my main linux partition?
+[27/08/2006, 08:47:00] Dr_Willis: use a live cd and gparted - is what ive done dozens of times.. defrag/scandisk the partitions befor and after resizing them
+[27/08/2006, 09:27:00] User: is there an nes emulator for ubuntu that i dont have to compile?
+[27/08/2006, 09:28:00] Dr_Willis: try 'apt-cache search nes'
+[27/08/2006, 09:29:00] Dr_Willis: nestra - Nintendo Entertainment System emulator
+[27/08/2006, 09:48:00] User: Can someone please tell me what the lost + found directory is for please, it is sitting at 6GB and I am running low on space now. Is it safe to clear this folder?
+[27/08/2006, 09:48:00] Dr_Willis: when fsck finds files that are lost - they7 get tossed in there.
+[27/08/2006, 09:48:00] Dr_Willis: that meads you have had some serious drive issues lately it seems.
+[27/08/2006, 11:38:00] User: I'm trying to setup Grub automatically via a script. Can I define the mappings between devices and grub devices the way I want within the /boot/grub/device.map file ?
+[27/08/2006, 11:39:00] Dr_Willis: im not sure thats doable. I though that file was how grub scanned/saw the devices.
+[27/08/2006, 11:40:00] User: yes, it is. But you can edit it to change how Grub sees them... so I was wondering if there were restrictions (for instance, if I put hda1 on hd0,0 and sda3 on hd0,1 will it complain or not ?)
+[27/08/2006, 11:51:00] User: um.. i want to transfer stuff from the mac to the ubuntu/xubuntu box.. whats the easyist way to do that network wise ?
+[27/08/2006, 11:52:00] Dr_Willis: with os-x ? id use ssh.
+[27/08/2006, 11:52:00] Dr_Willis: or samba
+[27/08/2006, 14:11:00] User: when installing ubuntu the setup does not detect my NTFS partitions at all.. and i want to keep one partition with all files safe. What to do?
+[27/08/2006, 14:11:00] Dr_Willis: http://wiki.linux-ntfs.org/doku.php?id=ntfs-en#can_i_mount_an_ntfs_volume
+[27/08/2006, 14:13:00] User: the gnome partition manager there does not see any of the partition in my hdd
+[27/08/2006, 15:09:00] User: can someone do me a favor real fast? Go to http://spreadsheets.google.com and tell me if it works ok
+[27/08/2006, 15:09:00] Dr_Willis: works fine for me
+[27/08/2006, 15:10:00] User: okay thanks. if you type java -version what do you get?
+[28/08/2006, 14:47:00] User: hello i need to know where does the dirvers  of my network card lies?
+[28/08/2006, 14:48:00] User: ! network card
+[28/08/2006, 14:48:00] Dr_Willis: what kind of network card you got?
+[28/08/2006, 14:55:00] User: does here run a dual boot with the fs-drivers?
+[28/08/2006, 14:55:00] User: *does anyone here
+[28/08/2006, 14:56:00] Dr_Willis: 'the fs-drivers' ?
+[28/08/2006, 15:03:00] User: can u install ubuntu on pc and mac? , how good is ubuntu on detecting hardwares? It's able with duel-boot ? plx answer me if u know:):)
+[28/08/2006, 15:05:00] Dr_Willis: you mean the new intel macs? no clue on those..   and its decently good at hw detection.
+[28/08/2006, 15:05:00] Dr_Willis: and it sets up dual booting good.
+[28/08/2006, 15:33:00] User: how can i run solitaire etc on wine under ubuntu 6.06?
+[28/08/2006, 15:34:00] User: i want to use wine i have to work on that so how to run widnows binaries in wine?
+[28/08/2006, 15:35:00] Dr_Willis: wine path/to/whatever.exe :)
+[28/08/2006, 15:42:00] User: hi, i don't run gnome, what is the app that people use to set up printing called?
+[28/08/2006, 15:42:00] Dr_Willis: gnome-cups-manager
+[28/08/2006, 15:42:00] User: thanks
+[30/08/2006, 14:04:00] User: apt-rpm + synaptic
+[30/08/2006, 14:05:00] User: problem solved
+[30/08/2006, 14:05:00] Dr_Willis: blasphmy! :)
+[02/09/2006, 12:20:00] User: what's the easiest way to add fat32 support to the kernel?
+[02/09/2006, 12:20:00] Dr_Willis: normally its compiled in, or as a module. thats as far as i know the ONLY way.
+[02/09/2006, 12:20:00] User: ok, thanks
+[03/09/2006, 09:48:00] User: will that always work? i typed it in before and nothing happend
+[03/09/2006, 09:50:00] User: my problem is that when im login in my 2nd display is broken, when i start and use gnome or xfce it works but when i start kde its broken like when im login in, any idea what config i need to change
+[03/09/2006, 09:50:00] Dr_Willis: perhaps theres some  kde setting to fix that.
+[04/09/2006, 13:38:00] User: !codecs > anon32
+[04/09/2006, 13:39:00] User: i have a problem you can fix but noone wants to answer, never. why is that.
+[04/09/2006, 13:39:00] Dr_Willis: patience is a virtue. and the wiki/forums are also great
+[05/09/2006, 10:31:00] User: !info resolvconf
+[05/09/2006, 10:31:00] Dr_Willis: i dont even have a file NAMED that on my system
+[05/09/2006, 10:33:00] Dr_Willis: i was thinking that resolconf CAUSED more problems for my system..  then it fixed. :P
+[07/09/2006, 09:09:00] Dr_Willis: :P
+[07/09/2006, 09:10:00] User: i'll make a screencast for you in 3 weeks when i get my laptop back
+[07/09/2006, 09:10:00] Dr_Willis: then he will say youve faked them
+[07/09/2006, 09:54:00] User: does anyone know why i would get a segmentation fault when i modprobe ndiswrapper?
+[07/09/2006, 09:56:00] User: come on... what does it mean if my pc gives me a segmentation fault then freezes when i try to modprobe ndiswrapper? it worked fine in ubuntu 5!?!?!
+[07/09/2006, 09:57:00] Dr_Willis: means its crashing for some reason... not much more i can say on it.
+[07/09/2006, 10:41:00] User: no one who knows how to change keyboard layout in the console? In aterm etc.?
+[07/09/2006, 10:41:00] Dr_Willis: or no one has needed to.
+[07/09/2006, 10:41:00] User: lol yeah that might be the case too, but then nobody probably knows
+[08/09/2006, 09:56:00] User: hi all, I need some help.  I got the Desktop CD version of ubuntu via download, but it won't let me burn it on to a CD.  Is there a way i can run it from my computer
+[08/09/2006, 09:57:00] User: my CD burner program
+[08/09/2006, 09:57:00] Dr_Willis: 'burn at once' is a nice free iso burner program for windows
+[10/09/2006, 10:50:00] User: You probably get this a lot, but what the absolute simplest FTP server to set up if I wish to allow someone to temporarily have FTP access to a subdirectory on my server?
+[10/09/2006, 10:51:00] User: I just finished reading a How-To on ProFTPd
+[10/09/2006, 10:51:00] Dr_Willis: actually we dont get that a lot. :P
+[11/09/2006, 10:15:00] User: how big does /boot need to be?
+[11/09/2006, 10:16:00] Dr_Willis: 100mb tops.. perhaps much less.
+[11/09/2006, 10:17:00] User: yeah, thanks, that's what I thought.
+[11/09/2006, 10:29:00] User: I am having trouble opening .rar files can someone help me out or name an app for me to do it with?
+[11/09/2006, 10:29:00] User: they are in .r00 .r01 as well
+[11/09/2006, 10:29:00] Dr_Willis: unrar the first file
+[12/09/2006, 09:06:00] User: any good kubuntu/xgl guide available?
+[12/09/2006, 09:07:00] Dr_Willis: i honestly have to say.. avoide xgl at this time. :P its still much a work in progress
+[12/09/2006, 09:07:00] User: i know i want to mess around a bit
+[12/09/2006, 09:43:00] User: i have 2 harddisk in my computer how i can install the other one in ubuntu ?
+[12/09/2006, 09:43:00] Dr_Willis: you mean 'mount the 2nd hard drive'
+[12/09/2006, 09:43:00] Dr_Willis: whats on the drive now?
+[12/09/2006, 10:00:00] User: i sudo update and it says no alternatives
+[12/09/2006, 10:00:00] Dr_Willis: fighting with java?
+[12/09/2006, 10:38:00] Dr_Willis: huh?
+[12/09/2006, 10:07:00] User: I have a .rar file that is passworded, but I can't tell the archive manager to set a password because the option is greyed out, how can I open it?
+[12/09/2006, 10:08:00] Dr_Willis: get wine, and winrar.exe   and try 'wine winrar.exe'
+[15/09/2006, 10:15:00] Dr_Willis: yes it can with extra program
+[12/09/2006, 11:02:00] User: anyone used firestarter over ssh/shell ?
+[12/09/2006, 11:02:00] Dr_Willis: be sure to not kill off the ssh ports. :P
+[12/09/2006, 11:03:00] User: point :;P
+[13/09/2006, 10:35:00] User: where is the best place to get Ubuntu support for drivers and hardware which is not up and going?
+[13/09/2006, 10:35:00] Dr_Willis: for free?  or pay?
+[13/09/2006, 10:36:00] Dr_Willis: ubuntu wiki/forums and here.. and google :P
+[16/09/2006, 11:30:00] User: How do I reload X11?
+[16/09/2006, 11:30:00] User: How do I reload X11/XWindows/Xfree86 whatever it is called?
+[16/09/2006, 11:31:00] Dr_Willis: logout of X. then hit alt-ctrl-backspace
+[16/09/2006, 12:24:00] User: hey, anyone here good at operating synergy on ubuntu?
+[16/09/2006, 12:26:00] User: Yo could someone help me set up a synergy client ???
+[16/09/2006, 12:27:00] Dr_Willis: read the syngery docs yet? you  edit the syntegy config file and define the layout there.. then be sure to kill/restart the syngery server.
+[19/09/2006, 10:37:00] User: I need xlib library for cedega anybody know how I can just find that one libary in apt-get?
+[19/09/2006, 10:38:00] Dr_Willis: you dont need it.. that cedega package has a mistake in it.
+[19/09/2006, 10:38:00] Dr_Willis: you can either install an older version of xlib. or edit the cedega package. Ive seen both ways mentioned on the ubuntu forums
+[20/09/2006, 09:34:00] User: ok, so i've tried a dozen different mount option variations and I cant get ubuntu to mount a partition on the local drive for user rw access. ideas anyone?
+[20/09/2006, 09:35:00] Dr_Willis: and whats the file system on the drive?
+[20/09/2006, 09:35:00] User: ext3. see also: http://paste.ubuntu-nl.org/24057
+[20/09/2006, 09:39:00] User: hi.......can i know how to install another browser
+[20/09/2006, 09:39:00] User: ??
+[20/09/2006, 09:39:00] Dr_Willis: apt-get install opera, or dillo, or whatever ya want
+[20/09/2006, 11:21:00] User: if anyone has a chance to visit tailand, you should make sure you pick up all software you're looking for when you're there
+[20/09/2006, 11:21:00] Dr_Willis: they got better Linux there? :P
+[20/09/2006, 11:23:00] Dr_Willis: yea.. sure..  that proves its legal!
+[20/09/2006, 11:43:00] User: whats the command to completely remove a package?
+[20/09/2006, 11:44:00] Dr_Willis: what you trying to remove?
+[23/09/2010, 23:03:00] Dr_Willis: http://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/index.html
+[20/09/2006, 11:44:00] Dr_Willis: plus you can get shell commands that give that info. :)
+[20/09/2006, 11:44:00] User: yeah :)
+[21/07/2010, 01:28:00] Dr_Willis: i was thinking thast also.
+[22/09/2006, 08:37:00] User: is there a 'theater mode' for the official ati.com drivers for linux like therre is for windows?   full screen video on my tv no matter if i have it minimized on my computer screen.  Also how wihat is the difference in overlay modes in aticonfig..  opengl or Xv? how do I enable it so all videos played are in hardware overlay?
+[22/09/2006, 08:38:00] Dr_Willis: not that i have ever seen.
+[22/09/2006, 08:39:00] Dr_Willis: that is a nice feauture  - i use it with my laptop and tv out all the time under windows.
+[23/09/2006, 09:27:00] User: so is a .run file the equivelent of a .exe file in windows?
+[23/09/2006, 09:27:00] Dr_Willis: not really. it could just be a shell script
+[23/09/2006, 09:27:00] Dr_Willis: its just an executable that some how installs somthing.. and is a VERY bad habbit that way to many companies use.
+[23/09/2006, 11:40:00] User: whats the politically correct way to change term settings in ubuntu?
+[23/09/2006, 11:40:00] Dr_Willis: which term setting? or you mean THE term setting?
+[23/09/2006, 11:41:00] Dr_Willis: you refering to the terminal programs like konsole? or in the console?
+[23/09/2006, 11:52:00] User: i get this message: E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
+[23/09/2006, 11:52:00] User: E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+[23/09/2006, 11:52:00] Dr_Willis: well....  is another process using it?
+[23/09/2006, 13:09:00] User: Noob question: how do I set Ubuntu to boot into CLI and the GUI?
+[23/09/2006, 13:09:00] Dr_Willis: disable the gdm/kdm/xdm service - and it will boot to the console.
+[23/09/2006, 13:10:00] Dr_Willis: you can then use 'startx' to get to X as needed
+[29/09/2006, 12:28:00] User: I was able to get ubuntu loaded on a powerpc, and I was wondering if there were any existing things when the desktop loads that don't need to be loaded and how to disable them
+[29/09/2006, 12:28:00] Dr_Willis: the default ubuntuinstall is rather slim
+[29/09/2006, 12:29:00] Dr_Willis: you could switch to a lighter window manager if you want to really save on cpu/memory
+[13/01/2007, 14:04:00] User: Are there any ftp clients for Ubuntu besides frostwire?
+[13/01/2007, 14:05:00] User: Is there a program that can load mp3's to my 3rd generation ipod?
+[13/01/2007, 14:05:00] Dr_Willis: frostwire is not a ftp client. its a P2P client.
+[30/07/2007, 08:06:00] User: is there any guide for setting up a linux ubuntu feisty fawn computer, as a server/domain controller in a windows network, and use roaming profiles and client authentication using ldap/samba ???
+[30/07/2007, 08:07:00] Dr_Willis: might want to check out the 'samba-doc' package - it included 2 books (in html format) that cover a lotof that info.
+[30/07/2007, 08:09:00] User: i'll check it out, thanks :)
+[30/07/2007, 09:04:00] User: hey cna someone tell me the name of the system monitor in this screenshot? http://img258.imageshack.us/img258/8927/wtf1pv3.png
+[30/07/2007, 09:05:00] Dr_Willis: looks like some Karamba/SuperKarmaba widgets
+[30/07/2007, 09:05:00] User: thanks, just thought it looked cool
+[30/07/2007, 11:52:00] User: Does any one know what text editor xubuntu uses in terminal?
+[30/07/2007, 11:52:00] Dr_Willis: install any of a dozen for the console/text, nano is common
+[30/07/2007, 15:22:00] User: what am i looking for?
+[11/09/2007, 12:30:00] User: HOW DO I SAVE MY SETTINGS ON A LIVE CD ? WITH A USB THUMB DRIVE?
+[11/09/2007, 12:31:00] Dr_Willis: not sure thats a feature of the ubuntu live cd's at this time.. Seen other live cd's that can do that however.
+[14/09/2007, 14:17:00] Dr_Willis: i always just set the jumpers to cable select.
+[11/09/2007, 12:31:00] User: i have installed nvidia on kubuntu ( generic-16 ) and when i boot i get black screen someone know how i can fixit ?
+[11/09/2007, 12:31:00] Dr_Willis: for a start how did you install them.. and what is your video card?
+[11/09/2007, 12:33:00] User: , geforce 5200 fx , i have installed build essential and the ctrl+alt+f1 , kdm stop , sh the 100.14.11 driver and the i told him to config my xorg.conf
+[11/09/2007, 13:03:00] User: does it mount ok, after resize? Do you have an UUID in fstab?
+[11/09/2007, 13:03:00] Dr_Willis: pretty sure its using uuid. its on my laptop/ it worked fine. :)
+[11/09/2007, 13:04:00] Dr_Willis: not got it running/handy to check however.
+[12/09/2007, 07:09:00] User: Is there a way I can install Ubuntu from a Vista machine without burning a CD/DVD?
+[12/09/2007, 07:10:00] User: I've heard bad things about wubi
+[12/09/2007, 07:10:00] Dr_Willis: so hae i
+[12/09/2007, 07:27:00] Dr_Willis: Darryl you mean it boots to the 'console'  (black screen with LOGIN: at the bottom) ?
+[12/09/2007, 07:27:00] User: yES
+[12/09/2007, 07:29:00] User: Good luck. I downloaded the repository that Ubuntu brought up and it installed fine, on reboot GDM fatal errored and wouldn't load. So now I'm stuck with console and no idea how to get my GDM to work again
+[15/09/2007, 16:41:00] User: how can I configure nvidia-glx?
+[15/09/2007, 16:42:00] Dr_Willis: edit the xorg.conf, or use the nvidia-xconfig tool, or theres some other nvidia tool also. (try nvidia<tab> in a shell)
+[15/09/2007, 16:45:00] Dr_Willis: that nvidia-xconfig (i think) tool has a option to enavble it. i recall.
+[15/09/2007, 16:43:00] User: Do linux users gennerally use MSN messenger? I'm a windows raised guy but I am just curious.
+[15/09/2007, 16:43:00] User: I should say MSN protocol
+[15/09/2007, 16:44:00] Dr_Willis: last time i was in a linux room on AIM/MSN/other then irc.. they.. well.. dident know too much.
+[19/09/2007, 09:55:00] User: how can I stop the kernel from loading agpgart, intel_agp, drm, radeon, e7xxx_edac and edac_mc modules?
+[19/09/2007, 09:55:00] Dr_Willis: blacklist the modules. :)
+[19/09/2007, 09:56:00] User: blacklisted them but they still get loaded
+[20/09/2007, 09:47:00] User: Can someone please tell me again how to upgrade from 5.10 to 7.04?
+[20/09/2007, 09:48:00] Dr_Willis: ICK.
+[20/09/2007, 09:48:00] Dr_Willis: you might seriously want to look in to backing up imporntant stuff/data/home and a reinstall.
+[21/09/2007, 09:29:00] User: UBUNTU ROCKS.... sorry, had to do it =)
+[21/09/2007, 09:29:00] Dr_Willis: it 'roxxors your soxxors' :) get it right!
+[21/09/2007, 09:31:00] User: Thanks for pointing that out! =)
+[25/09/2007, 11:47:00] User: Doens't anyone know how to install libgtk?
+[25/09/2007, 11:47:00] Dr_Willis: whats saying it needs it?
+[25/09/2007, 11:49:00] User: Well, I actually don't know my friend is trying to install it and having some troubles doing so
+[27/09/2007, 09:55:00] User: i want something similiar to plain irc on windows
+[27/09/2007, 09:55:00] User: ok can i use the command 'sudo apt-get install xchat'??
+[27/09/2007, 09:57:00] Dr_Willis: yes. thats Ubuntu basics :) for installing stuff.
+[28/09/2007, 08:50:00] User: Thank you for the warm welcome, I browse the forums and have read extensively for the past week just to get started, I love the community! First question: I have a BJC-2100 Canon printer, Ubuntu didn't detect it, how can I go about finding the correct driver for it?
+[28/09/2007, 08:51:00] User: mssever- Thank you
+[28/09/2007, 08:52:00] Dr_Willis: sadly some canon printers got no linux supporyt either.. Check the cups.org web site for a start. and see if its supported by cups at all.
+[28/09/2007, 08:50:00] User: hello....
+[28/09/2007, 08:51:00] User: anybody who use gimp
+[28/09/2007, 08:51:00] Dr_Willis: 1000's of people do. :)
+[28/09/2007, 09:22:00] User: will ubuntu support any wireless (radio usb dongle) multimedia keyboard just like that or do i have to watch out ?
+[28/09/2007, 09:22:00] Dr_Willis: the ones ive seen  that dont need any drivers. should work...
+[28/09/2007, 09:26:00] User: thx, gonna go to shop right now ;)
+[28/09/2007, 09:22:00] User: isn't X suid root
+[28/09/2007, 09:23:00] User: that's how you can run startx as a normal user
+[28/09/2007, 09:23:00] Dr_Willis: not that ive notced. ive not messed with multi-X servers in ages however.
+[01/10/2007, 10:20:00] User: I never get the latest version of almost any software in with apt. When will this be fixed?
+[01/10/2007, 10:21:00] Dr_Willis: thats what a 6mo release cycle is about.
+[01/10/2007, 10:23:00] Dr_Willis: id suggest just compilng stuff as a user. and putting the new versions in their own home dir.
+[25/10/2007, 09:16:00] User: Is it possible to run my ubuntu install through VMware while in windows?
+[25/10/2007, 09:17:00] Dr_Willis: Ive seen some vmware guides  on how to get vmware to boot a 'isntalled os from a hard drive' - it takes a bit of manual editing of the vmware config files I belive
+[25/10/2007, 09:17:00] User: Thanks.  I'll poke around for something
+[25/10/2007, 09:46:00] User: wow anyone else notice that Gutsy does not properly configure SAMBA printing?
+[25/10/2007, 09:47:00] Dr_Willis: ive had some issues with samba.... and gutsy sadly.
+[25/10/2007, 09:48:00] Dr_Willis: start filing bug reports. :)
+[27/10/2007, 23:55:00] User: no one knows how to use scp? :(
+[27/10/2007, 23:55:00] Dr_Willis: its designed to be used about the same as the cp command
+[27/10/2007, 23:55:00] Dr_Willis: thers dozens of examples of using it on the web.
+[30/10/2007, 19:36:00] User: can anyone help with a dual monitor setup under 7.10? I can't get a second monitor to work under even using the configuration file from 7.04.
+[30/10/2007, 19:36:00] Dr_Willis: what video card?
+[30/10/2007, 19:37:00] Dr_Willis: - well i cant help with ati. I only use nvidia.  There have been some changes to the ati driver lately. but thats all i know. Good Luck
+[30/10/2007, 19:51:00] User: is there a mp3 manager for Ubuntu?
+[30/10/2007, 19:51:00] Dr_Willis: ive been using 'songbird' lately. :)  its not in the repos however.
+[30/10/2007, 19:54:00] Dr_Willis: i like the bmpx player also.
+[31/10/2007, 17:55:00] User: yeah Dr_Willis... 8mb will get you alot...
+[31/10/2007, 17:55:00] User: hehe
+[31/10/2007, 17:55:00] Dr_Willis: tell MS.
+[04/11/2007, 00:43:00] User: I removed Pidgin from my system tray and would like to re-add it, but cannot determine how to go about doing it. This is the status icon, not a launcher. Can anyone provide assistance, please?
+[04/11/2007, 00:45:00] User: I removed Pidgin from my system tray and would like to re-add it, but cannot determine how to go about doing it. This is the status icon, not a launcher. Can anyone provide assistance, please?
+[04/11/2007, 00:46:00] Dr_Willis: i would guess thats a pidgin setting option.  Not that ive used pidgen much.
+[05/11/2007, 22:12:00] User: Hello, can somebody answer me a simple question :)?
+[05/11/2007, 22:12:00] User: If I install Ubuntu in my main harddrive, can I later make a partition to install windows XP on it, or do I have to make the partitions first thing?
+[05/11/2007, 22:13:00] Dr_Willis: its best to partion, install windows on the first part of the HD. and Linux on the 2nd part
+[05/11/2007, 22:47:00] User: anyone know who decides on ubuntu code names?
+[05/11/2007, 22:47:00] Dr_Willis: bill gates. :)
+[05/11/2007, 22:48:00] Dr_Willis: and why is that? 'a sturdy bird'  is dirty?
+[06/11/2007, 21:44:00] User: what would I use to try and recover a lost NTFS partition?
+[06/11/2007, 21:46:00] User: What tool would I use to try and recover a lost NTFS partition?
+[06/11/2007, 21:46:00] Dr_Willis: thers a 'System rescue Live CD' or 2 out - that have a lot of tools for that stuff.. But they are proverly command line, and ive never used them. so it may take some research
+[15/11/2007, 10:01:00] Dr_Willis: Well.. You dont normally use /dev/sdc1 for a cd. it would be /dev/sdc or whatever. :)  and the mountpoint MUST exist beforhand.
+[15/11/2007, 10:01:00] Dr_Willis: or am i thinking /dev/sda that may be it.
+[15/11/2007, 10:01:00] User: on his system /dev/cdrom -> /dev/scd0
+[17/11/2007, 02:15:00] User: is Envy a good way to install Nvidia Drives on my new Geforce 6800GS?
+[17/11/2007, 02:15:00] Dr_Willis: avoide envy.
+[17/11/2007, 02:15:00] Dr_Willis: the 'restricted-manager' tool installed the needed drivers for my 6800 just fine.
+[17/11/2007, 02:18:00] User: What's a good amount of swap for 2GiB of RAM?
+[17/11/2007, 02:19:00] User: ok
+[17/11/2007, 02:19:00] Dr_Willis: this a laptop? You going to use hibernate or suspend?  i always do 512 at least.
+[17/11/2007, 02:25:00] User: newbie: If someone wants flash games, I don't think ICQ is the best place for that. But I'm not familiar with ICQ
+[17/11/2007, 02:26:00] User: Me too. Bookworm Deluxe works
+[17/11/2007, 02:26:00] Dr_Willis: Yep. :) and been doing Peggle
+[17/11/2007, 02:47:00] User: About the scripts in /etc/rc?.d/, are they executer in 'alphabetical' order?
+[17/11/2007, 02:47:00] User: executed
+[17/11/2007, 02:48:00] Dr_Willis: numerical order. :)
+[03/12/2007, 02:44:00] Dr_Willis: for my audigy cards  i ofetn have to enable the digital output of the card using the alsamixer program. Or disable it if its enabled..
+[03/12/2007, 02:45:00] User: thank you!
+[03/12/2007, 02:45:00] User: that worked perfectly. perhaps that should be on a wiki somewhere?
+[03/12/2007, 11:11:00] User: weird. Doesnt come with it by default eh?
+[03/12/2007, 11:14:00] Dr_Willis: it should start once installed.
+[23/05/2009, 21:56:00] Dr_Willis: i just npormally install ubuntu-restricted-extras and it grabs flash and other bits for me.. unless  the flash makers broke somnthing again
+[29/12/2007, 22:17:00] User: Is there anyway to use gparted and create a partition without having to put it on a cd?
+[29/12/2007, 22:18:00] Dr_Willis: i normalyly use a livecd that has parted tools allready on it. :) like the gparted live cd.
+[29/12/2007, 22:19:00] User: Im at work and noway to install it to a cd lol-- 8 hours here and i can't work on my dualboot!!!
+[29/12/2007, 22:33:00] User: Hey. How do I do local iso install? The CD is dead.
+[29/12/2007, 22:33:00] Dr_Willis: ive heard of people wanting to do that. But never done it myself.
+[29/12/2007, 22:39:00] User: Any idea where can I find a guide?
+[30/12/2007, 22:19:00] User: hi
+[30/12/2007, 22:21:00] User: i've bought a pc, its processor is a intel core 2 quad, can i install on it the ubunto 64 bit ?
+[30/12/2007, 22:21:00] Dr_Willis: should be able to. You may want to use the 32bit disrto however. Unless you have a specific Need for 64bit.
+[30/12/2007, 22:19:00] User: Does Defragmenting help any?
+[30/12/2007, 22:19:00] Dr_Willis: normally one would defrag, scandisk, then resize teh windows partitions,  THEN when you boot back to windows. scandisk again,
+[30/12/2007, 22:20:00] Dr_Willis: thats for the truely paranoid. I guess. Heh heh. :)
+[30/12/2007, 22:22:00] User: I'm running Ubuntu 7.10 can I grow my linux partition?
+[30/12/2007, 22:23:00] User: I have a 30 gb drive and only 14 gb I'm able to access
+[30/12/2007, 22:23:00] Dr_Willis: live cd with gparted. -  IF theres some space to resize it to.
+[06/01/2008, 03:44:00] User: how do i make my new hdd a part of the filesystem?
+[06/01/2008, 03:46:00] User: how do i include my new hdd in the filesystem?
+[06/01/2008, 03:46:00] Dr_Willis: fdisk it to make the partitions, format the filesystems, Mount them where you want by editing /etc/fstab
+[06/01/2008, 03:56:00] User: is this a help channel or something?
+[06/01/2008, 03:56:00] User: cool
+[06/01/2008, 03:56:00] Dr_Willis: thats what the topic says. :)
+[06/01/2008, 03:59:00] User: can someone help me with my tvtuner plz ??
+[06/01/2008, 04:00:00] Dr_Willis: what have you done with it? what kind is it// what hae you tried so far?
+[06/01/2008, 04:01:00] User: it's a pinacle usb2... my systems seems to recognize it but i have no picture from tvtime
+[06/01/2008, 08:03:00] User: t
+[06/01/2008, 08:03:00] User: hi , I have downloaded jdk from java.com , and this file is for linux and is .bin but I don't know how can I setup that , can anybody help me here?
+[06/01/2008, 08:04:00] Dr_Willis: you dont need to use the downloladed jdk at all. install the 'ubuntu-restricted-extras' package - and it will grab java and other tools you proberly want.
+[06/01/2008, 09:09:00] User: What's the best theme/skin program for ubuntu right now?
+[06/01/2008, 09:09:00] Dr_Willis: a program to do what exactly?
+[06/01/2008, 09:10:00] Dr_Willis: the gnome theme settings tools let you change themes and stuff.. as for as making your own... No idea on that. :) check gnome-look.org for tutorials
+[06/01/2008, 09:38:00] User: Can someone please tell me what the default run level on a gutsy desktop is ?
+[06/01/2008, 09:39:00] Dr_Willis: ubuntu dosent really use runlevels.. I think the default was 3
+[06/01/2008, 09:43:00] User: I'm following this, see step 5 .. http://en.tldp.org/HOWTO/XDMCP-HOWTO/procedure.html
+[16/01/2008, 01:51:00] User: how do I change my terminal type from csh to bash?
+[16/01/2008, 01:52:00] Dr_Willis: you are running csh instead of bash?  to change the default shell use the chsh command
+[15/06/2010, 22:14:00] Dr_Willis: sudo cat /dev/SERIALPORT   :)  for down and dirty watching  perhaps
+[16/01/2008, 01:55:00] User: Is there a way to enable remote desktop inside the terminal? I'm away using ssh right now and I'd like to quickly enable desktop control.
+[16/01/2008, 01:56:00] Dr_Willis: you can install/run vnc4server (or other vnc service/server) but that wont get you the CURRENTLY running/seen local desktop.. but a brand new one.
+[16/01/2008, 01:57:00] Dr_Willis: ssh -X or -Y willlet you run X aps and have them show up locally . If X forearding is enabled in the sshd service config files
+[17/01/2008, 02:38:00] User: Hello guys :D
+[17/01/2008, 02:39:00] User: Does ubuntu auto detect flash cards?
+[17/01/2008, 02:39:00] Dr_Willis: it should.
+[17/01/2008, 03:23:00] User: Hi, is there a simple way to close an application after the machine has had no user input after a certain amount of time?  I'm trying to put together a kiosk like computer.
+[17/01/2008, 03:24:00] Dr_Willis: if you are refering to closing firefox. there are extensions for koisk fetures for the browser.
+[17/01/2008, 03:24:00] User: it's not firefox
+[20/01/2008, 06:20:00] User: how can i join more servers with Xchat?
+[20/01/2008, 06:21:00] User: how can i join more servers with Xchat?
+[20/01/2008, 06:22:00] Dr_Willis: use the menus, open a new server tab join.
+[05/02/2008, 04:35:00] User: how do i make an entire backup copy of an ntfs partition?
+[05/02/2008, 04:36:00] Dr_Willis: there are some ntfs tools  that can do that.
+[05/02/2008, 04:36:00] Dr_Willis: never used them bit saw them mentioned in a magazine artical just today
+[05/02/2008, 18:05:00] User: argh, no one can help me... ive been trying all morning :(
+[05/02/2008, 18:05:00] User: I have tried to run the updater, but it says that I am using a unsupported version (5.10), but on the website, it said that it should be possible for me to update to 6.06 and gradually get to the latest version.... how can I upgrade to 6.06 without a cd?
+[05/02/2008, 18:06:00] Dr_Willis: thats getting so old.. I would be scared to do incremental updates.
+[08/02/2008, 17:33:00] User: anyone has tried hardy ?
+[08/02/2008, 17:33:00] Dr_Willis: yes. :) discussion of it in #ubuntu+1
+[08/02/2008, 17:33:00] User: thks
+[11/02/2008, 07:58:00] User: is there a way to apply emerald themes without loggin out?
+[11/02/2008, 07:59:00] Dr_Willis: i just use the emerald theme manager tool and click on the theme to use.
+[14/11/2009, 15:01:00] Dr_Willis: you MUST use update-grub after changing the grub config files now :)
+[11/02/2008, 18:01:00] User: sorry, dualhead problems, xorg correctly configured, extende desktop, the grafical login start correctly, the mouse go over in the two monitor, but when I login, the server X stall and after 20 second restart, someone can give me some help ?
+[11/02/2008, 18:02:00] Dr_Willis: thats weird. what video card?
+[11/02/2008, 18:05:00] User: is very strange, because if start login screen, corectly, why gnome don't start? is request different set in xorg?
+[11/02/2008, 18:17:00] User: where in ubuntu i can found hibernate.conf
+[11/02/2008, 18:17:00] User: ?
+[11/02/2008, 18:18:00] Dr_Willis: try 'locate  hibernate.conf'
+[12/02/2008, 17:35:00] User: hello
+[12/02/2008, 17:36:00] User: i need some help about x-chat
+[12/02/2008, 17:36:00] Dr_Willis: You mean xchat and not xchat-gnome right? Ask the channel your question and see who answers.
+[12/02/2008, 18:06:00] Dr_Willis: theres dozens of little tools to set the background, xsetroot is one common one.
+[12/02/2008, 18:07:00] Dr_Willis: xsetroot  -solid black
+[12/02/2008, 18:08:00] User: thanks
+[13/02/2008, 17:58:00] User: hey, how do I enable sshd?
+[13/02/2008, 17:58:00] Dr_Willis: install it. :)
+[13/02/2008, 17:58:00] Dr_Willis: ubuntu dont install any services like that by default
+[13/02/2008, 17:59:00] User: how can I tell if an ssh connection is active?  e.g., I'm on the client, and I want to know if I already have a connection to the server
+[13/02/2008, 18:00:00] Dr_Willis: perhaps ps ax | grep ssh ?
+[13/02/2008, 18:00:00] User: yep, thanks
+[17/02/2008, 05:34:00] User: How can I repear or create a new boot sector from the liveCD of ubuntu ?
+[17/02/2008, 05:35:00] User: What is the difference between the ext2 and ext3 partition type ?
+[17/02/2008, 05:35:00] Dr_Willis: ext3 has a journel and so is a little more reliable.
+[17/02/2008, 05:38:00] User: do i need anything extra other than the ISO in order to install ubuntu on a PC?
+[17/02/2008, 05:38:00] Dr_Willis: well you need to burn the iso to a cd properly.
+[17/02/2008, 05:38:00] Dr_Willis: or use some other method to install.
+[23/02/2008, 17:32:00] User: hmmm i've a problem .... in session i gave as command /usr/share/applications/xchat.desktop ... but at the startup xchat is not loaded sigh
+[23/02/2008, 17:32:00] User: DR WILLISSSSS HIII !!!!
+[23/02/2008, 17:32:00] Dr_Willis: thats just a menu definitionfile. You shouldjust run 'xchat'
+[23/02/2008, 17:43:00] User: hello
+[23/02/2008, 17:43:00] User: umask=000 automounts ext3 volume as root right?
+[23/02/2008, 17:45:00] Dr_Willis: umask sets the default umask option. Things normally get mounted as root. and thats nothign to do with automounting
+[04/03/2008, 17:49:00] User: anyone have some joydev experience? My gamepad is detected on usb and shows up in /dev/input/js0. jstest shows all the axis and buttons, but does not respond to command input.
+[04/03/2008, 17:50:00] Dr_Willis: what do you mean by command input? a lot of games need to be configured to access the  proper (changed  some time ago) place.
+[04/03/2008, 17:52:00] User: jstest lets you specify the exact /dev/input/js0 (for instance) and reports status on button (on/off) when pressed. It worked once...
+[09/03/2008, 17:34:00] User: I want to share out my partition on /dev/sda7 through samba, I have set up samba and I can access the share through my ubuntu laptop, however when i try to connect via a windows machine I get a 'network path not available' error message
+[09/03/2008, 17:34:00] Dr_Willis: you can access it with the samba tools under ubuntu? or you mean accessing the mountpoint?
+[09/03/2008, 17:35:00] Dr_Willis: i tend to manually edit my samba config to enable  a few public shares  - The books in the 'samba-doc' package cover this.
+[09/03/2008, 17:40:00] User: I have a file to run the Netzero client on for Linspire.  I think it will work for Ubuntu, but when I tried to use the netzero.deb package I got an error about having the wrong processor architecture.  Can it be compiled for a 64-bit machine?
+[09/03/2008, 17:41:00] Dr_Willis: mixxing 64 and 32bit is not a good thing. :)  it MIGHT work if you had a 32bit install.
+[09/03/2008, 17:41:00] Dr_Willis: if you can find the source deb . you may be ble to recompile it.
+[10/03/2008, 02:13:00] User: Where would I find the Beta release of the Next Version?
+[10/03/2008, 02:13:00] Dr_Willis: Next versionof what?  #ubuntu+1 for the next ubuntu release.
+[16/09/2010, 21:16:00] Dr_Willis: IF it exists - /etc/X11/xorg.conf
+[12/03/2008, 16:11:00] User: DEsktop effects coudnt be enabled?????????
+[12/03/2008, 16:12:00] User: DEsktop effects coudnt be enabled?????????I get this when my friend enables the extra option.Why is this??????
+[12/03/2008, 16:12:00] Dr_Willis: first guess.. you dont have the proper video card drivers installed.
+[12/03/2008, 16:49:00] User: hi guys just asking is there any way around to install my eggdrop in ubuntu
+[12/03/2008, 16:51:00] Dr_Willis: sudo -> is doin things as root. :)
+[12/03/2008, 16:51:00] Dr_Willis: if you are not the admin., you may need to install the bot from source, for just your user.
+[07/06/2008, 06:30:00] User: i just installed a new ram chip in my laptop both are 512mb but it only says i have 883
+[07/06/2008, 06:30:00] Dr_Willis: no idea. could be the vbideo card taking some of the ram.
+[07/06/2008, 06:38:00] Dr_Willis: depends on what you are doing. VirtualBox has improved lately - where i use it more then vmware. but the next vmware releases - has some neat new features.
+[07/06/2008, 06:35:00] User: wow this chat is usually flooded with questions
+[07/06/2008, 06:35:00] User: what gives
+[07/06/2008, 06:36:00] Dr_Willis: been seeing questions all day.....
+[14/06/2008, 18:46:00] User: i just made a raid array....formatted it in ext3...and i mounted it and it was like read only or something becuase i couldnt copy and paste files onto it
+[14/06/2008, 18:46:00] User: so bash said to add it to fstab
+[14/06/2008, 18:47:00] Dr_Willis: you mean to say your USER couldent write to it? or could root access it?  It will need to be mounted from the fstab file to be accessable at all.
+[14/06/2008, 19:00:00] User: does anyone can answer if the hostname of my computer is what i see in the terminal? user@hostname: is it right?
+[14/06/2008, 19:00:00] Dr_Willis: thats showing the hostname in the prompt correct
+[14/06/2008, 19:01:00] User: ok, thanks
+[14/06/2008, 20:12:00] User: is there a way to enable port forwarding through the cli?
+[14/06/2008, 20:13:00] User: vlc
+[14/06/2008, 20:13:00] Dr_Willis: with the proper iptables command and options to it..  and No i dont know what one you need. :)
+[14/06/2008, 21:33:00] User: hi
+[14/06/2008, 21:33:00] User: how do i set xterm width and height ?
+[14/06/2008, 21:34:00] Dr_Willis: at launch? or later?
+[16/06/2008, 06:30:00] User: I have an old computer I'm setting up for my pastor.  He doesn't type, but this computer will just have a Bible program, a lot of old gospel songs and a media player.
+[16/06/2008, 06:31:00] User: Question is, is there any way to set up Ubuntu WITHOUT having to type in user name and password on boot?
+[16/06/2008, 06:31:00] Dr_Willis: you can set up gdm to auto login as a specific user.
+[16/06/2008, 06:34:00] User: now that there's a target release date for Firefox 3 final, was wondering if there's been any discussion as to how long that version will take to hit the repos. (Was something like 3 weeks for RC1.)
+[16/06/2008, 06:35:00] Dr_Willis: i recall a lot of the devs were at some party for RC1 :) so they took longer then normal
+[16/06/2008, 06:36:00] User: that was only the first few days, though. They did a whole lot of testing for the next few weeks -- and I'm not convinced reading the release notes that they didn't integrate other fixes that came out post-RC1
+[16/06/2008, 06:35:00] User: my ubuntu is not reading my SD cards, what do i do ?
+[16/06/2008, 06:36:00] Dr_Willis: laptop built in sd card reader.
+[16/06/2008, 06:36:00] Dr_Willis: or is it a usb card reader?
+[19/06/2008, 16:26:00] User: Hi
+[19/06/2008, 16:27:00] User: Does anyone know if/when FF3 final will be backported to Gutsy?
+[19/06/2008, 16:27:00] Dr_Willis: see the topic
+[22/06/2008, 17:45:00] User: can anyone tell me why when im in terminal trying to run a program i have just built and i type the program name it says command not found, eventhough the program is right there is front of me when i type ls
+[22/06/2008, 17:45:00] Dr_Willis: use ./command
+[22/06/2008, 17:45:00] Dr_Willis: the current diretory is NOT in the default path.
+[22/06/2008, 19:03:00] User: can someone tell me how to mount a disk on start-up?
+[22/06/2008, 19:04:00] Dr_Willis: which disk? you can always edit the fstab. and it will mount at boot time
+[19/05/2009, 03:17:00] Dr_Willis: you extract the first one and it should get the data fromthe other  2 as needed
+[23/06/2008, 16:43:00] User: I've got an old 500mhh epia which i picked up for 10 bucks what should i do with it?
+[23/06/2008, 16:44:00] Dr_Willis: send it to me.. :)
+[23/06/2008, 16:45:00] Dr_Willis: heh -  i always got geexbox on a little partition on my laptop.
+[23/06/2008, 16:44:00] User: he any body can help me ?  i seeking equivalent Knemo on gnome desktop
+[23/06/2008, 16:44:00] User: any idea ?
+[23/06/2008, 16:44:00] Dr_Willis: You can install and run kde apps on gnome if you want.
+[17/08/2008, 11:50:00] User: what was the page where you could put  informations so that i wouldn
+[17/08/2008, 11:50:00] User: 'flood
+[17/08/2008, 11:51:00] Dr_Willis: the 'pastebinit' command is also handy
+[19/10/2008, 15:38:00] Dr_Willis: or was it fonts:///
+[19/10/2008, 15:40:00] User: there is no .fonts directry in /home/my username/
+[19/10/2008, 15:41:00] Dr_Willis: then make one.
+[19/10/2008, 16:23:00] User: hmm little question, how would you adjust mplayer to always use ALSA sound, not pulse?
+[19/10/2008, 16:23:00] Dr_Willis: gmplayer has settings inits menus/control settings area for that.
+[19/10/2008, 16:23:00] Dr_Willis: mplayer  with no gui. proberly has a config file
+[19/10/2008, 16:29:00] Dr_Willis: !xmms
+[19/10/2008, 16:30:00] Dr_Willis: xmms is dead. :) explore the alternatives.. I like bmpx
+[19/10/2008, 16:30:00] User: Have bmpx installed already will try that - thanks
+[09/11/2008, 16:57:00] User: I can I tell Ubuntu that it can write in /cdrom? (It's actually an USB pen)
+[09/11/2008, 16:59:00] User: How can I tell Ubuntu that it can write in /cdrom? Because it's actually an USB pen
+[09/11/2008, 16:59:00] Dr_Willis: you may want to mount that thing someplace other then /cdrom then.
+[10/02/2009, 17:55:00] User: Can someone offer advice regarding AIT MObility 9700 and Dual Head setup?
+[10/02/2009, 17:56:00] Dr_Willis: i recall seeing it done.. :) but that was ages ago.. i dont have any ati systems any more
+[10/02/2009, 17:59:00] User: : thanks, but that still refers to fglrxconfig which is no longer as I understand it.
+[13/02/2009, 05:04:00] User: Does the nvidia drivers support HDMI out? Never tried.. only used VGA cable to mu LCD TV.
+[13/02/2009, 05:06:00] User: Anyone tried Savage 2?
+[13/02/2009, 05:07:00] Dr_Willis: its a fun game.. but too hard for me. :)
+[13/02/2009, 06:13:00] User: is there an option in mplayer to affect quality such as -brightness , but -quality (which does not work btw)
+[13/02/2009, 06:13:00] Dr_Willis: mplayer has so many command line options.. its scary.. check the docs/homepage perhaps? i dont know of the right one off hand.. but its got a staggering amount of features.
+[13/02/2009, 06:14:00] User: i have been looking but havent found anything
+[13/02/2009, 18:38:00] User: how to see the version of my x.org?
+[13/02/2009, 18:38:00] User: and how to see the version of libGL?
+[13/02/2009, 18:39:00] Dr_Willis: most programs support the  'programname --version' or programname -version or 'programname -v  or -V' options.  X may be one of the odd ones that doswent do  --version
+[14/02/2009, 12:04:00] User: °wonders, why no one of 1300 people can not answer such a surely easy question°
+[14/02/2009, 12:05:00] Dr_Willis: edit your xorg.conf is one way.. and im not going to walk ya throguh that. :) happy?
+[14/02/2009, 12:14:00] User: ah. i guess, i should call me lucky then. thanks.
+[24/02/2009, 23:39:00] Dr_Willis: !ics
+[24/02/2009, 23:41:00] Dr_Willis: carpediem:  mount commad :)
+[24/02/2009, 23:42:00] User: omg ty lol! I never tried mount without additional parameters xD
+[15/03/2009, 03:35:00] User: Is intrepid quite a lot more buggy then Hardy?
+[15/03/2009, 03:37:00] User: im busy reinstalling ubuntu for the second time in 4 hours :/
+[15/03/2009, 03:39:00] Dr_Willis: Impressive :)
+[15/03/2009, 04:17:00] User: how can I do it please, with conky I think : http://img169.imageshack.us/img169/4310/capturejz1.png ( on the left )
+[15/03/2009, 04:18:00] Dr_Willis: u You mean the 'root window ' termnal on the left?
+[15/03/2009, 04:18:00] Dr_Willis: conky isent doing that.. but theres other ways to do it.
+[15/03/2009, 10:04:00] User: how can i install poweriso
+[15/03/2009, 10:05:00] Dr_Willis: wine powerisoinstaller.exe
+[15/03/2009, 10:05:00] Dr_Willis: logically.. yes.
+[15/03/2009, 11:34:00] User: Hey! @ Everyone re: Swapfile partition not really necessary unless you're using hibernate / sleep, right? It seems a waste of a primary partition. Is there an alternative?
+[15/03/2009, 11:34:00] User: lol @zapz
+[15/03/2009, 11:35:00] Dr_Willis: You could make a swap file if you want.. but a partition is more effficient
+[25/04/2009, 20:26:00] User: Hi all, i have a live cd of kubuntu 8.10, so if i want to install kubuntu on my existing ubuntu installation, then can i do it thru the kubuntu live CD or must i go thru synaptic>kde-desktop?
+[25/04/2009, 20:26:00] Dr_Willis: the cd wont let you install kubuntu onto a ubuntu install. use package manager is safest
+[25/04/2009, 20:29:00] User: thanks
+[25/04/2009, 22:20:00] User: which location is best to download ubuntu 9.04? i download new ubuntu 2 times but it has some check sum errors,
+[25/04/2009, 22:20:00] Dr_Willis: use the torrents.. they are faster then the download servers
+[25/04/2009, 22:21:00] User: okie thanks
+[25/04/2009, 23:06:00] User: is there a possibility to generate grubs menu.lst automatically, i.e. is there a command to say grub to search through your devices for another os?
+[25/04/2009, 23:07:00] Dr_Willis: ive nevver seen/found the tool that does that under ubuntu.. other then the installer.
+[25/04/2009, 23:07:00] User: you know some place to ask for that?
+[26/04/2009, 02:35:00] User: is anyone else experience very slow download speeds from the 9.04 repos?
+[26/04/2009, 02:35:00] Dr_Willis: servers are loaded.
+[15/05/2009, 06:09:00] Dr_Willis: if you install 'ubuntu-desktop' it should
+[26/04/2009, 03:40:00] User: i was about to upgrade to 9.04 with ext4 support, anything i should know or be worried about?
+[26/04/2009, 03:40:00] Dr_Willis: when in doubt.. backup stuff
+[26/04/2009, 04:44:00] Dr_Willis: all sorts of issues.. and some people with no issues...
+[26/04/2009, 06:45:00] User: why is apt-get source so slow?
+[26/04/2009, 06:46:00] Dr_Willis: servers are loaded today
+[30/07/2009, 05:08:00] Dr_Willis: a terminal can only use specific kinds of fonts.. many people like the 'terminus' font for their terminals
+[26/04/2009, 07:18:00] User: help when i use SUPER + TAB it logs out, any ideas?
+[26/04/2009, 07:19:00] Dr_Willis: sounds like compiz may be crashing taking X with it...
+[03/05/2009, 04:19:00] Dr_Willis: its easy to use other window manager.. deoends on wha tyou want
+[01/05/2009, 23:00:00] User: anyone can help me with samba?
+[01/05/2009, 23:00:00] Dr_Willis: tell the channel the samba issue you are having?
+[01/05/2009, 23:03:00] Dr_Willis: trying to read 'greek alphabet named files' ?
+[02/05/2009, 05:44:00] User: how can I access a samba shared network folder from the terminal?
+[02/05/2009, 05:44:00] Dr_Willis: mount them with the proper 'mount' command, or use some fuse-samba automounting/browsing tool
+[02/05/2009, 05:46:00] Dr_Willis: nautilus does not 'mount' them. it 'browses' them.
+[02/05/2009, 05:54:00] User: can anibody help me with installation of xgl on Kubuntu x64? please
+[02/05/2009, 05:56:00] User: Is there any problem with Wlan on Kubuntu x64
+[02/05/2009, 05:56:00] Dr_Willis: not on my  2 laptops...
+[02/05/2009, 16:20:00] User: Well I'm booted into the live CD already on that machine
+[02/05/2009, 16:22:00] User: It hasn't been able to mount the drive.
+[02/05/2009, 16:24:00] Dr_Willis: use sudo fdisk -l
+[02/05/2009, 19:17:00] User: is there anyway to upgrade ubuntu to jaunty without fast internet connection? i cant do it with alternate install cd which is also trying to get the packages downloaded from internet. is there any way out?
+[02/05/2009, 19:19:00] User: is there anyway to upgrade ubuntu to jaunty without fast internet connection? i cant do it with alternate install cd which is also trying to get the packages downloaded from internet. is there any way out?
+[02/05/2009, 19:19:00] Dr_Willis: theres been a few updates since the release. it may be trying to get those.
+[02/05/2009, 22:51:00] User: When you are using Gparted to shrink a primary windows partition, is the 'peach' part the section with data?
+[02/05/2009, 22:53:00] User: When using gparted to shrink a primary windows partition, should I add free space following the partition?
+[02/05/2009, 22:53:00] Dr_Willis: unless you need it at the front.. yes.. i normally put  it at the rear
+[03/05/2009, 05:11:00] User: can somebody help me? I can't print from my canon pixmap ip2600
+[03/05/2009, 05:12:00] Dr_Willis: ive noticed my ip1600 also has issues...
+[03/05/2009, 05:12:00] Dr_Willis: not really - check the forums and  cups.org
+[03/05/2009, 18:01:00] User: Ahaa, bug, using the keypad to control the mouse cancels all other functionality!
+[03/05/2009, 18:02:00] Dr_Willis: you expect the numpad to do both at the same time?
+[03/05/2009, 18:03:00] Dr_Willis: theres a 'accessability' feature of that.
+[03/05/2009, 23:47:00] User: hey, i just installed ubuntu from cd, how can i find out if its the final 9.4 or the RC1 i burned some weeks before :)
+[03/05/2009, 23:47:00] Dr_Willis: update/upgrade, and it will be final./
+[03/05/2009, 23:49:00] User: so its ok to do that? not like in windows where you always should to 'clean/fresh' installations? - iam asking cuz i just installed linux, i could reinstall :)
+[04/05/2009, 04:49:00] User: so I want to look at a whole lot of porn on my new Ubuntu install, how do I keep my wife from finding all of it?
+[04/05/2009, 04:50:00] User: well we only want to have one account I have to keep it like a secret
+[04/05/2009, 04:50:00] Dr_Willis: make a 2nd account.. takes all of 10 sec.
+[04/05/2009, 05:04:00] User: can anybody help me mounting these stupid isos?
+[04/05/2009, 05:05:00] Dr_Willis: mount command, or theres fuseiso, or some other command that can make it easier also
+[04/05/2009, 05:11:00] Dr_Willis: 'crawl, walk, run' :)
+[04/05/2009, 05:19:00] User: I was just wondering is it a common problem that the NVIDIA GLX and official NVIDIA drivers both cause system lock ups and other such problems? Ive never had any luck as far as reliability with either on my last 2 PCs.Is this common? Im about to just ditch the drivers and compiz altogether just do i have a reliable system.
+[04/05/2009, 05:20:00] Dr_Willis: ive no issues with the nvidia drivers on my 3 nvidia systems..  a lot just depends on the chipset i think
+[04/05/2009, 05:21:00] User: hmm ok
+[04/05/2009, 20:22:00] Dr_Willis: I thought iptables features  was a module loaded into the kernel
+[04/05/2009, 20:22:00] Dr_Willis: but i rarely use/need the feature :)
+[04/05/2009, 20:22:00] User: it's part of the kernel with iptables being a userspace application
+[04/05/2009, 21:32:00] User: can i install a package from 9.04 on 8.04?
+[04/05/2009, 21:33:00] Dr_Willis: most likely - it wont work
+[04/05/2009, 21:33:00] Dr_Willis: check the forums.. I think theres some backports or ppa repos with it.
+[04/05/2009, 22:14:00] User: I have 3.5g RAM but it seems around 2 gigs are taken up..but after running top it doesn't seem to add upto 2gig?
+[04/05/2009, 22:14:00] User: is this normal
+[04/05/2009, 22:15:00] Dr_Willis: people worry too mch about linux and its ram ussage. :) bad windows habbits..  let it alone.
+[05/05/2009, 21:40:00] Dr_Willis: !ntfs-3g | Weedy
+[05/05/2009, 21:42:00] User: Is it any way to mount the ntfs partition anyways?
+[05/05/2009, 21:56:00] Dr_Willis: i doubt if ati will do much for older cards.  They might release specs some day.. but lets just say ati's history is not promising in that area
+[05/05/2009, 23:48:00] User: Hello guys I need help from you. chmod 777 <directory> doesnt work on nfs mounted drive !
+[05/05/2009, 23:49:00] Dr_Willis: You might need to do the chmoding on the server side/end  check the nfs docs?  that sounds like the sort of thing that from a security point of view. nfs would be stopping
+[05/05/2009, 23:50:00] User: : Thank you. I will check it out !
+[05/05/2009, 23:58:00] User: how do i install Flash Nonfree for Ubuntu x64?
+[05/05/2009, 23:58:00] Dr_Willis: i just install the 'ubuntu-restricted-extras' package and it grabs the right stuff
+[07/05/2009, 07:46:00] Dr_Willis: i think you run the nm-applet
+[06/05/2009, 01:00:00] User: Hey all, let's say I have a script I run, a simple .sh script that brings up my ipv6 tunnel (its just some ifconfig commands) but I want it to automatically run this script after bootup.  What ist he best way to go about this?
+[06/05/2009, 01:00:00] Dr_Willis: run it from /etc/rc.local is one way
+[06/05/2009, 01:02:00] User: I will check that out, thanks!
+[06/05/2009, 02:23:00] User: Can i set up xterm so that background is white, foreground is black, AND putting my cursor over eg. green text does not change it to green?
+[06/05/2009, 02:25:00] Dr_Willis: xterm has dozens of settings for the colors and stuff.  xterm -bg black -fg green   for example.
+[06/05/2009, 02:26:00] Dr_Willis: or xterm -rv (for reverse video/colors)
+[06/05/2009, 02:25:00] User: what do i need to do to enable the proprietary nvidia driver from the command line? i want to emulate what happens when i enable it from gnome
+[06/05/2009, 02:26:00] User: what do i need to do to enable the proprietary nvidia driver from the command line? i want to emulate what happens when i enable it from gnome
+[06/05/2009, 02:27:00] Dr_Willis: sudo apt-get install nvidia-XXXXXXX where XXX is the right version i think.
+[07/05/2009, 03:55:00] User: I just bought an dell mini with ubuntu 8.04 does anyone know if there are any problems with upgrading to 9.04 netbook remix?
+[07/05/2009, 03:56:00] Dr_Willis: it might be better to do a clean install if using the netbook-remix. use the UNR img file/flashdrive to install.
+[07/05/2009, 03:57:00] Dr_Willis: the UNR works great on my Aceraspireone. I just had to do like 3 little tweaks
+[08/05/2009, 17:30:00] User: How do i extract 7z files?
+[08/05/2009, 17:30:00] Dr_Willis: i always install the 'unp' program then it would be 'unp foo.7z'
+[08/05/2009, 17:31:00] User: thanks
+[09/05/2009, 02:54:00] User: having trouble mounting my hard drive in ubuntu when booting off of cd  says that windows didnt release the drive?? anyone know how to fix this????
+[09/05/2009, 02:54:00] User: slart: what is dualbooting??
+[09/05/2009, 02:54:00] Dr_Willis: dont use windows hibernate/suspend mode.. for starters..
+[09/05/2009, 05:43:00] User: cool, i bound my home folder to ALT+H :)
+[09/05/2009, 05:45:00] User: hey Kareeser, would you be able to explain to me why my upload/download speeds are higher in Ubuntu than windows? maybe windows has a worm u think?
+[09/05/2009, 05:46:00] Dr_Willis: i seem to recall windows reserving some % of network banwith for somthing.. i forget what..
+[11/05/2009, 06:27:00] User: No, me too.
+[27/06/2010, 18:39:00] Dr_Willis: it is possible to make applictions run on the gdm desktop.   you could run a terminal, then launch some screeshot apps from it.
+[27/06/2010, 18:39:00] Dr_Willis: or as root, you might be able to force an app to run on  the gdm desktop/screen.
+[11/05/2009, 06:31:00] User: Is there a way to have both an auto-mounted, encrypted $HOME and an auto-mounted, encrypted ~/Private?
+[11/05/2009, 06:31:00] Dr_Willis: you could make .bashrc or .bash_profile mount the encrypted thing I guess.
+[11/05/2009, 06:32:00] User: then I'd have to have my password in cleartext.
+[11/05/2009, 23:39:00] User: do i need a driver for my gamepad?
+[11/05/2009, 23:40:00] User: do i need a driver for my gamepad?
+[11/05/2009, 23:42:00] Dr_Willis: depends on the exact gamepad. Most of mine - i just plug them - configure the game to use them.. and away i go.
+[12/05/2009, 02:57:00] User: I am looking for an application to make movie of screen ?
+[12/05/2009, 02:57:00] Dr_Willis: 'record-my-desktop' and its gui tool i think are in the repos
+[12/05/2009, 02:59:00] User: recordmydesktop , no hyphens found it thankyou
+[12/05/2009, 17:41:00] User: hi
+[12/05/2009, 17:41:00] User: unable to mount drive
+[12/05/2009, 17:42:00] Dr_Willis: you could give a LITTLE more details - so we dont play 20 questions to get to the real problem.
+[13/05/2009, 06:21:00] User: how can I remove a program installed in wine? I've tried the normal things like using thw wine uninstaller but the programs remain there...:(..can somone help me?
+[13/05/2009, 06:21:00] Dr_Willis: theres some directoryin the users home that has .desktop entries for them.. or use the menu editor (i think)
+[13/05/2009, 06:22:00] Dr_Willis: .config/menus/applications-merged
+[13/05/2009, 18:21:00] User: Hello, anyone can suggest to me a very light and neat gui desktop for ubuntu server ? (I don't want gnome or kde)
+[13/05/2009, 18:22:00] Dr_Willis: it depedns on your needs.  jwm + rox is about as light as one can get.
+[13/05/2009, 18:25:00] User: tbtroj thanks .. I am running ubuntu server on virtualbox so I can develop using linux server in windows. so I need to have 'scrollable' command line terminal and perhaps can run more than one terminal at a time, and save memory at the same time, so a light Desktop can provide that, but I want to choose the best. Xfce is not as light as the others I suppose, I tried fluxbox before, what do you think of the rest in comparison?
+[13/05/2009, 20:12:00] User: anyone using virtualbox 2.2.2 and jaunty have issues with usb?
+[13/05/2009, 20:12:00] Dr_Willis: i though the virtualbox in the repos has usb 'disabled'  You need virtualbox from the vbox homepage for it to work. (and ive not messed with the usb stuff in ages in vbox, i recall it was a pain but i did get it working)
+[13/05/2009, 20:15:00] Dr_Willis: i recall having to enable the usb devvices in the vbbox configs.. then while the OS was running in vbox having to use the menus again .. (this was just a thumbdrive i used ages ago)
+[13/05/2009, 21:38:00] User: hey guys, is there a easy way to find all the plugins available for firefox via ubuntu synaptic.  when I search I only get one or two, I tried synaptic search firefox plugin...should I try something else?
+[13/05/2009, 21:40:00] User: whats the word on using gnash or flashplugin...is there a difference?
+[13/05/2009, 21:40:00] Dr_Willis: a lot of sites dont work with gnash
+[13/05/2009, 21:56:00] User: does anyone know how to get a hold of Animestudios 5.0?
+[13/05/2009, 21:57:00] User: does anyone know how to talk to bots?
+[13/05/2009, 21:57:00] Dr_Willis: /msg THEBOT hello
+[13/05/2009, 22:53:00] User: id like to make it so when I right click on item on my desktop I can run a custom script on that file? how would I go about doing this?
+[13/05/2009, 22:53:00] Dr_Willis: nautilus has a scripting feature.  ive seen some example scripts at gnome-look.org i think
+[13/05/2009, 22:54:00] User: thanks
+[13/05/2009, 23:39:00] User: YO YO YO how can I restart x I gots MAD artifacting on my screen it looks like alien technology
+[13/05/2009, 23:40:00] User: I'm stuck in tty3 someone help me out here what's the cmd to restartx
+[13/05/2009, 23:41:00] Dr_Willis: if you got X going.. alt-ctrl-F7, to restart X  use 'sudo service gdm restart'
+[14/05/2009, 00:35:00] User: any good console file manager?
+[14/05/2009, 00:36:00] Dr_Willis: 'mc' The ULTImATE console file manager
+[14/05/2009, 00:36:00] Dr_Willis: :)
+[14/05/2009, 00:41:00] User: hi i was wondering if some1 can tell me how i can install avidemux on ubuntu
+[14/05/2009, 00:43:00] User: hi can any1 tell me how to install avidemux on ubuntu ?
+[14/05/2009, 00:44:00] Dr_Willis: its in the repos. :) use the pakage maanger
+[14/05/2009, 01:08:00] User: My mouse broke.  Is there anyway to control it with my arrow pads?
+[14/05/2009, 01:09:00] Dr_Willis: thers some way to use the NUMPAD but i forget how
+[18/09/2010, 16:38:00] Dr_Willis: theres various ways to remaster/make your own release also that include things. but it can get annoying. You can also just make a scritpt you run on each box that installs the extras you want
+[14/05/2009, 02:18:00] User: hello
+[14/05/2009, 02:19:00] User: is posible what i have 2 wallpapers in mi 2 desktop???
+[14/05/2009, 02:19:00] Dr_Willis: Not with gnome - from what ive seen
+[14/05/2009, 03:23:00] User: so is that a negative on the slideshow creator?
+[14/05/2009, 03:25:00] Dr_Willis: ffmpeg or mencoder can also make them . i saw some at get-deb.net (or whatever its called)
+[14/05/2009, 03:26:00] User: sweet, I'll check those out.
+[14/05/2009, 05:07:00] Dr_Willis: curlftpfs - filesystem to access FTP hosts based on FUSE and cURL
+[14/05/2009, 05:09:00] Dr_Willis: sshd config file has the port option in it.
+[14/05/2009, 05:10:00] User: we were trying to avoid that...
+[14/05/2009, 17:51:00] User: synaptic was real slow for me last night
+[14/05/2009, 17:53:00] User: how do i enable autologin  from the terminal
+[14/05/2009, 17:53:00] Dr_Willis: the gdm config file has  the auto-login settings in it. somewhere..
+[14/05/2009, 18:13:00] User: Google Earth is flickering, I have a suspicion that no graphics drivers are installed, where do I get proper drivers ? (radeon 9600 mobile, ubuntu 8.04)
+[14/05/2009, 18:13:00] Dr_Willis: run that hardware-drivers tool yet?
+[14/05/2009, 18:13:00] User: yes it says that it's fine  ,but google earth is still flickering
+[15/05/2009, 06:19:00] User: please tell me that there is an undelete function for mounted harddrives
+[15/05/2009, 06:20:00] Dr_Willis: it MIGHT be in the .trash-*** dir on the hard drive
+[15/05/2009, 06:20:00] Dr_Willis: good luck with that...
+[15/05/2009, 06:22:00] User: Has anyone here successfully gotten ICS setup?
+[15/05/2009, 06:23:00] Dr_Willis: some 7+ yrs ago.. yes :)
+[15/05/2009, 06:23:00] Dr_Willis: i followed the ip-masquerading howto back then in the befor ubuntu days
+[15/05/2009, 17:25:00] User: Any idea why when I SSH into ubuntu it gives me a $ prompt instead of asfd@asfd:$
+[15/05/2009, 17:26:00] Dr_Willis: check the .profile or .bashrc or .bash_profile and how its setting the prompt.
+[15/05/2009, 17:27:00] Dr_Willis: huh? thats for the command line history.. You sure you are not using sh instead ofbash? try eccho $SHELL
+[15/05/2009, 17:41:00] Dr_Willis: sounds like a typo in what you changed.
+[20/05/2009, 18:04:00] Dr_Willis: i had an odd machine once.. that desktop dident work.. alt cd did.
+[20/05/2009, 18:04:00] User: i KNOW this.. i am talking about booting the alternate iso ...  desktop.iso cant be booted in that method..
+[15/05/2009, 17:54:00] User: how can i convert video into other formats i mean what tool would i require in linux
+[15/05/2009, 17:54:00] Dr_Willis: mencoder, ffmpeg, or front ends to those tools like winff, avidumex,
+[15/05/2009, 17:58:00] Dr_Willis: look again. :)
+[15/05/2009, 19:47:00] User: lol sometimes I think linux distros should all adopt the slogan 'Have you tried...'
+[15/05/2009, 19:48:00] Dr_Willis: and windows should  use the logo 'have you prayed/paied....' :)
+[15/05/2009, 19:50:00] User: I would be more of a fan of 'Why the #$@# did that happen... why is it going so slow.... where is my install disk'
+[15/05/2009, 23:24:00] User: is it possible to make a video of something happening on the desktop using software, eg this chat ?
+[15/05/2009, 23:24:00] Dr_Willis: the program 'record my desktop' and the gtk front end to it. make that easy
+[15/05/2009, 23:26:00] Dr_Willis: install the front end to it.. it let you box an area
+[15/05/2009, 23:39:00] Dr_Willis: 1 gb for /var/ seems VERY small
+[15/05/2009, 23:39:00] User: depends on the needs
+[15/05/2009, 23:40:00] User: again the use factor steps in
+[17/05/2009, 04:24:00] User: should i reinstall mint
+[17/05/2009, 04:24:00] User: will wubu take care of this
+[17/05/2009, 04:24:00] Dr_Willis: i reccomend using the normal ubuntu over 'mint'
+[17/05/2009, 07:05:00] User: can i make a global shortcut with wine
+[17/05/2009, 07:06:00] User: foobar2000 has a function where it copies the track that's playing currently to the clipboard
+[17/05/2009, 07:06:00] Dr_Willis: you mean to launch somthing with wine?
+[17/05/2009, 07:44:00] User: What is the latest version of wine? Because it says on there website that it's 1.1.21 but I also ahev ehard 1.1.5
+[17/05/2009, 07:44:00] Dr_Willis: the ubuntu repos dont keep up to date with it.. If you want the latest use teh winehq reops
+[17/05/2009, 07:45:00] Dr_Willis: theres proberly 'stable' vs 'testing' versions also..
+[18/05/2009, 02:36:00] Dr_Willis: i say the same thing about WIndows. :)
+[18/05/2009, 02:36:00] User: granted.  different tools for different people.
+[18/05/2009, 05:01:00] Dr_Willis: how did you install it? if you used the package manager. you can seewhat files the package installed
+[18/05/2009, 04:15:00] User: hey all, is it easier to use dual screens in 9.04?
+[18/05/2009, 04:16:00] Dr_Willis: ive had no issues with multimointors on my nvidia cards  .. in ages. :) works great
+[18/05/2009, 04:17:00] User: nice so with this setup http://www.newegg.com/Product/Product.aspx?Item=N82E16883227148 http://www.newegg.com/Product/Product.aspx?Item=N82E16824254026 I'll be all good?
+[18/05/2009, 04:45:00] User: whats the best way to search for a single key word  in my home folder
+[18/05/2009, 04:46:00] Dr_Willis: IN a file? or part of a file name?
+[18/05/2009, 04:46:00] Dr_Willis: use grep
+[18/05/2009, 06:44:00] User: dose any body know about the sound bug in quake 2 ?
+[18/05/2009, 06:44:00] Dr_Willis: given how old quake2 is.... im suprised it works. :)
+[18/05/2009, 06:45:00] Dr_Willis: there may be some quake2 'updated engines' that use the data files but look better.
+[18/05/2009, 06:57:00] User: Hello people, someone was able to use Nvidia proprietary driver with ubuntu 9.04 64 bit ? I'm using a Widscreen monitor. If someone have some tips, tell me please.
+[18/05/2009, 06:57:00] Dr_Willis: i just installed the drivers, rebooted . ran the nvidia-settings tool as root with gksudo (or whatever it is) nvidia-settings, tweaked the config.. restarted X
+[18/05/2009, 06:58:00] User: My restolution is 640x480
+[18/05/2009, 07:32:00] User: hi, im trying to include another partition in the fstab, im getting a superblock error, can somebody please check it out? http://pastie.org/481165
+[18/05/2009, 07:33:00] Dr_Willis: you did format that filesystem?  or was iot allready formatted?
+[18/05/2009, 07:37:00] User: it was already formated
+[18/05/2009, 18:02:00] User: nothing work in jaunty... that sux
+[18/05/2009, 18:02:00] User: intrepid work perfect!
+[18/05/2009, 18:02:00] Dr_Willis: demand a refund? or just rant some more in the channel perhaps?
+[18/05/2009, 20:05:00] User: Would you happen to have any idea on the qustionI asked earlier by some chance is about apt-get remove
+[18/05/2009, 20:06:00] Dr_Willis: i dident notice..  sorry.  I cant recall ever using apt-get remove. :)
+[18/05/2009, 20:07:00] User: well the problem I have is I have a HUGE list of stuff I need to remove..and I don't want to have to set and look up every single package...anyway I can have Ubuntu either through apt-get or synaptic check this huge list if its installed uninstall it?
+[20/05/2009, 20:14:00] User: can i somehow pass info from the boot menu to the userspace of the booted system?
+[20/05/2009, 20:14:00] Dr_Willis: ive seen it done on many disrtos.  but i dont know what reads the passed on info. proberly some varianble/init script does it
+[20/05/2009, 20:15:00] User: /proc/cmdline - found it :)
+[20/05/2009, 23:39:00] User: Hi, my wireless internet dosnt work, can somebody help me?
+[20/05/2009, 23:40:00] User: I judt installed crunchbang, which is a derivative of ubuntu 8.10
+[20/05/2009, 23:41:00] Dr_Willis: you may want to stick the the regular ubuntus  - it will be easier to troublshoot.
+[21/05/2009, 01:31:00] User: Hi all,  when I do apt-get install oidentd on my vps, it replied with Package oidentd may be obsoleted , oidentd has no installation candidate
+[21/05/2009, 01:31:00] User: what should I do?
+[21/05/2009, 01:32:00] Dr_Willis: try a different idented server?
+[21/05/2009, 02:23:00] User: I just figured out one of the things that was confusing me. The grub command root (hd0,0) and the kernel option root=/dev/hda5 refer to different meanings of 'root'
+[21/05/2009, 02:23:00] Dr_Willis: yes they do... :P
+[21/05/2009, 02:23:00] Dr_Willis: then ya got the root of the hard drive/filesystem, and the root user.. and the root direcctory thats not the same as  'root /' :)
+[21/05/2009, 19:02:00] User: i tried installing opera 9 on thenetbook remix , wont open opera it tries but quits
+[21/05/2009, 19:03:00] User: anybody know why opera 9 wont run in the netbook remix?
+[21/05/2009, 19:04:00] Dr_Willis: open a terminal, run it from there. look for error messages
+[21/05/2009, 22:46:00] Dr_Willis: some of them even work! :)
+[21/05/2009, 22:47:00] User: really?? ;)
+[21/05/2009, 22:56:00] User: im winning again!!
+[21/05/2009, 23:58:00] User: Is the fglrx driver no longer needed for ATI cards?
+[21/05/2009, 23:58:00] Dr_Willis: ati sort of dropped support for some cards and now the GPL drivers are the official ones for those cards.. (yes its a bit confsing)
+[21/05/2009, 23:59:00] User: ok thanks, I was frustrated with jockey for a while there =)
+[22/05/2009, 08:00:00] User: i want to install 9.04 for the first time. but i want to use kde instead of gnome. is that easily possible?
+[22/05/2009, 08:01:00] User: and how should i proceed? install ubuntu as usual and then later kde, when the setup is done?
+[22/05/2009, 08:01:00] Dr_Willis: you can easially install 'kubuntu-desktop' afterwards..
+[22/05/2009, 20:49:00] User: When I try to connect to my ssh server, it takes a long time to prompt me for a password, does anyone has any idea why?
+[22/05/2009, 20:50:00] Dr_Willis: ive noticed that on occasion also.. you culd try 'ssh -vv remotebox . or set up the keys stuff where you dont need the passwords
+[22/05/2009, 20:52:00] User: This is the output of the -vvv the last part is where it seems to take a while to move from http://paste.ubuntu.com/178050/
+[23/05/2009, 23:02:00] User: anyone please  > I have one file in /home/admin/simon that is reads root root all the other files read simon simon how to change this one file to simon simon
+[23/05/2009, 23:03:00] Dr_Willis: sudo chown user.user filename
+[08/05/2010, 13:24:00] Dr_Willis: skype has had issues   in the past. but a lot depends on the exact sound cards from what i gather.
+[23/05/2009, 23:22:00] User: hey fellas
+[23/05/2009, 23:23:00] User: hw do i get my previous debian installation working after installing jaunty
+[23/05/2009, 23:23:00] Dr_Willis: add a proper boot option for it to the jaunty grub's menu.lst if you want to  'boot the debian install'
+[24/05/2009, 02:24:00] User: can i install antivirus in ubuntu
+[24/05/2009, 02:25:00] Dr_Willis: AV software in 'linux' scans windows files for windows viruses.. :)
+[24/05/2009, 02:29:00] Dr_Willis: remove 'what' exactly?
+[24/05/2009, 02:53:00] User: i just installed jaunty then edited source.list to add universe repo but i still don't seem to see any updates (after apt-get update).. i was looking for irssi package.. what's wrong ?
+[24/05/2009, 02:53:00] Dr_Willis: its in main. so no  editng of the sources.list was needed.
+[24/05/2009, 02:54:00] Dr_Willis: sudo apt-get update, sudo apt-get upgrade, and try again
+[24/05/2009, 06:12:00] User: anyone know how to activiate nvdia on 64 bit
+[24/05/2009, 06:13:00] User: display looks hrribleon new computer with ubuntu
+[24/05/2009, 06:13:00] Dr_Willis: i just used the normal system -> admin ->hardware drivers tool. like on 32bit
+[26/05/2009, 03:54:00] User: Any suggestions on how to get HULU to work with ubuntu?
+[26/05/2009, 03:55:00] Dr_Willis: it workd for me just the other day in ubuntu. Unless the huly guys broke things again....
+[26/05/2009, 04:01:00] User: how? with firefox under wine?
+[26/05/2009, 22:38:00] User: could some guru PM me please.. following this IRC screen is overwealming.. i am sure some one can help me very quickly.. please dont just send me another default do the TUTES thing.. i have alread done all of them.
+[26/05/2009, 22:39:00] User: i have done so above.. all ready.. I have a wubi.. host os is windows XP.. linux is ubuntu 904 upgrade.. all sounds are now on.. except the Start up long on and log off sounds.. Esound Daemon is default OFF.. has no idea why and has no idea how to edit change that.
+[26/05/2009, 22:40:00] Dr_Willis: a problem will be that most people HATE wubi. I for one wont use it..
+[27/05/2009, 03:01:00] User: how do I change my system-level tty fontcolor?  the font that says 'grub loading stage2' and 'restarting system', etc.
+[27/05/2009, 03:01:00] Dr_Willis: the 'console' colors can be tweaked with the proper printing of escape codes by the progrms.. but other then that..  not that easy to do.
+[27/05/2009, 03:02:00] Dr_Willis: and the 'grub loading...' is handled by grub.. i dont think you are going to be changing that.
+[05/06/2009, 16:34:00] Dr_Willis: never noticed...  never needed to.  Not sure why you need to...
+[05/06/2009, 16:35:00] User: I just want to know if has this feature...
+[05/06/2009, 16:36:00] Dr_Willis: you mean 'clone the permissions/groups  of one user, and apply them to a diffrent user?'
+[07/06/2009, 23:09:00] User: How  to make, that current dir in bash became such in tcsh(more short)?
+[07/06/2009, 23:10:00] Dr_Willis: if you are refering to the 'prompt' theres docs on settingthe bash prompt.
+[07/06/2009, 23:11:00] Dr_Willis: theres a bash-prompt howto :)
+[09/06/2009, 04:01:00] User: !best | Dr_Willis
+[09/06/2009, 04:01:00] Dr_Willis: i never said what was best. :P
+[06/09/2009, 01:56:00] User: thanks doc... the instructions are on the community/GoogleEarth page
+[09/06/2009, 05:10:00] User: is it posible to run 4 operating syems on the same computer but be diplayed on  4 different screens?
+[09/06/2009, 05:10:00] User: all at once
+[09/06/2009, 05:11:00] Dr_Willis: virtualbox could do it - if you had the ram.
+[09/06/2009, 17:52:00] User: Hi ppl
+[09/06/2009, 17:52:00] User: Can someone recommend nice looking IRC client for Ubuntu ?
+[09/06/2009, 17:53:00] Dr_Willis: i tend to use xchat, or irssi.
+[12/06/2009, 22:02:00] Dr_Willis: I thought one edited /etc/fstab  not /etc/mtab
+[12/06/2009, 22:02:00] User: you may be right, it's been a while
+[12/06/2009, 22:03:00] User: ah ok, thanks for the correction
+[13/06/2009, 04:41:00] User: hello :) is there an easy way to convert .ogv to.avi?
+[13/06/2009, 04:42:00] Dr_Willis: winff can do it.
+[13/06/2009, 04:44:00] Dr_Willis: try it and see?
+[13/06/2009, 05:08:00] User: i install opensuse...but i'm curiuos if it's possible to install ubuntu too? appear some conflict between two bootloader?
+[13/06/2009, 05:09:00] Dr_Willis: dont share the same /home directorues.. and watch out for fighting GRUB setups and it canbe done
+[13/06/2009, 05:09:00] Dr_Willis: or just use virtualbox to toy with the other disrtos
+[14/06/2009, 10:21:00] User: how can I start a process as a daemon from a shell? Or at least how can I run a program at the command line but not have it take over my shell?
+[14/06/2009, 10:22:00] Dr_Willis: bash basics.. use the &  at the end of the command.
+[14/06/2009, 10:22:00] Dr_Willis: read up on bash job controll in the various bash docs/books/guides
+[14/06/2009, 22:00:00] Dr_Willis: :) been on vacation?
+[14/06/2009, 22:00:00] User: something like that :)
+[19/06/2009, 00:54:00] User: greetings
+[19/06/2009, 00:49:00] User: Please help! How can I make an already installed ubuntu 9.04 bootable again? My ubuntu 9.04 system refused to boot this morning, the PC seems not to recognize that the hdd is bootable at all, it immediately searches all other bootable devices – no ubuntu-screen or grub-display. The disk with ubuntu can still be mounted with the live system (all data there, fdisk shows partition is bootable), but there seems to be no obvious rescue option to jus
+[19/06/2009, 00:49:00] User: t make the already installed system boot again. The only option I get is to install a new ubuntu 9.04 alongside the old system, which I did not want to try.
+[19/06/2009, 00:50:00] Dr_Willis: you can boot a live cd and reinstall grub.. if its some how a 'grub got deleted' issue..
+[19/06/2009, 02:11:00] User: how do I copy the bootloader from one disk to another?
+[19/06/2009, 02:11:00] Dr_Willis: you could use the 'dd' command with the proper arguments for that..  but ive never had to do so.   google for 'backing up the mbr'
+[19/06/2009, 02:12:00] Dr_Willis: or use the grub commands to insall grub to the other drive
+[19/06/2009, 18:22:00] User: hi everyone, how do I install pkg files under Ubuntu jaunty?
+[19/06/2009, 18:23:00] Dr_Willis: an 'autopackage' file ?
+[19/06/2009, 18:27:00] Dr_Willis: that means very little :) they could of just shorted the extension. Or some other weirdnedss  :) or like jrib  says it may be for macs
+[20/06/2009, 00:11:00] Dr_Willis: theres secure.. then theres paranoid. :)
+[20/06/2009, 00:18:00] User: I would assume full drive encryption should be a standard procedure on a laptop, Paranoia or common sense is up for debate
+[20/06/2009, 00:19:00] Dr_Willis: unless the performance loss is too much
+[20/06/2009, 00:54:00] User: I unchecked the option to log in gui so I boot to the shell, how do I get the gui back?
+[20/06/2009, 00:55:00] Dr_Willis: 'startx' for a single time.. or restart the gdm service.
+[20/06/2009, 01:14:00] Dr_Willis: you did a normal install? how dod you disable gdm? its a service you set to launch at boot.
+[20/06/2009, 19:19:00] Dr_Willis: !clone
+[20/06/2009, 19:20:00] User: lol have fun with air,  got to go to lunch (same user as VirusTb here)
+[20/06/2009, 19:21:00] Dr_Willis: i imagine it will get removed as soon as i realize all the apps for it are useless web-gizmos for twitter and stuff i never use
+[20/06/2009, 21:27:00] User: Hi I'm on ubuntu 9.04. How can I eliminate the keyring prompt for a WPA Wifi at each boot? My keyring password and root password are the same.
+[20/06/2009, 21:28:00] Dr_Willis: ive seen that asked befor.. but never seen a good answer. :()
+[20/06/2009, 21:29:00] Dr_Willis: a fix is mentioned at --> http://ubuntuforums.org/showthread.php?t=1101618
+[20/06/2009, 23:59:00] Dr_Willis: it may be im using the 32bit flash.. i just know that it works. :)
+[20/06/2009, 23:59:00] User: yes, probably with that nsplugin thingy
+[27/07/2009, 03:37:00] Dr_Willis: most people never even notice  how gnome has things streamlined.. and i belive OS-X does the same sort of gui design.
+[21/06/2009, 00:18:00] User: hello
+[21/06/2009, 00:18:00] User: do you guys know a program to visualize network topology?
+[21/06/2009, 00:19:00] Dr_Willis: ive seen such apps.. but rarely use them. (only 4 pcs here on the lan)
+[21/06/2009, 09:15:00] Dr_Willis: !find smb4k
+[21/06/2009, 09:15:00] Dr_Willis: smb4k is a kde ap. :)
+[21/06/2009, 09:15:00] User: yeah but it works on my gnome setup
+[21/06/2009, 09:22:00] User: hey. Is anyone able to connect to yahoo (messenger) ? pidgin seems to need an update, kopete doesnt connect either.
+[21/06/2009, 09:23:00] Dr_Willis: you can add an entry to the /etc/hosts as a work around.
+[21/06/2009, 09:23:00] Dr_Willis: in /etc/hosts  add -->  66.163.181.170 scs.msg.yahoo.com
+[21/06/2009, 09:25:00] User: Hi all.  I created a user jaula that I want to chroot to run wine.  I used its wine configuration logging in normaly in Gnome.  Now I'm trying chroot /home/jaula /bin/wine .wine/drive_c/OLLYDBG.EXE and I get the error 'wine: could not exec the wine loader'.  The only google results I find point to wine source code.  What am I doing wrong?  Thank you.
+[21/06/2009, 09:26:00] Dr_Willis: perhaps tell the channel why you are trying this chroot stuff? every time i see someone trying to chroot-jail  things.. it seems to be more hassle then it is worth
+[07/07/2010, 06:40:00] Dr_Willis: that would be a very old rescue cd. :) you may want to track down a newer cd. It proberly dosent have support for ext4 either
+[21/06/2009, 23:43:00] User: hi, can anyone help me with pyrenamer? i want to rename 'images.numbers.variouscharacters.jpg' to 'images.numbers.jpg'
+[21/06/2009, 23:44:00] Dr_Willis: ive used 'qmv' for a similer task to that befor..  its command line/editor based however.
+[21/06/2009, 23:48:00] User: thanks, i'll try the qmv then
+[22/06/2009, 00:23:00] User: How can i get ~bin in $PATH ?
+[22/06/2009, 00:24:00] Dr_Willis: you add it/export the variable
+[22/06/2009, 00:24:00] Dr_Willis: if your user has a bin dir.. in existance when you log in.. it will automatically get added.
+[22/06/2009, 00:55:00] Dr_Willis: theres the 'tweak ubuntu' (unofficial) app that can change those default locations. (its proberly a gnome-conf setting also)
+[03/07/2009, 04:29:00] Dr_Willis: clarify that a bit...  sticks out?
+[03/07/2009, 04:30:00] User: I mean the icon for the 'start' launcher is bigger then the panel height , it overlaps it
+[22/06/2009, 01:58:00] User: which vers of ubuntu to chose 9.04 or 8 ?
+[22/06/2009, 01:59:00] Dr_Willis: depends on your needs.
+[22/06/2009, 01:59:00] Dr_Willis: may as well try the latest. 9.04
+[22/06/2009, 02:08:00] User: In a partition I created...
+[22/06/2009, 02:08:00] User: Shoudl the lost+found be root, or me owner, if I own the partition?
+[22/06/2009, 02:09:00] Dr_Willis: i wold leave it as owned by root..
+[24/06/2009, 19:33:00] User: Hi, I'm an ASP programmer and want to switch to PHP. I want to setup a new p4 PC from scratch with a LAMP server to start learning. What version of Ubunto is right for me?
+[24/06/2009, 19:33:00] User: 8.10 in desktop or server version?
+[24/06/2009, 19:34:00] Dr_Willis: i doubt if server or desktop will matter much for a 'learning machine'
+[02/07/2009, 03:28:00] Dr_Willis: Im trying to recall what 'mac4lin' even is.
+[02/07/2009, 03:28:00] User: it's a mac osx skin for gnome
+[02/07/2009, 03:28:00] Dr_Willis: wow.. such critical files!
+[02/07/2009, 04:37:00] Dr_Willis: I got to find that irssi script that reorders the tab completion via 'ESP'
+[02/07/2009, 04:38:00] User: Linux for l33t haxx0rs..
+[02/07/2009, 04:38:00] Dr_Willis: im to leet to be leet.
+[02/07/2009, 04:39:00] User: Linux is too noobified now though, BSD is for the leets ;)
+[02/07/2009, 04:39:00] Dr_Willis: to try 'tiny core linux'
+[02/07/2009, 04:40:00] User: peeked at it before, content with crux and hvlinux
+[02/07/2009, 05:24:00] User: how do i start a seperate X session on ubuntu 9.04.. since FOREVER on ANY distro ive been able to just say 'startx -- :1' and it worked.. now it doesnt
+[02/07/2009, 05:25:00] Dr_Willis: use 'sudo' befor that?  ive not tried it in ages also.
+[20/01/2010, 04:41:00] Dr_Willis: should be possible. or try vlc.
+[02/07/2009, 17:43:00] User: Question: will cannonical upgarade to firefox 3.5 in there repo?
+[02/07/2009, 17:44:00] User: I just wanna know should i wait a few days or upgrade thru the mozilla ppa
+[02/07/2009, 17:45:00] Dr_Willis: id just wait.
+[03/07/2009, 04:12:00] User: Windows messed up something on a partition of my External Harddrive, and it says (when using chkdsk) that it is RAW. But linux doesnt recognize the partition, and windows cant access it without formatting, but there is lots of important stuff on it. help please!
+[03/07/2009, 04:13:00] Dr_Willis: 'raw' i think means its unallocated -  what filesystem is the external drive?
+[03/07/2009, 04:14:00] Dr_Willis: Id suggest going to #windows and seeing if they reccomend any tools. the ntfs-recovery tools in linux - tend to be.. minimal
+[03/07/2009, 08:56:00] User: what format does teh usb stick need to be to do the netbook install of ubuntu, fat32?
+[03/07/2009, 08:56:00] Dr_Willis: fat32/fat16 normally
+[03/07/2009, 08:57:00] Dr_Willis: but if you are using the UNR usb image file.. it dosent matter.
+[03/07/2009, 12:07:00] User: have anyone got ie7 work on ubuntu ?
+[03/07/2009, 12:07:00] Dr_Willis: why would you want to. :)
+[03/07/2009, 12:07:00] Dr_Willis: theres the ies4linux stuff to test things in IE.
+[04/07/2009, 07:18:00] User: Hi.
+[04/07/2009, 07:19:00] User: Will the Minimal CD also install the full range of apps Ubuntu normally comes with?
+[04/07/2009, 07:19:00] Dr_Willis: it will not 'include' them - but they can be installed afterwardz
+[04/07/2009, 07:49:00] User: how to connect to #ubuntu-es??
+[04/07/2009, 07:50:00] User: how to connect to #ubuntu-es??
+[04/07/2009, 07:50:00] Dr_Willis: i can click on the #whatever  name and join it :)
+[05/07/2009, 03:42:00] User: Hello has someone experienced that, when using flash player on Ubuntu, toggling to fullscreen while viewing a video results in bad video quality?
+[05/07/2009, 03:43:00] Dr_Willis: thats one of many issues with fullscreen flash.
+[05/07/2009, 03:43:00] Dr_Willis: thats one of many issues with flash. :)
+[05/07/2009, 06:11:00] User: i am trying to move a gimp plugin into the plugin folder but it is telling me access denied, how can i get around this
+[05/07/2009, 06:11:00] Dr_Willis: you coul dinstall it for just your one user.. or you copy it over using the proper sudo command/root access rights.
+[05/07/2009, 10:53:00] Dr_Willis: depends on what you are doing via the editing also...
+[05/07/2009, 09:04:00] User: is there a way to bind a key in the gnome desktop to launch an application ?
+[05/07/2009, 09:04:00] Dr_Willis: i belive so.  i just dont rember how.
+[05/07/2009, 09:05:00] Dr_Willis: it may involve using the gconf-editor
+[05/07/2009, 10:38:00] Dr_Willis: virtualbox  is under 'accessories' here for me.
+[05/07/2009, 10:38:00] User: depends if you used sun's or ubuntu's package maybe
+[07/07/2009, 18:10:00] Dr_Willis: i would say yes.. :) unless the router is running ubuntu
+[07/07/2009, 05:06:00] User: what is wrong with flash in ubuntu
+[07/07/2009, 05:06:00] Dr_Willis: Adobe doing bad things normally...
+[11/07/2009, 20:59:00] Dr_Willis: open the appearance config tool.. and drag/drop the theme downloads to it. for the most part.
+[07/07/2009, 05:07:00] User: can anyone tell me where to find drivers for a creatice x-fi audio card?
+[07/07/2009, 05:08:00] Dr_Willis: i was thinking that card was now supported. Creative dropped the ball and it was unsupported for a long time.
+[07/07/2009, 05:10:00] Dr_Willis: check the forums.. could be your mixer is just muted.
+[07/07/2009, 05:14:00] User: I'm trying to access cnn videos and I just get a black screen I installed flash, JRE, and w32codecs; I'm stuck.
+[07/07/2009, 05:14:00] Dr_Willis: paste a url perhaps? lets test it
+[07/07/2009, 05:17:00] Dr_Willis: that url was goofy.. but other videos work - like the one at  http://www.cnn.com/video/
+[07/07/2009, 06:22:00] User: Is it possible to install an OS on another partition while inside Ubuntu?
+[07/07/2009, 06:22:00] Dr_Willis: depends on the OS. :) i can do that with some linux disrtos easially enough.
+[07/07/2009, 06:24:00] Dr_Willis: virtualbox is worth looking into for testing other disrtos
+[07/07/2009, 18:08:00] User: How can I crack a wifi network?
+[07/07/2009, 18:09:00] Dr_Willis: google for wifi crack tutorials. and it prboberly not worth trying.. orth reading about to see how others may try to do it..
+[07/07/2009, 18:13:00] Dr_Willis: fire up the package manager... select.. install...
+[08/07/2009, 03:07:00] User: Does anyone know a way to make a website see you as having a different OS?   Everything but the one feature I need works on this site, though it will work through wine firefox and on windows, just not on my normal browser.
+[08/07/2009, 03:08:00] Dr_Willis: use a 'useragent' switcher extension/settings in teh browser
+[08/07/2009, 03:09:00] User: Thank you. I will give that a try.
+[08/07/2009, 03:40:00] User: what does an external cd drive come up as on linux? usb external
+[08/07/2009, 03:40:00] Dr_Willis: /dev/sd#  normally
+[08/07/2009, 03:40:00] Dr_Willis: plug it in check 'dmesg' command output a few moments later
+[08/07/2009, 05:31:00] User: i steer very clear with regard to radeon after i lashed out big bucks for a 9250 which got trounces by an old mx2
+[26/01/2010, 05:37:00] User: real men use punch cards and machine code
+[26/01/2010, 05:39:00] Dr_Willis: been there done that.. that was a job for the interns.
+[08/07/2009, 05:53:00] User: hello everyone, I have looked around every where but still need help. I am trying to setup a ad hoc to share my files with my psp. The psp has to have the addresses manually inputed into it.
+[08/07/2009, 05:53:00] User: sorry i keep repeating but no one has a answer
+[08/07/2009, 05:54:00] Dr_Willis: by address you mean the ip#? or SSID? or MacAddress?
+[10/07/2009, 03:41:00] User: How do i get my terminal to be 'really' transparent? I mean, i only see the desktop background... if i open a browser, and then put the terminal on 'top' of the browser, is shows the desktop background instead of the browser...
+[10/07/2009, 03:42:00] User: ?
+[10/07/2009, 03:42:00] Dr_Willis: compiz has a feature to adjust the transparancey of any window on the fly. some key+mousewheel  can controll it. i reall
+[10/07/2009, 04:06:00] User: that should probably be alex:alex, not alex.alex
+[10/07/2009, 04:06:00] Dr_Willis: it does it both ways i recall.
+[10/07/2009, 04:06:00] User: neat
+[10/07/2009, 05:42:00] User: when I boot up ubuntu, why are there so many options such as memtest,etc? And how do I remove these and I am dual-booting
+[10/07/2009, 05:43:00] Dr_Willis: edit your /boot/grub/menu.lst properly. (MAKE A BACKUP)
+[10/07/2009, 05:43:00] Dr_Willis: and carefully read the comments in the file
+[11/07/2009, 10:13:00] User: anybody?
+[11/07/2009, 10:13:00] User: anytbody there?
+[11/07/2009, 10:13:00] Dr_Willis: if we say no.... :)
+[11/07/2009, 10:15:00] User: how i looked all over.. how do you upgrade from ubuntu-desktop to server .. I know how to do it from server to desktop
+[11/07/2009, 10:16:00] Dr_Willis: 'upgrading' to server.. would sort of mean removing things.. ;) well i guess the kernel is different also.
+[11/07/2009, 10:17:00] Dr_Willis: most all 'server' features.  a 'desktop' setup can do as well
+[11/07/2009, 10:28:00] User: anyone know how to setup lvm?
+[11/07/2009, 10:30:00] User: thanks Dr_Willis, i had read those and still cannot seem to make sense of lvm.  Maybe I am just hopeless on this one
+[11/07/2009, 10:31:00] Dr_Willis: i dont even bother to use lvm. :) for a home machine. i dont need it.
+[11/07/2009, 20:08:00] User: how do you convince a company to switch all its windows desktops to unbuntu
+[11/07/2009, 20:08:00] User: about 500 users
+[11/07/2009, 20:08:00] Dr_Willis: its all about $$$$$$
+[11/07/2009, 21:49:00] User: it says E: Couldn't find package tclx3
+[11/07/2009, 21:49:00] Dr_Willis: the command was
+[11/07/2009, 21:50:00] User: and how do i install tcl dev package?
+[12/07/2009, 10:09:00] User: Is there a command line thing i can use to boot ubuntu without X, the graphical interface?
+[12/07/2009, 10:10:00] User: well what is it?
+[12/07/2009, 10:10:00] Dr_Willis: disable the 'gdm' service - thtas what starts up X.
+[12/07/2009, 23:18:00] User: Is it illegal to reverse engineer something even if you don't copy anythign out of it?
+[12/07/2009, 23:18:00] Dr_Willis: depends on the laws/licensing i imagine..
+[12/07/2009, 23:19:00] Dr_Willis: not really a Ubuntu specific topic. :) more of a legal thing.
+[13/07/2009, 01:41:00] User: OK, i setup a open ssh server, but i get asked for a password, how do i find what my pass is?
+[13/07/2009, 01:41:00] Dr_Willis: its your users login password
+[13/07/2009, 01:42:00] Dr_Willis: logical eh? each user can ssh 'in' to the box
+[13/07/2009, 07:35:00] User: so google is coming up with an os? why?
+[13/07/2009, 07:37:00] User: i'm sticking with ubuntu
+[13/07/2009, 07:37:00] Dr_Willis: this is linux.. use wht you like.. :)
+[13/07/2009, 09:56:00] User: quick frustration: i need to install the nvidia cuda driver. to do so i must be at a command prompt without X running. when i stop x via /etc/init.d/gdm stop the computer hangs on a black screen. what am i missing?
+[13/07/2009, 09:57:00] Dr_Willis: could be the framebuffer or X is some how messing the console up. Try booting straight to the consoel, or use the 'nofb' option to disable the framebuffer
+[13/07/2009, 09:57:00] Dr_Willis: yea see if alt-ctrlf1 throgu f6 give a useable terminal .. they should
+[13/07/2009, 19:27:00] User: what program to use for burn DVD of pictures and video for DVD player?
+[13/07/2009, 19:27:00] User: data disc for pictures?
+[13/07/2009, 19:29:00] Dr_Willis: you can use devede to generate a iso image, or dvd iso 'files' then burn them all to dvd.. and then also burn whatever image/data files you also want to the same dvd.
+[13/07/2009, 19:29:00] User: i've been informed that i need a zlib before i can make something. what package should i be looking at?
+[13/07/2009, 19:30:00] Dr_Willis: try apt-cache search zlib
+[13/07/2009, 19:31:00] Dr_Willis: thats when you read the decriptions and fiture out what you need..     'somthing needs zlib'  is a little vague :0
+[14/07/2009, 09:49:00] User: Is there a player that will play .ogm video files?
+[14/07/2009, 09:49:00] User: I cannot seem to get them to paly
+[14/07/2009, 09:49:00] Dr_Willis: i play them all the time in vlc/xine/gmplayer
+[15/07/2009, 10:55:00] User: anybody know what it means when a 'failsafe xterm session' is started when booting up? turned off my computer and now when i boot, gnome/ubuntu is broken
+[15/07/2009, 10:56:00] User: well yea, how do i go about figuring out what i broke
+[15/07/2009, 10:56:00] Dr_Willis: try running 'gnome-session' from the terminal.. also yoy may want to try a 'sudo apt-get update' 'sudo apt-get upgrade' from the terminal
+[16/07/2009, 00:24:00] User: hello
+[16/07/2009, 00:25:00] User: how i can patch my driver?
+[16/07/2009, 00:25:00] Dr_Willis: be more specific to the channel please.
+[16/07/2009, 08:21:00] User: when i go to system>administration>mountmanager, it asks for a password, i put in my password, then it does nothing... so i tried to open it from terminal and i got a lot of devices detected then at the end i get 'Segmentation fault' then back to a prompt... does anyone know what 'Segmentation fault' means?
+[16/07/2009, 08:21:00] Dr_Willis: means it crashed big time.
+[17/07/2009, 01:12:00] Dr_Willis: linxu has file permissions.. Your user does not have permissions to access the filesystem.. make a dir on the filesystem. and chown/chmod it to be owned by your user..
+[16/07/2009, 09:26:00] Dr_Willis: !mount | click_here
+[16/07/2009, 09:26:00] Dr_Willis: !ntfs-3g | click_here
+[16/07/2009, 09:27:00] User: i use mc too ;)
+[16/07/2009, 10:06:00] User: anyone with intel graphics think  the latest kernel graphics driver in karmic is 'slow'?
+[16/07/2009, 10:06:00] Dr_Willis: check in #ubuntu+1
+[24/10/2009, 22:36:00] Dr_Willis: it works on windows and linux.
+[16/07/2009, 10:33:00] User: my sound isn't working, at all. im on a wubi install 9.04 64-bit. i can see the sound from PulseAudio Volume Meter, but i cant hear it.
+[16/07/2009, 10:34:00] Dr_Willis: your speakers are on? the volume turned up...... hmm.. lets see...     thats about all i an think of..
+[16/07/2009, 10:35:00] User: yes
+[16/07/2009, 19:24:00] User: yeah I might want to try again tomorrow
+[16/07/2009, 19:24:00] User: will a PPA work without a key temporarily?
+[16/07/2009, 19:25:00] Dr_Willis: i think there will be some warning from the apt tools.. but i think it will work
+[16/07/2009, 19:48:00] User: To get on another network from the one given by DHCP using NetworkManager on eth1, I use 'sudo ip addr add 10.0.0.1/24 dev eth1'. What's the correct way to automate this?
+[16/07/2009, 19:49:00] Dr_Willis: fast and dirty way.. put command in rc.local
+[16/07/2009, 19:49:00] Dr_Willis: but theres proberly better ways.
+[17/07/2009, 00:59:00] User: anyone else figthing runaway npviewer.bin?
+[17/07/2009, 01:01:00] Dr_Willis: thats flash being a baddddd boy.
+[19/12/2009, 13:20:00] Dr_Willis: its possible yes.
+[17/07/2009, 01:16:00] User: whats the best program to change colors and themes in ubuntu?
+[17/07/2009, 01:16:00] Dr_Willis: gnome has its own theme dialog tool.. and the gnome-art tool candownload/install new themes and theme parts if you want.
+[17/07/2009, 01:17:00] Dr_Willis: rember that 'themes' in gnome do NOT work the same as they do inwindows.. you have more customization features..  dont overlook the  'customize' button and the 100+ settings in there. :)
+[17/07/2009, 01:17:00] User: Has anybody been able to configure a Atheros network card via iwconfig? Seems the only way to do this is uing NetworkManager and dbus, but my poor old Sony picturebook doesnt have enough guts to run gnome
+[17/07/2009, 01:18:00] Dr_Willis: you could try 'wicd'
+[17/07/2009, 01:19:00] Dr_Willis: no idea.  ive used it once ages ago.
+[17/07/2009, 05:47:00] User: hi all, anybody want to help me out here, ubuntu, starts up bar moves accross screen and then when i should get my desktop i just get balck screen, shade chnges as it trys to fire up a couple of times but thats it........... i think i need to get vesa driver functioning buti dont know how,,, ive been trying all day, somebody please
+[17/07/2009, 05:49:00] User: anybody hi all, anybody want to help me out here, ubuntu, starts up bar moves accross screen and then when i should get my desktop i just get balck screen, shade chnges as it trys to fire up a couple of times but thats it........... i think i need to get vesa driver functioning buti dont know how,,, ive been trying all day, somebody please
+[17/07/2009, 05:50:00] Dr_Willis: vesa driver would be the bottom of the barrel 'fail safe' sort of driver.    tell the channel your exact video card - is a good idea.
+[17/07/2009, 05:48:00] User: hi, I cant mount my android phone with usb
+[17/07/2009, 05:49:00] Dr_Willis: most of the time ive seen people have 'cant mount phone issue' they dont realize that most phones have a 'usb/drive  mode' in the menus  thta has to be activated.
+[17/07/2009, 05:50:00] User: yes it works now
+[27/07/2009, 03:02:00] User: hey is there a way i can play .m4p files in ubuntu?
+[27/07/2009, 03:02:00] Dr_Willis: vlc/mplayer with codecs should be able to play them
+[16/12/2010, 18:09:00] Dr_Willis: i would look agagin.. check the spelling. Im pretty sure it is in teh repos.
+[27/07/2009, 04:27:00] User: how do your register your name
+[27/07/2009, 04:28:00] User: can it be done from terminal
+[27/07/2009, 04:28:00] Dr_Willis: if you mean register your nickname here on IRC.. start with /msg nickserv help
+[27/07/2009, 16:32:00] User: Hello everyone.
+[27/07/2009, 16:34:00] User: Can anybody tell me what does this mean: Received CTCP 'VERSION' (to jacosis) from freenode-connect.:)
+[27/07/2009, 16:34:00] Dr_Willis: the irc server just versioned you... not a big deal.
+[28/07/2009, 02:42:00] User: is there anyway to install my restricted ATI driver with a commando?
+[28/07/2009, 02:43:00] Dr_Willis: sudo apt-get install WHATVER_pacakage-name-it-is
+[28/07/2009, 02:46:00] Dr_Willis: no idea check the ati docs.
+[28/07/2009, 02:53:00] User: I'm trying Ubuntu with the help of WUBI ... tonight, i ll delete windows :P
+[28/07/2009, 02:53:00] Dr_Willis: you do realize that wubi uses windows stuff to boot?
+[28/07/2009, 02:55:00] Dr_Willis: ok.. just wanted to make sure you dident remove windows.. then winder where WUBI went..
+[28/07/2009, 03:08:00] User: Every time I power down my computer when I turn it back on my internally connected USB Wlan0 device isn't properly loaded and I must perform a reboot at which time it works. How can I re-initialize all USB devices to give the Wlan0 device a chance to load properly without needing to reboot?
+[28/07/2009, 03:09:00] Dr_Willis: you could figure out what module its loading.. and manually load that moduel somehow
+[28/07/2009, 03:12:00] User: Isn't the command to reload all module depmod -a ?
+[28/07/2009, 03:50:00] User: How can I start Apache server?
+[28/07/2009, 03:50:00] Dr_Willis: sudo service http start    (or apache2 )
+[28/07/2009, 03:51:00] Dr_Willis: if you installed it - it should auto start
+[28/07/2009, 06:54:00] User: does ubuntu have a full DVD?
+[28/07/2009, 06:54:00] Dr_Willis: 'full' meaning what? theres a dvd installer disk. but it just has more languages on it mainly.
+[28/07/2009, 06:55:00] User: means pkgs + source pkgs, i have a site no intterenet connection
+[28/07/2009, 17:13:00] Dr_Willis: no services = no ports listining.. windows firewall is often used to keep anything from going OUT as well as in..  Most likely you dont need to worry about any firewall stuff on your linux setup
+[28/07/2009, 17:14:00] Dr_Willis: all teh malware out for windows.. prompts peopel to block 'unsual' traffic going out.. also windows can block based on application. linux dosent work that way. it does it based on port.
+[28/07/2009, 17:15:00] User: jrib: okok. so just leave it that way, it will be alright right?
+[29/07/2009, 04:33:00] User: how can i make a shortcunt to nautilus ?
+[29/07/2009, 04:34:00] Dr_Willis: make a icon on the desktop that launches nautilus
+[29/07/2009, 04:38:00] Dr_Willis: theres also a 'unsupported/unofficial' tool called 'ubuntu tweak' that lets you easially change those kind of settings.
+[29/07/2009, 04:39:00] User: can someone recommend a good font/size, i hate my current font, esp for terminal takes up to muhc space
+[29/07/2009, 04:40:00] Dr_Willis: set the size how you like.. and try various fonts..  its all a personal taste thing.
+[29/07/2009, 04:40:00] Dr_Willis: my wife sets the fonts where they are liek an Inch tall. :)
+[29/07/2009, 04:55:00] User: How do I instruct a script to run a job as another user?
+[29/07/2009, 04:55:00] User: I want a startup script to run a program as some user
+[29/07/2009, 04:56:00] Dr_Willis: the 'su' command i think can do that.  some how.
+[29/07/2009, 05:46:00] User: how do I turn off gtk-record my desktop
+[29/07/2009, 05:46:00] User: I jsut have a window border
+[29/07/2009, 05:47:00] Dr_Willis: after you start recording. it puts an icon in the system tray
+[29/07/2009, 06:02:00] User: Is it true that to use a hdtv as a pc monitor dvi cable is needed? Cause what i use was a vga 15 pin male to male and didn't work?
+[29/07/2009, 06:02:00] Dr_Willis: ive used vga cables to a tv befor.
+[29/07/2009, 06:03:00] Dr_Willis: my tv's have both.. vga and dvi
+[30/07/2009, 03:02:00] User: i need help with pro ftpd
+[30/07/2009, 03:03:00] Dr_Willis: its better to give the actual problem/question to the channel  thent o just ask for 'help'
+[12/08/2009, 06:59:00] Dr_Willis: Huh?  #!/bin/bash   , then command &    on next line...
+[31/07/2009, 00:57:00] User: what is the command for 'apt-remove' etc?
+[31/07/2009, 00:57:00] Dr_Willis: apt-get remove whatever
+[31/07/2009, 00:59:00] User: : thanks
+[31/07/2009, 01:40:00] User: hey all i downloaded some videos from youtube, is there any way to make better video quaility with something and convert them somehow
+[31/07/2009, 01:40:00] Dr_Willis: theres way to convert them.. but quality never gets 'better' normally.
+[26/08/2009, 16:52:00] Dr_Willis: vlc can play .vob files
+[31/07/2009, 06:55:00] User: how do I configure dual monitor setup using ATI 4870 in ubuntu?
+[31/07/2009, 06:57:00] User: anyone?
+[31/07/2009, 06:58:00] Dr_Willis: there were somg guys in here just talking about ati and dual head displays...    but i dont use ati.. so cant help
+[02/08/2009, 03:11:00] User: What's up guys! Im going router hunting any suggestions?
+[02/08/2009, 03:12:00] User: Please no Netgear.
+[02/08/2009, 03:12:00] Dr_Willis: check teh various review sites see what they suggest.. Most any of them do what most people want these days
+[02/08/2009, 03:26:00] User: if I hibernate with a sd card mounted in my internal sd reader, when I resume the sd reader won't work at all and the sd card is corrupted, any suggestions?
+[02/08/2009, 03:27:00] Dr_Willis: thats a known bug/issue with a lot of machines.   check the forums for your exact machine and perhaps theres some kernel boot options to try ti work around it.
+[02/08/2009, 03:34:00] User: nothing on the forums, unfortunately
+[02/08/2009, 03:29:00] User: ok serious problem for me, how do i enable USB audio on hardy?
+[02/08/2009, 03:31:00] User: ok serious problem for me, how do i enable USB audio on hardy? the on board card is damaged
+[02/08/2009, 03:31:00] Dr_Willis: it allready does..  :)
+[02/08/2009, 08:23:00] User: for some reason sudo command doesnt work on ubuntu 9 for ps3
+[02/08/2009, 08:24:00] User: it says the user is not in the sudoers file? This is the latest ubuntu for the ps3
+[02/08/2009, 08:24:00] Dr_Willis: only the first user you made is in the 'sudoers' groups
+[02/08/2009, 09:19:00] User: tear-free rendering with new drivers....what does tear-free mean ????
+[02/08/2009, 09:19:00] Dr_Willis: video 'tearing'  where ya see a line/glitz on the games/video playback
+[02/08/2009, 09:20:00] User: thank you. so that would be the same as when I see the entire screen with clored lines (static) across the screen (mainly when my app goes fullscreen) ?
+[03/08/2009, 02:40:00] User: does anyone know how to transfer files from ubuntu to XP using a CROSSOVER CABLE.....PLEASE PM ME TO HELP ME
+[03/08/2009, 02:41:00] Dr_Willis: give both machines a static ip. and they will be networked.  Then you use the normal tools.  Or install a dhcp server on one.
+[03/08/2009, 05:11:00] Dr_Willis: vista can resize ntfs partitions.. it does a better job of it then Ubuntu does.
+[04/08/2009, 01:37:00] User: ok ive just installed vbox ... now where has it installed it too... wheres the folder
+[04/08/2009, 01:37:00] Dr_Willis: it has an icon in apps->acessoris
+[04/08/2009, 01:39:00] Dr_Willis: via command line its 'virtualbox'
+[04/08/2009, 05:03:00] User: ooh.. how does one turn off the routine checking of drives when booting? or the bad shutdown check?
+[04/08/2009, 05:03:00] Dr_Willis: see what teh bot said. :)
+[04/08/2009, 05:03:00] Dr_Willis: its best to let the thing check...
+[04/08/2009, 05:14:00] User: hey! if i want to re-compile kernel i must copy .config into /boot ? thanks
+[04/08/2009, 05:14:00] Dr_Willis: .config does not go to /boot/
+[04/08/2009, 05:15:00] User: then ?
+[04/08/2009, 16:52:00] User: can i ask questions on fluxbox here???
+[04/08/2009, 16:53:00] Dr_Willis: sure.. why not. :) you may not get a lot of answers however...
+[04/08/2009, 17:01:00] Dr_Willis: you may want to check the forums/fluxbox guides on how to get it set up in a decent way. its may take a little tweaking
+[04/08/2009, 17:17:00] User: Hi.
+[04/08/2009, 17:18:00] User: where is the %temp% folder in my new ubuntu ????
+[04/08/2009, 17:18:00] Dr_Willis: /tmp normally
+[05/08/2009, 05:41:00] User: How can I make a partition on an internal SATA drive automount under Jaunty? It is another (data) partition on the same physical disk as the Jaunty installation partition, but I have to mount it manually every time I reboot...
+[05/08/2009, 05:41:00] User: It is a backup location for my wife's laptop, and it would be nice if it was automounted.
+[05/08/2009, 05:41:00] Dr_Willis: add an entry to it in /etc/fstab
+[05/08/2009, 16:27:00] User: is there something similar to '/etc/inittab' in debian/ubuntu systems?
+[05/08/2009, 16:28:00] User: how can I control the run level?
+[05/08/2009, 16:28:00] Dr_Willis: ubuntu dosent really use runlevels for anything.
+[06/08/2009, 03:25:00] User: is there a tool or flavor of ubuntu which can autopartition a machine or autopartition from a config file and then install ubuntu?
+[06/08/2009, 03:26:00] Dr_Willis: the alternative installer cd - has some OEM feature. but ive never used it befor.
+[06/08/2009, 03:26:00] Dr_Willis: the installer also has a 'auto partition using the whole disk' option.
+[06/08/2009, 03:31:00] User: I'm trying to burn an audio CD with k3b, which I'm using over brasero because brasero wouldn't 'normalise' - but I continually get an error that says 'Cdrecord has no permission to open the device'. I'm on 9.04, here's a pastebin of the debugging output:  http://ubuntu.pastebin.com/m78f018a7 - I have checks groups, and I am in in cdrom....I'd heavily appreciate assistance.
+[06/08/2009, 03:32:00] Dr_Willis: you may wan to check #kubuntu also and the Forums. I recall otehrs having issues like that in the past.. but i dont recall the fix.
+[06/08/2009, 03:33:00] Dr_Willis: there is a k3b 'configs' in the k3b menus that may check/fix things for you also.
+[06/08/2009, 03:44:00] Dr_Willis: seen that befor. :) Always amazing how much crud gets in there.
+[06/08/2009, 03:45:00] Dr_Willis: could be the fans are a bit out of balance now.
+[06/08/2009, 03:52:00] User: yeah, i think that's what is making the most noise now is the CPU fan
+[07/08/2009, 04:46:00] User: ok im a noob  have a question im tweeking my install and i wana stop kde from saving a copy of every text i edit were do i find that preference i been searching net and files any help here
+[07/08/2009, 04:48:00] User: ok im a noob  have a question im tweeking my install and i wana stop kde from saving a copy of every text i edit were do i find that preference i been searching net and files any help here
+[07/08/2009, 04:49:00] Dr_Willis: you mean you want to stop 'kate' from making 'backups' ? that should be in the kate settings somewhere.
+[08/08/2009, 05:51:00] User: how do i uninstall the file i sudo
+[08/08/2009, 05:51:00] User: how do i uninstall the file i sudo'ed **
+[08/08/2009, 05:51:00] Dr_Willis: depends on exactly How you installed it.
+[08/08/2009, 06:51:00] User: is there a way to connect to a network using the ubuntu-livecd ?
+[08/08/2009, 06:51:00] User: i keep getting permission denied when trying to run the dhclient-script
+[08/08/2009, 06:51:00] Dr_Willis: my ubuntu livecd's let me do all the various 'network' tasks... what are you trying to do exactly.
